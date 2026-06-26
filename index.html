@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shadow Treasurer's Dashboard — NSW</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#14181f;--paper:#f5f6f8;--card:#fff;--accent:#1f4fa3;--accent-soft:#e8eef8;
+    --good:#157347;--bad:#b42318;--flat:#5b6472;--line:#e3e6eb;--muted:#5b6472;--muted-2:#8b93a1;
+    --auto:#157347;--auto-bg:#e7f3ec;--manual:#b06a00;--manual-bg:#fbf0df;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Inter",system-ui,sans-serif;line-height:1.45;font-feature-settings:"tnum" 1}
+  .wrap{max-width:1180px;margin:0 auto;padding:28px 22px 64px}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  header.masthead{border-bottom:2px solid var(--ink);padding-bottom:16px;margin-bottom:20px}
+  .masthead .top{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:10px}
+  h1{font-family:"Fraunces",serif;font-weight:500;font-size:clamp(28px,4.4vw,44px);line-height:1.02;margin:6px 0 2px;letter-spacing:-.01em}
+  h1 .accent{color:var(--accent)}
+  .subtitle{color:var(--muted);font-size:14px;max-width:46ch}
+  .weekstamp{text-align:right}
+  .weekstamp .wk{font-family:"Fraunces",serif;font-size:20px;font-weight:500}
+  .weekstamp .cad{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted-2)}
+  .banner{font-size:12.5px;padding:9px 13px;border-radius:7px;margin-top:14px;display:flex;gap:9px;align-items:flex-start}
+  .banner.seed{background:#fff7e6;border:1px solid #f0d79a;color:#7a5400}
+  .banner.live{background:var(--auto-bg);border:1px solid #bfe0cc;color:#155e38}
+  .sec{margin-top:34px}
+  .sec-head{display:flex;align-items:baseline;gap:12px;margin-bottom:13px}
+  .sec-head h2{font-family:"Fraunces",serif;font-weight:500;font-size:21px;margin:0;letter-spacing:-.01em}
+  .sec-head .rule{flex:1;height:1px;background:var(--line)}
+  .read{background:var(--ink);color:#f3f4f6;border-radius:12px;padding:20px 22px;margin-top:18px}
+  .read .lbl{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#9fb4d8}
+  .read h3{font-family:"Fraunces",serif;font-weight:500;font-size:18px;margin:4px 0 12px;color:#fff}
+  .read ul{margin:0;padding:0;list-style:none;display:grid;gap:11px}
+  .read li{display:flex;gap:11px;font-size:14.5px;color:#dfe3ea;line-height:1.5}
+  .read li .dot{flex:0 0 auto;width:7px;height:7px;border-radius:50%;margin-top:7px;background:var(--accent)}
+  .read li .dot.up{background:#3ea76e}.read li .dot.down{background:#e06a5c}
+  .read .ai-note{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:#7e8aa0;margin-top:14px;padding-top:12px;border-top:1px solid #2a2f39}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(176px,1fr));gap:12px}
+  .tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:13px 14px 12px;position:relative;min-height:118px;display:flex;flex-direction:column}
+  .tile.stale{opacity:.6}
+  .tile .name{font-size:11.5px;color:var(--muted);font-weight:500;padding-right:52px;min-height:30px}
+  .tile .val{font-size:27px;font-weight:700;letter-spacing:-.02em;margin-top:auto;line-height:1.05}
+  .tile .val.sm{font-size:22px}
+  .tile .val .unit{font-size:15px;font-weight:600;color:var(--muted)}
+  .tile .meta{display:flex;align-items:center;gap:7px;margin-top:5px;flex-wrap:wrap}
+  .tile .period{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--muted-2)}
+  .chg{display:inline-flex;align-items:center;gap:3px;font-size:11.5px;font-weight:600;font-variant-numeric:tabular-nums}
+  .chg.up{color:var(--good)}.chg.down{color:var(--bad)}.chg.flat{color:var(--flat)}
+  .chg .arw{font-size:10px}
+  .chip{position:absolute;top:11px;right:11px;font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.06em;text-transform:uppercase;padding:3px 6px;border-radius:5px;font-weight:500}
+  .chip.auto{color:var(--auto);background:var(--auto-bg)}
+  .chip.manual{color:var(--manual);background:var(--manual-bg)}
+  .tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+  table{border-collapse:collapse;width:100%;min-width:640px;font-size:13px}
+  thead th{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);text-align:right;padding:11px 12px;border-bottom:1px solid var(--line)}
+  thead th:first-child{text-align:left}
+  tbody td{padding:10px 12px;text-align:right;border-bottom:1px solid #f0f2f5;font-variant-numeric:tabular-nums}
+  tbody td:first-child{text-align:left;font-weight:500}
+  tbody tr:last-child td{border-bottom:none}
+  td.nsw{background:var(--accent-soft);font-weight:600;color:var(--accent)}
+  th.nsw{background:var(--accent-soft);color:var(--accent)}
+  .legend{margin-top:34px;border-top:1px solid var(--line);padding-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  @media(max-width:680px){.legend{grid-template-columns:1fr}}
+  .legend h4{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 9px}
+  .legend p{font-size:12.5px;color:var(--muted);margin:0 0 7px;line-height:1.5}
+  .legend .k{display:inline-flex;align-items:center;gap:6px;margin-right:14px;font-size:12px}
+  .legend .sw{width:11px;height:11px;border-radius:3px;display:inline-block}
+  .foot-note{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--muted-2);margin-top:24px;line-height:1.6}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <div class="top">
+      <div>
+        <div class="eyebrow">NSW Opposition · Economic Accountability</div>
+        <h1>Shadow Treasurer's <span class="accent">Dashboard</span></h1>
+        <div class="subtitle">The state economy, read weekly from official ABS &amp; RBA data — so the numbers can't be argued with.</div>
+      </div>
+      <div class="weekstamp">
+        <div class="wk" id="wk">Week of —</div>
+        <div class="cad">AUTO-REFRESHED · LAST PULL <span id="pull">—</span></div>
+      </div>
+    </div>
+    <div id="banner"></div>
+  </header>
+
+  <section class="sec"><div class="sec-head"><h2>The economy</h2><div class="rule"></div></div><div class="grid" id="economy"></div></section>
+  <section class="sec"><div class="sec-head"><h2>Property in Sydney</h2><div class="rule"></div></div><div class="grid" id="property"></div></section>
+  <section class="sec"><div class="sec-head"><h2>The government's books</h2><div class="rule"></div></div><div class="grid" id="fiscal"></div></section>
+  <section class="sec"><div class="sec-head"><h2>State vs state</h2><div class="rule"></div></div><div class="tbl-wrap"><table id="svs"></table></div></section>
+
+  <div class="legend">
+    <div>
+      <h4>How it stays current</h4>
+      <p><span class="k"><span class="sw" style="background:var(--auto-bg);border:1px solid var(--auto)"></span> Auto</span> Pulled every Monday from the ABS Data API and RBA tables. No human touch.</p>
+      <p><span class="k"><span class="sw" style="background:var(--manual-bg);border:1px solid var(--manual)"></span> Manual</span> Entered once per release — property &amp; NAB monthly, budget tiles twice a year. ~5 min/month.</p>
+    </div>
+    <div>
+      <h4>Sources</h4>
+      <p>ABS Data API — Labour Force, CPI, WPI, State Accounts, Retail Trade, Building Approvals, Population, RPPI.</p>
+      <p>RBA Table F1.1 — cash rate. NSW Treasury — Budget &amp; HYR. Cotality/Domain — Sydney medians. NAB — Monthly Business Survey.</p>
+    </div>
+  </div>
+  <div class="foot-note">Built on official statistics · not affiliated with NSW Treasury</div>
+</div>
+
+<script id="seed" type="application/json">{
+  "generated": "2026-06-26T22:15:49+00:00",
+  "seed": true,
+  "state_vs_state": {
+    "columns": [
+      "NSW",
+      "VIC",
+      "QLD",
+      "SA",
+      "WA",
+      "TAS",
+      "AUS"
+    ],
+    "rows": [
+      {
+        "label": "State final demand (ann avg %)",
+        "vals": [
+          1.8,
+          2.1,
+          3.4,
+          2.0,
+          4.6,
+          1.4,
+          2.4
+        ]
+      },
+      {
+        "label": "Unemployment rate (%)",
+        "vals": [
+          4.3,
+          4.6,
+          4.4,
+          4.2,
+          3.8,
+          4.5,
+          4.4
+        ]
+      },
+      {
+        "label": "Household spending (TTY %)",
+        "vals": [
+          3.0,
+          3.1,
+          4.2,
+          3.3,
+          5.1,
+          2.0,
+          3.4
+        ]
+      },
+      {
+        "label": "Population (y/y %)",
+        "vals": [
+          1.4,
+          1.9,
+          2.0,
+          1.0,
+          2.4,
+          0.6,
+          1.7
+        ]
+      },
+      {
+        "label": "Building approvals (12m, '000)",
+        "vals": [
+          52.4,
+          58.1,
+          41.2,
+          13.0,
+          21.5,
+          2.9,
+          205.1
+        ]
+      },
+      {
+        "label": "Wage growth (TTY %)",
+        "vals": [
+          3.4,
+          3.3,
+          3.6,
+          3.5,
+          3.8,
+          3.2,
+          3.4
+        ]
+      }
+    ]
+  },
+  "tiles": {
+    "gdp_nat": {
+      "label": "GDP growth (national, QoQ)",
+      "section": "economy",
+      "source": "ABS",
+      "value": 0.4,
+      "unit": "%",
+      "period": "Mar-26",
+      "change": -0.1,
+      "change_kind": "pt",
+      "direction": "down",
+      "id": "gdp_nat"
+    },
+    "unemp_nsw": {
+      "label": "Unemployment rate (NSW)",
+      "section": "economy",
+      "source": "ABS",
+      "value": 4.3,
+      "unit": "%",
+      "period": "May-26",
+      "change": 0.0,
+      "change_kind": "pt",
+      "direction": "flat",
+      "id": "unemp_nsw"
+    },
+    "unemp_aus": {
+      "label": "Unemployment rate (AUS)",
+      "section": "economy",
+      "source": "ABS",
+      "value": 4.4,
+      "unit": "%",
+      "period": "May-26",
+      "change": -0.1,
+      "change_kind": "pt",
+      "direction": "up",
+      "id": "unemp_aus"
+    },
+    "emp_growth": {
+      "label": "Employment growth (NSW, TTY)",
+      "section": "economy",
+      "source": "ABS",
+      "value": 1.5,
+      "unit": "%",
+      "period": "May-26",
+      "change": -0.4,
+      "change_kind": "pt",
+      "direction": "down",
+      "id": "emp_growth"
+    },
+    "cpi": {
+      "label": "CPI inflation (Sydney, TTY)",
+      "section": "economy",
+      "source": "ABS",
+      "value": 4.0,
+      "unit": "%",
+      "period": "May-26",
+      "change": 0.3,
+      "change_kind": "pt",
+      "direction": "down",
+      "id": "cpi"
+    },
+    "wpi": {
+      "label": "Wage Price Index (NSW, TTY)",
+      "section": "economy",
+      "source": "ABS",
+      "value": 3.4,
+      "unit": "%",
+      "period": "Mar-26",
+      "change": 0.1,
+      "change_kind": "pt",
+      "direction": "up",
+      "id": "wpi"
+    },
+    "spending": {
+      "label": "Household spending (NSW, TTY)",
+      "section": "economy",
+      "source": "ABS",
+      "value": 3.0,
+      "unit": "%",
+      "period": "Apr-26",
+      "change": -0.5,
+      "change_kind": "pt",
+      "direction": "down",
+      "id": "spending"
+    },
+    "approvals": {
+      "label": "Dwelling approvals (NSW, monthly)",
+      "section": "economy",
+      "source": "ABS",
+      "value": 4280,
+      "unit": "",
+      "period": "Apr-26",
+      "change": -3.1,
+      "change_kind": "pct",
+      "direction": "down",
+      "id": "approvals"
+    },
+    "pop": {
+      "label": "Population growth (NSW, TTY)",
+      "section": "economy",
+      "source": "ABS",
+      "value": 1.4,
+      "unit": "%",
+      "period": "Sep-25",
+      "change": 0.0,
+      "change_kind": "pt",
+      "direction": "flat",
+      "id": "pop"
+    },
+    "cash_rate": {
+      "label": "Cash rate target",
+      "section": "economy",
+      "source": "RBA",
+      "value": 4.35,
+      "unit": "%",
+      "period": "Jun-26",
+      "change": null,
+      "change_kind": "pt",
+      "direction": "flat",
+      "id": "cash_rate"
+    },
+    "sfd": {
+      "label": "State Final Demand",
+      "section": "economy",
+      "source": "Manual",
+      "value": 1.8,
+      "unit": "%",
+      "period": "Mar-26",
+      "change": -0.3,
+      "change_kind": "pt",
+      "direction": "down",
+      "id": "sfd"
+    },
+    "gsp": {
+      "label": "Gross State Product",
+      "section": "economy",
+      "source": "Manual",
+      "value": 2.1,
+      "unit": "%",
+      "period": "2024-25",
+      "change": -0.5,
+      "change_kind": "pt",
+      "direction": "down",
+      "id": "gsp"
+    },
+    "nab": {
+      "label": "Business conditions",
+      "section": "economy",
+      "source": "NAB",
+      "value": 3,
+      "unit": "",
+      "period": "May-26",
+      "prefix": "+",
+      "change": -2,
+      "change_kind": "pt",
+      "direction": "down",
+      "id": "nab"
+    },
+    "house_median": {
+      "label": "Median house price",
+      "section": "property",
+      "source": "Cotality",
+      "value": 1617000,
+      "unit": "$",
+      "period": "May-26",
+      "change": -0.6,
+      "change_kind": "pct",
+      "direction": "down",
+      "id": "house_median"
+    },
+    "apt_median": {
+      "label": "Median apartment price",
+      "section": "property",
+      "source": "Cotality",
+      "value": 871000,
+      "unit": "$",
+      "period": "May-26",
+      "change": 4.2,
+      "change_kind": "pct",
+      "direction": "up",
+      "id": "apt_median"
+    },
+    "dwelling_index": {
+      "label": "Dwelling value index",
+      "section": "property",
+      "source": "Cotality",
+      "value": 1290000,
+      "unit": "$",
+      "period": "Apr-26",
+      "change": -0.9,
+      "change_kind": "pct",
+      "direction": "down",
+      "id": "dwelling_index"
+    },
+    "budget_result": {
+      "label": "Budget result",
+      "section": "fiscal",
+      "source": "Budget",
+      "value": -3400000000,
+      "unit": "$",
+      "period": "2025-26 est.",
+      "direction": "down",
+      "note_value": "-$3.4b",
+      "id": "budget_result"
+    },
+    "net_debt": {
+      "label": "Net debt",
+      "section": "fiscal",
+      "source": "Budget",
+      "value": 97600000000,
+      "unit": "$",
+      "period": "Jun-26",
+      "direction": "down",
+      "note_value": "$97.6b",
+      "id": "net_debt"
+    },
+    "interest_expense": {
+      "label": "Interest expense",
+      "section": "fiscal",
+      "source": "Budget",
+      "value": 5800000000,
+      "unit": "$",
+      "period": "2025-26",
+      "direction": "down",
+      "note_value": "$5.8b",
+      "id": "interest_expense"
+    },
+    "credit_rating": {
+      "label": "Credit rating",
+      "section": "fiscal",
+      "source": "S&P",
+      "value": "AAA",
+      "unit": "",
+      "period": "Stable outlook",
+      "direction": "flat",
+      "id": "credit_rating"
+    }
+  },
+  "errors": []
+}</script>
+<script>
+const MANUAL_SOURCES = new Set(["Manual","NAB","Cotality","Domain","Budget","S&P","S&amp;P"]);
+const SECTION_ORDER = {
+  economy:["gdp_nat","sfd","gsp","unemp_nsw","unemp_aus","emp_growth","cpi","wpi","spending","approvals","pop","cash_rate","nab"],
+  property:["house_median","apt_median","dwelling_index"],
+  fiscal:["budget_result","net_debt","interest_expense","credit_rating"]
+};
+
+function fmtVal(t){
+  if(t.note_value) return t.note_value;
+  if(typeof t.value === "string") return t.value;
+  if(t.unit === "$"){
+    return t.value >= 1000 ? "$"+t.value.toLocaleString("en-AU") : "$"+t.value.toFixed(2);
+  }
+  if(t.unit === "%"){ return (t.prefix||"")+t.value.toFixed(1)+'<span class="unit">%</span>'; }
+  return (t.prefix||"")+t.value.toLocaleString("en-AU");
+}
+function fmtChg(t){
+  if(t.change===null||t.change===undefined) return '<span class="chg flat"><span class="arw">—</span>'+(t.id==="cash_rate"?"held":"")+'</span>';
+  const arw = t.change>0?"▲":(t.change<0?"▼":"—");
+  const suff = t.change_kind==="pct" ? "%" : "pt";
+  const cls = t.direction||"flat";
+  return '<span class="chg '+cls+'"><span class="arw">'+arw+'</span>'+Math.abs(t.change)+suff+'</span>';
+}
+function tileHTML(t){
+  const manual = MANUAL_SOURCES.has(t.source);
+  const small = (t.unit==="$" && typeof t.value==="number" && t.value>=1000) || t.note_value;
+  return '<div class="tile'+(t.stale?' stale':'')+'">'
+    + '<span class="chip '+(manual?'manual':'auto')+'">'+t.source+'</span>'
+    + '<div class="name">'+t.label+'</div>'
+    + '<div class="val'+(small?' sm':'')+'">'+fmtVal(t)+'</div>'
+    + '<div class="meta"><span class="period">'+(t.period||'')+'</span>'+fmtChg(t)+'</div>'
+    + '</div>';
+}
+function render(data){
+  // week stamp
+  const d=new Date(); const day=d.getDay(); d.setDate(d.getDate()-(day===0?6:day-1));
+  const M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  document.getElementById("wk").textContent="Week of "+d.getDate()+" "+M[d.getMonth()]+" "+d.getFullYear();
+  const g = data.generated ? new Date(data.generated) : d;
+  document.getElementById("pull").textContent = g.getDate()+" "+M[g.getMonth()]+", "+String(g.getHours()).padStart(2,"0")+":"+String(g.getMinutes()).padStart(2,"0");
+
+  const banner=document.getElementById("banner");
+  if(data.seed){ banner.className="banner seed"; banner.innerHTML="<span>⚠</span><span><b>Prototype data.</b> Showing the seed file. Once the GitHub Action runs, green tiles refresh themselves from ABS/RBA.</span>"; }
+  else { banner.className="banner live"; banner.innerHTML="<span>●</span><span><b>Live.</b> "+(data.errors&&data.errors.length?data.errors.length+" source(s) stale — see repo log.":"All sources current.")+"</span>"; }
+
+  // tiles by section
+  for(const [sec,order] of Object.entries(SECTION_ORDER)){
+    const el=document.getElementById(sec); if(!el) continue;
+    el.innerHTML = order.filter(id=>data.tiles[id]).map(id=>tileHTML({...data.tiles[id],id})).join("");
+  }
+
+  // state vs state
+  const s=data.state_vs_state;
+  if(s){
+    let h="<thead><tr><th>Indicator</th>"+s.columns.map(c=>'<th'+(c==="NSW"?' class="nsw"':'')+'>'+c+'</th>').join("")+"</tr></thead><tbody>";
+    h+=s.rows.map(r=>"<tr><td>"+r.label+"</td>"+r.vals.map((v,i)=>'<td'+(s.columns[i]==="NSW"?' class="nsw"':'')+'>'+v+'</td>').join("")+"</tr>").join("");
+    document.getElementById("svs").innerHTML=h+"</tbody>";
+  }
+}
+
+// Render seed immediately (works on file:// too), then overlay live data.json if served over http.
+let data = JSON.parse(document.getElementById("seed").textContent);
+render(data);
+fetch("data.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(live=>{ if(live){render(live);} }).catch(()=>{});
+</script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+{
+  "_comment": "Edit when a release drops. SFD & GSP: quarterly from ABS State Accounts / NSW Budget. Property: monthly (Cotality/Domain). NAB: monthly. Budget tiles: twice a year.",
+  "state_vs_state": {
+    "columns": [
+      "NSW",
+      "VIC",
+      "QLD",
+      "SA",
+      "WA",
+      "TAS",
+      "AUS"
+    ],
+    "rows": [
+      {
+        "label": "State final demand (ann avg %)",
+        "vals": [
+          1.8,
+          2.1,
+          3.4,
+          2.0,
+          4.6,
+          1.4,
+          2.4
+        ]
+      },
+      {
+        "label": "Unemployment rate (%)",
+        "vals": [
+          4.3,
+          4.6,
+          4.4,
+          4.2,
+          3.8,
+          4.5,
+          4.4
+        ]
+      },
+      {
+        "label": "Household spending (TTY %)",
+        "vals": [
+          3.0,
+          3.1,
+          4.2,
+          3.3,
+          5.1,
+          2.0,
+          3.4
+        ]
+      },
+      {
+        "label": "Population (y/y %)",
+        "vals": [
+          1.4,
+          1.9,
+          2.0,
+          1.0,
+          2.4,
+          0.6,
+          1.7
+        ]
+      },
+      {
+        "label": "Building approvals (12m, '000)",
+        "vals": [
+          52.4,
+          58.1,
+          41.2,
+          13.0,
+          21.5,
+          2.9,
+          205.1
+        ]
+      },
+      {
+        "label": "Wage growth (TTY %)",
+        "vals": [
+          3.4,
+          3.3,
+          3.6,
+          3.5,
+          3.8,
+          3.2,
+          3.4
+        ]
+      }
+    ]
+  },
+  "tiles": {
+    "sfd": {
+      "label": "State Final Demand",
+      "section": "economy",
+      "source": "Manual",
+      "value": 1.8,
+      "unit": "%",
+      "period": "Mar-26",
+      "change": -0.3,
+      "change_kind": "pt",
+      "direction": "down"
+    },
+    "gsp": {
+      "label": "Gross State Product",
+      "section": "economy",
+      "source": "Manual",
+      "value": 2.1,
+      "unit": "%",
+      "period": "2024-25",
+      "change": -0.5,
+      "change_kind": "pt",
+      "direction": "down"
+    },
+    "nab": {
+      "label": "Business conditions",
+      "section": "economy",
+      "source": "NAB",
+      "value": 3,
+      "unit": "",
+      "period": "May-26",
+      "prefix": "+",
+      "change": -2,
+      "change_kind": "pt",
+      "direction": "down"
+    },
+    "house_median": {
+      "label": "Median house price",
+      "section": "property",
+      "source": "Cotality",
+      "value": 1617000,
+      "unit": "$",
+      "period": "May-26",
+      "change": -0.6,
+      "change_kind": "pct",
+      "direction": "down"
+    },
+    "apt_median": {
+      "label": "Median apartment price",
+      "section": "property",
+      "source": "Cotality",
+      "value": 871000,
+      "unit": "$",
+      "period": "May-26",
+      "change": 4.2,
+      "change_kind": "pct",
+      "direction": "up"
+    },
+    "dwelling_index": {
+      "label": "Dwelling value index",
+      "section": "property",
+      "source": "Cotality",
+      "value": 1290000,
+      "unit": "$",
+      "period": "Apr-26",
+      "change": -0.9,
+      "change_kind": "pct",
+      "direction": "down"
+    },
+    "budget_result": {
+      "label": "Budget result",
+      "section": "fiscal",
+      "source": "Budget",
+      "value": -3400000000,
+      "unit": "$",
+      "period": "2025-26 est.",
+      "direction": "down",
+      "note_value": "-$3.4b"
+    },
+    "net_debt": {
+      "label": "Net debt",
+      "section": "fiscal",
+      "source": "Budget",
+      "value": 97600000000,
+      "unit": "$",
+      "period": "Jun-26",
+      "direction": "down",
+      "note_value": "$97.6b"
+    },
+    "interest_expense": {
+      "label": "Interest expense",
+      "section": "fiscal",
+      "source": "Budget",
+      "value": 5800000000,
+      "unit": "$",
+      "period": "2025-26",
+      "direction": "down",
+      "note_value": "$5.8b"
+    },
+    "credit_rating": {
+      "label": "Credit rating",
+      "section": "fiscal",
+      "source": "S&P",
+      "value": "AAA",
+      "unit": "",
+      "period": "Stable outlook",
+      "direction": "flat"
+    }
+  }
+}

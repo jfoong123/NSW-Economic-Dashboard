@@ -1,0 +1,4 @@
+# ABS data access goes through the verified abs-mcp curated layer (handles SDMX
+# key order + tracks ABS dataflow changes). Pinned for reproducibility.
+abs-mcp==0.13.8
+# The RBA cash-rate pull and all parsing/transforms use the standard library.

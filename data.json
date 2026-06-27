@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T10:11:17+00:00",
+  "generated": "2026-06-27T10:20:57+00:00",
   "state_vs_state": {
     "columns": [
       "NSW",
@@ -99,17 +99,16 @@
       "unit": "%"
     },
     "unemp_nsw": {
-      "label": "Unemployment rate (NSW)",
-      "section": "economy",
-      "source": "ABS",
       "value": 4.3,
-      "unit": "%",
-      "period": "May-26",
-      "change": 0.0,
+      "period": "2026-05",
+      "change": -0.0,
       "change_kind": "pt",
       "direction": "flat",
       "id": "unemp_nsw",
-      "stale": true
+      "label": "Unemployment rate (NSW)",
+      "section": "economy",
+      "source": "ABS",
+      "unit": "%"
     },
     "unemp_aus": {
       "value": 4.6,
@@ -124,17 +123,16 @@
       "unit": "%"
     },
     "emp_growth": {
-      "label": "Employment growth (NSW, TTY)",
-      "section": "economy",
-      "source": "ABS",
-      "value": 1.5,
-      "unit": "%",
-      "period": "May-26",
-      "change": -0.4,
+      "value": 0.2,
+      "period": "2026-05",
+      "change": -0.9,
       "change_kind": "pt",
       "direction": "down",
       "id": "emp_growth",
-      "stale": true
+      "label": "Employment growth (NSW, TTY)",
+      "section": "economy",
+      "source": "ABS",
+      "unit": "%"
     },
     "cpi": {
       "value": 4.2,
@@ -149,17 +147,16 @@
       "unit": "%"
     },
     "wpi": {
+      "value": 3.2,
+      "period": "2026-Q1",
+      "change": -0.5,
+      "change_kind": "pt",
+      "direction": "down",
+      "id": "wpi",
       "label": "Wage Price Index (NSW, TTY)",
       "section": "economy",
       "source": "ABS",
-      "value": 3.4,
-      "unit": "%",
-      "period": "Mar-26",
-      "change": 0.1,
-      "change_kind": "pt",
-      "direction": "up",
-      "id": "wpi",
-      "stale": true
+      "unit": "%"
     },
     "spending": {
       "value": 4.8,
@@ -174,17 +171,16 @@
       "unit": "%"
     },
     "approvals": {
+      "value": 4466.0,
+      "period": "2026-04",
+      "change": 1.4,
+      "change_kind": "pct",
+      "direction": "up",
+      "id": "approvals",
       "label": "Dwelling approvals (NSW, monthly)",
       "section": "economy",
       "source": "ABS",
-      "value": 4280,
-      "unit": "",
-      "period": "Apr-26",
-      "change": -3.1,
-      "change_kind": "pct",
-      "direction": "down",
-      "id": "approvals",
-      "stale": true
+      "unit": ""
     },
     "pop": {
       "value": 1.2,
@@ -205,6 +201,7 @@
       "source": "RBA",
       "unit": "%",
       "value": 4.35,
+      "decimals": 2,
       "period": "25-Jun-2026",
       "change": null,
       "change_kind": "pt",
@@ -327,10 +324,5 @@
       "id": "credit_rating"
     }
   },
-  "errors": [
-    "unemp_nsw: Event loop is closed",
-    "emp_growth: Event loop is closed",
-    "wpi: Event loop is closed",
-    "approvals: Event loop is closed"
-  ]
+  "errors": []
 }

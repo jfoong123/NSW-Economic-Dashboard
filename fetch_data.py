@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# fetch_data.py  --  v2.1  (single-loop ABS fetch; fixes "Event loop is closed" + cash-rate 2dp)
 """
 fetch_data.py
 =============
@@ -6,9 +7,13 @@ Pulls the automatable tiles and writes data.json.
 
 ABS tiles go through the abs-mcp curated layer (verified plain-English filters,
 correct SDMX key order handled for us). The RBA cash rate is parsed from a plain
-CSV with the standard library. Every metric is fetched in its own try/except: a
-failure logs a warning and keeps the previous value from data.json (flagged
-stale), so one broken source never blanks the dashboard or crashes the job.
+CSV with the standard library. Every metric is isolated: a failure logs a warning
+and keeps the previous value from data.json (flagged stale), so one broken source
+never blanks the dashboard or crashes the job.
+
+All ABS pulls run inside ONE asyncio event loop. (Calling asyncio.run() once per
+metric closes the loop the shared HTTP client is bound to, which made every other
+tile fail with "Event loop is closed".)
 
 Usage:
   python fetch_data.py            # weekly run -> writes data.json
@@ -24,14 +29,13 @@ import re
 import sys
 import datetime as dt
 from urllib.request import Request, urlopen
-from urllib.error import URLError, HTTPError
 
 from metrics_config import ABS_METRICS, RBA_METRICS
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(HERE, "data.json")
 MANUAL_PATH = os.path.join(HERE, "manual_data.json")
-UA = "nsw-shadow-dashboard/2.0"
+UA = "nsw-shadow-dashboard/2.1"
 TIMEOUT = 45
 
 
@@ -87,37 +91,48 @@ def apply_transform(series, metric):
 
 
 # ----------------------------------------------------------------------------- #
-# ABS via abs-mcp
+# ABS via abs-mcp — all metrics in ONE event loop
 # ----------------------------------------------------------------------------- #
-async def _pull_records(dataset_id, filters, start):
+async def _pull_one(dataset_id, filters, start):
+    """Awaitable single-metric pull. Imported lazily so the module loads without
+    abs-mcp present (e.g. the offline parser tests)."""
     from abs_mcp.server import _get_data_impl
     resp = await _get_data_impl(dataset_id, filters, start, None, "records", last_n=None)
     return resp.records
 
 
-def fetch_abs(metric):
+async def _fetch_all_abs(metrics):
     start = str(dt.date.today().year - 6)
-    records = asyncio.run(_pull_records(metric["dataset_id"], metric["filters"], start))
-    series = []
-    for r in records:
-        val = getattr(r, "value", None)
-        per = getattr(r, "period", None)
-        if val is None or per is None:
-            continue
-        series.append((per, float(val)))
-    series.sort(key=lambda x: period_key(x[0]))
-    result = apply_transform(series, metric)
-    result.update(id=metric["id"], label=metric["label"], section=metric["section"],
-                  source="ABS", unit=metric.get("unit", ""))
-    return result
+    results, errors = {}, {}
+    for m in metrics:
+        try:
+            records = await _pull_one(m["dataset_id"], m["filters"], start)
+            series = []
+            for r in records:
+                val, per = getattr(r, "value", None), getattr(r, "period", None)
+                if val is not None and per:
+                    series.append((per, float(val)))
+            series.sort(key=lambda x: period_key(x[0]))
+            res = apply_transform(series, m)
+            res.update(id=m["id"], label=m["label"], section=m["section"],
+                       source="ABS", unit=m.get("unit", ""))
+            results[m["id"]] = res
+        except Exception as e:                         # noqa: BLE001 (graceful by design)
+            errors[m["id"]] = str(e)
+    # Best-effort cleanup so the shared client closes tidily.
+    try:
+        from abs_mcp.server import reset_client_for_tests
+        await reset_client_for_tests()
+    except Exception:
+        pass
+    return results, errors
 
 
 # ----------------------------------------------------------------------------- #
 # RBA via plain CSV
 # ----------------------------------------------------------------------------- #
 def http_get(url):
-    req = Request(url, headers={"User-Agent": UA})
-    with urlopen(req, timeout=TIMEOUT) as r:
+    with urlopen(Request(url, headers={"User-Agent": UA}), timeout=TIMEOUT) as r:
         return r.read().decode("utf-8", errors="replace")
 
 
@@ -151,6 +166,7 @@ def fetch_rba(metric):
         val, date = parse_rba_csv(http_get(metric["fallback_url"]), metric["series_id"])
     return dict(id=metric["id"], label=metric["label"], section=metric["section"],
                 source="RBA", unit=metric.get("unit", "%"), value=round(val, 2),
+                decimals=metric.get("decimals", 2),
                 period=date, change=None, change_kind="pt", direction="flat")
 
 
@@ -190,21 +206,31 @@ def main():
     manual = load_json(MANUAL_PATH, {})
     tiles, errors = {}, []
 
-    def run(metrics, fetch):
-        for m in metrics:
-            try:
-                tiles[m["id"]] = fetch(m)
-                t = tiles[m["id"]]
-                print(f"  ok   {m['id']:<12} {t['value']} ({t['period']})")
-            except Exception as e:                     # noqa: BLE001 (graceful by design)
-                errors.append(f"{m['id']}: {e}")
-                if m["id"] in prev_tiles:
-                    tiles[m["id"]] = {**prev_tiles[m["id"]], "stale": True}
-                print(f"  WARN {m['id']:<12} {e}")
+    # --- ABS: one event loop for all metrics ---
+    abs_results, abs_errors = asyncio.run(_fetch_all_abs(ABS_METRICS))
+    for m in ABS_METRICS:
+        if m["id"] in abs_results:
+            tiles[m["id"]] = abs_results[m["id"]]
+            print(f"  ok   {m['id']:<12} {tiles[m['id']]['value']} ({tiles[m['id']]['period']})")
+        else:
+            err = abs_errors.get(m["id"], "unknown error")
+            errors.append(f"{m['id']}: {err}")
+            if m["id"] in prev_tiles:
+                tiles[m["id"]] = {**prev_tiles[m["id"]], "stale": True}
+            print(f"  WARN {m['id']:<12} {err}")
 
-    run(ABS_METRICS, fetch_abs)
-    run(RBA_METRICS, fetch_rba)
+    # --- RBA (synchronous) ---
+    for m in RBA_METRICS:
+        try:
+            tiles[m["id"]] = fetch_rba(m)
+            print(f"  ok   {m['id']:<12} {tiles[m['id']]['value']} ({tiles[m['id']]['period']})")
+        except Exception as e:                         # noqa: BLE001
+            errors.append(f"{m['id']}: {e}")
+            if m["id"] in prev_tiles:
+                tiles[m["id"]] = {**prev_tiles[m["id"]], "stale": True}
+            print(f"  WARN {m['id']:<12} {e}")
 
+    # --- Manual tiles merge in unchanged ---
     for tid, t in manual.get("tiles", {}).items():
         tiles[tid] = {**t, "source": t.get("source", "Manual"), "id": tid}
 

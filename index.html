@@ -91,17 +91,17 @@
   <section class="sec"><div class="sec-head"><h2>The economy</h2><div class="rule"></div></div><div class="grid" id="economy"></div></section>
   <section class="sec"><div class="sec-head"><h2>Property in Sydney</h2><div class="rule"></div></div><div class="grid" id="property"></div></section>
   <section class="sec"><div class="sec-head"><h2>The government's books</h2><div class="rule"></div></div><div class="grid" id="fiscal"></div></section>
-  <section class="sec"><div class="sec-head"><h2>State vs state</h2><div class="rule"></div></div><div class="tbl-wrap"><table id="svs"></table></div></section>
+  <section class="sec"><div class="sec-head"><h2>State vs state</h2><div class="rule"></div></div><p style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--manual);margin:-4px 0 12px">Illustrative figures — not yet wired to live data</p><div class="tbl-wrap"><table id="svs"></table></div></section>
 
   <div class="legend">
     <div>
       <h4>How it stays current</h4>
       <p><span class="k"><span class="sw" style="background:var(--auto-bg);border:1px solid var(--auto)"></span> Auto</span> Pulled every Monday from the ABS Data API and RBA tables. No human touch.</p>
-      <p><span class="k"><span class="sw" style="background:var(--manual-bg);border:1px solid var(--manual)"></span> Manual</span> Entered once per release — property &amp; NAB monthly, budget tiles twice a year. ~5 min/month.</p>
+      <p><span class="k"><span class="sw" style="background:var(--manual-bg);border:1px solid var(--manual)"></span> Manual</span> Entered each release — State Final Demand &amp; GSP, property, NAB, and budget tiles. ~5 min/month.</p>
     </div>
     <div>
       <h4>Sources</h4>
-      <p>ABS Data API — Labour Force, CPI, WPI, State Accounts, Retail Trade, Building Approvals, Population, RPPI.</p>
+      <p>ABS Data API — Labour Force, CPI, Wage Price Index, National Accounts (GDP), Household Spending, Building Approvals, Population.</p>
       <p>RBA Table F1.1 — cash rate. NSW Treasury — Budget &amp; HYR. Cotality/Domain — Sydney medians. NAB — Monthly Business Survey.</p>
     </div>
   </div>
@@ -445,6 +445,19 @@ const SECTION_ORDER = {
   fiscal:["budget_result","net_debt","interest_expense","credit_rating"]
 };
 
+function fmtPeriod(p){
+  if(!p) return '';
+  p = String(p).trim();
+  const M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  let m;
+  if(m = p.match(/^(\d{4})-(\d{2})$/)){           // 2026-05 -> May-26 (leave FY like 2024-25)
+    const mo=parseInt(m[2],10);
+    return (mo>=1&&mo<=12) ? M[mo-1]+"-"+m[1].slice(2) : p;
+  }
+  if(m = p.match(/^(\d{4})-Q([1-4])$/)) return "Q"+m[2]+"-"+m[1].slice(2);          // 2026-Q1 -> Q1-26
+  if(m = p.match(/^(\d{1,2})-([A-Za-z]{3})-(\d{4})$/)) return m[2]+"-"+m[3].slice(2); // 25-Jun-2026 -> Jun-26
+  return p;                                        // already friendly (May-26, 2024-25, Stable outlook, ...)
+}
 function fmtVal(t){
   if(t.note_value) return t.note_value;
   if(typeof t.value === "string") return t.value;
@@ -456,6 +469,7 @@ function fmtVal(t){
 }
 function fmtChg(t){
   if(t.change===null||t.change===undefined) return '<span class="chg flat"><span class="arw">—</span>'+(t.id==="cash_rate"?"held":"")+'</span>';
+  if(t.change===0) return '<span class="chg flat"><span class="arw">—</span>unch</span>';
   const arw = t.change>0?"▲":(t.change<0?"▼":"—");
   const suff = t.change_kind==="pct" ? "%" : "pt";
   const cls = t.direction||"flat";
@@ -468,7 +482,7 @@ function tileHTML(t){
     + '<span class="chip '+(manual?'manual':'auto')+'">'+t.source+'</span>'
     + '<div class="name">'+t.label+'</div>'
     + '<div class="val'+(small?' sm':'')+'">'+fmtVal(t)+'</div>'
-    + '<div class="meta"><span class="period">'+(t.period||'')+'</span>'+fmtChg(t)+'</div>'
+    + '<div class="meta"><span class="period">'+fmtPeriod(t.period)+'</span>'+fmtChg(t)+'</div>'
     + '</div>';
 }
 function render(data){

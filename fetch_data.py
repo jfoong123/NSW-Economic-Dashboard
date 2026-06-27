@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# fetch_data.py  --  v2.2  (adds full history sparklines + "vs a year ago"; single-loop ABS fetch; cash-rate 2dp)
+# fetch_data.py  --  v2.3  (history sparklines with dates + "vs a year ago"; single-loop ABS fetch; cash-rate 2dp)
 """
 Pulls the automatable tiles and writes data.json.
 
@@ -104,7 +104,7 @@ def apply_transform(series, metric):
                                             change_kind="pt", direction=d(round(latest - yago, 1)))
 
     return dict(value=value, period=period, change=change, change_kind=kind, direction=d(change),
-                spark=[round(v, 2) for _, v in plot], year_ago=ya)
+                spark=[round(v, 2) for _, v in plot], spark_p=[p for p, _ in plot], year_ago=ya)
 
 
 # ----------------------------------------------------------------------------- #
@@ -229,7 +229,7 @@ def fetch_rba(metric):
                 source="RBA", unit=metric.get("unit", "%"), value=round(latest, 2),
                 decimals=metric.get("decimals", 2), period=period, change=None,
                 change_kind="pt", direction="flat",
-                spark=[round(v, 2) for v in vals], year_ago=ya)
+                spark=[round(v, 2) for v in vals], spark_p=[p for p, _ in ser], year_ago=ya)
 
 
 # Kept for the optional zero-dependency fallback path + its offline test.

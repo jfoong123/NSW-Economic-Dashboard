@@ -1,6 +1,5 @@
 {
-  "generated": "2026-06-27T09:43:17+00:00",
-  "seed": true,
+  "generated": "2026-06-27T10:11:17+00:00",
   "state_vs_state": {
     "columns": [
       "NSW",
@@ -88,16 +87,16 @@
   },
   "tiles": {
     "gdp_nat": {
+      "value": 0.3,
+      "period": "2026-Q1",
+      "change": -0.6,
+      "change_kind": "pt",
+      "direction": "down",
+      "id": "gdp_nat",
       "label": "GDP growth (national, QoQ)",
       "section": "economy",
       "source": "ABS",
-      "value": 0.4,
-      "unit": "%",
-      "period": "Mar-26",
-      "change": -0.1,
-      "change_kind": "pt",
-      "direction": "down",
-      "id": "gdp_nat"
+      "unit": "%"
     },
     "unemp_nsw": {
       "label": "Unemployment rate (NSW)",
@@ -109,19 +108,20 @@
       "change": 0.0,
       "change_kind": "pt",
       "direction": "flat",
-      "id": "unemp_nsw"
+      "id": "unemp_nsw",
+      "stale": true
     },
     "unemp_aus": {
+      "value": 4.6,
+      "period": "2026-05",
+      "change": 0.2,
+      "change_kind": "pt",
+      "direction": "up",
+      "id": "unemp_aus",
       "label": "Unemployment rate (AUS)",
       "section": "economy",
       "source": "ABS",
-      "value": 4.4,
-      "unit": "%",
-      "period": "May-26",
-      "change": -0.1,
-      "change_kind": "pt",
-      "direction": "up",
-      "id": "unemp_aus"
+      "unit": "%"
     },
     "emp_growth": {
       "label": "Employment growth (NSW, TTY)",
@@ -133,19 +133,20 @@
       "change": -0.4,
       "change_kind": "pt",
       "direction": "down",
-      "id": "emp_growth"
+      "id": "emp_growth",
+      "stale": true
     },
     "cpi": {
+      "value": 4.2,
+      "period": "2026-05",
+      "change": 0.0,
+      "change_kind": "pt",
+      "direction": "flat",
+      "id": "cpi",
       "label": "CPI inflation (Sydney, TTY)",
       "section": "economy",
       "source": "ABS",
-      "value": 4.0,
-      "unit": "%",
-      "period": "May-26",
-      "change": 0.3,
-      "change_kind": "pt",
-      "direction": "down",
-      "id": "cpi"
+      "unit": "%"
     },
     "wpi": {
       "label": "Wage Price Index (NSW, TTY)",
@@ -157,19 +158,20 @@
       "change": 0.1,
       "change_kind": "pt",
       "direction": "up",
-      "id": "wpi"
+      "id": "wpi",
+      "stale": true
     },
     "spending": {
+      "value": 4.8,
+      "period": "2026-05",
+      "change": -0.2,
+      "change_kind": "pt",
+      "direction": "down",
+      "id": "spending",
       "label": "Household spending (NSW, TTY)",
       "section": "economy",
       "source": "ABS",
-      "value": 3.0,
-      "unit": "%",
-      "period": "Apr-26",
-      "change": -0.5,
-      "change_kind": "pt",
-      "direction": "down",
-      "id": "spending"
+      "unit": "%"
     },
     "approvals": {
       "label": "Dwelling approvals (NSW, monthly)",
@@ -181,32 +183,32 @@
       "change": -3.1,
       "change_kind": "pct",
       "direction": "down",
-      "id": "approvals"
+      "id": "approvals",
+      "stale": true
     },
     "pop": {
-      "label": "Population growth (NSW, TTY)",
-      "section": "economy",
-      "source": "ABS",
-      "value": 1.4,
-      "unit": "%",
-      "period": "Sep-25",
+      "value": 1.2,
+      "period": "2025-Q4",
       "change": 0.0,
       "change_kind": "pt",
       "direction": "flat",
-      "id": "pop"
+      "id": "pop",
+      "label": "Population growth (NSW, TTY)",
+      "section": "economy",
+      "source": "ABS",
+      "unit": "%"
     },
     "cash_rate": {
+      "id": "cash_rate",
       "label": "Cash rate target",
       "section": "economy",
       "source": "RBA",
-      "value": 4.35,
       "unit": "%",
-      "decimals": 2,
-      "period": "Jun-26",
+      "value": 4.35,
+      "period": "25-Jun-2026",
       "change": null,
       "change_kind": "pt",
-      "direction": "flat",
-      "id": "cash_rate"
+      "direction": "flat"
     },
     "sfd": {
       "label": "State Final Demand",
@@ -325,5 +327,10 @@
       "id": "credit_rating"
     }
   },
-  "errors": []
+  "errors": [
+    "unemp_nsw: Event loop is closed",
+    "emp_growth: Event loop is closed",
+    "wpi: Event loop is closed",
+    "approvals: Event loop is closed"
+  ]
 }

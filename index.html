@@ -58,6 +58,16 @@
   .modal .chartwrap{margin-top:16px}
   .modal .chartwrap svg{width:100%;height:auto;display:block}
   .modal .chg.up{color:var(--good)} .modal .chg.down{color:var(--bad)} .modal .chg.flat{color:var(--flat)}
+  .news{display:flex;flex-direction:column;gap:2px}
+  .news a{display:flex;justify-content:space-between;align-items:baseline;gap:14px;text-decoration:none;color:inherit;padding:10px 4px;border-bottom:1px solid var(--line)}
+  .news a:last-child{border-bottom:none}
+  .news a:hover .nh-title{color:var(--accent)}
+  .news .nh-title{font-size:14px;line-height:1.35}
+  .news .nh-meta{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--muted-2);white-space:nowrap;flex-shrink:0}
+  .news .empty{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted-2);padding:8px 4px}
+  .nothere{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px 24px}
+  .nh-block h4{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--ink);margin:0 0 4px}
+  .nh-block p{font-size:12.5px;line-height:1.5;color:var(--muted);margin:0}
   .tile.stale{opacity:.6}
   .tile .name{font-size:11.5px;color:var(--muted);font-weight:500;padding-right:52px;min-height:30px}
   .tile .val{font-size:27px;font-weight:700;letter-spacing:-.02em;margin-top:auto;line-height:1.05}
@@ -109,7 +119,17 @@
   <section class="sec"><div class="sec-head"><h2>The economy</h2><div class="rule"></div></div><div class="grid" id="economy"></div></section>
   <section class="sec"><div class="sec-head"><h2>Property in Sydney</h2><div class="rule"></div></div><div class="grid" id="property"></div></section>
   <section class="sec"><div class="sec-head"><h2>The government's books</h2><div class="rule"></div></div><div class="grid" id="fiscal"></div></section>
-  <section class="sec"><div class="sec-head"><h2>State vs state</h2><div class="rule"></div></div><p style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--manual);margin:-4px 0 12px">Illustrative figures — not yet wired to live data</p><div class="tbl-wrap"><table id="svs"></table></div></section>
+  <section class="sec"><div class="sec-head"><h2>Markets &amp; macro</h2><div class="rule"></div></div><div class="grid" id="markets"></div></section>
+  <section class="sec"><div class="sec-head"><h2>State vs state</h2><div class="rule"></div></div><p id="svs-note" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--manual);margin:-4px 0 12px">Illustrative figures — not yet wired to live data</p><div class="tbl-wrap"><table id="svs"></table></div></section>
+  <section class="sec"><div class="sec-head"><h2>In the news this week</h2><div class="rule"></div></div><div id="news" class="news"></div></section>
+  <section class="sec"><div class="sec-head"><h2>What's not here (and why)</h2><div class="rule"></div></div>
+    <div class="nothere">
+      <div class="nh-block"><h4>Manual — no free machine feed exists</h4><p>State Final Demand &amp; Gross State Product (state national accounts aren't in the ABS data API), Sydney property medians (Cotality/Domain are paywalled), NAB business conditions (PDF only), and the budget tiles — budget result, net debt, interest expense, credit rating (budget papers &amp; S&amp;P, released a couple of times a year). These are typed in at each release, ~5 minutes a month.</p></div>
+      <div class="nh-block"><h4>Could be automated later</h4><p>Trade / export value (the ABS trade dataflow has no clean exports-only dimension to verify against), rest-of-NSW vs Greater Sydney jobs (Labour Force is published at state level here), and an ABS/RBA release calendar (next CPI, next rate decision). Worth doing if you want them.</p></div>
+      <div class="nh-block"><h4>Deliberately excluded</h4><p>Political talking points and narrative claims (health, education, police, infrastructure "achievements"). This board is built to be numbers only, sourced from ABS/RBA, so the figures can't be argued with.</p></div>
+      <div class="nh-block"><h4>Budget-paper &amp; forecast material (a separate "budget edition")</h4><p>The multi-year economic forecasts, revenue/expense and taxation breakdowns, the infrastructure program &amp; major projects, superannuation liability, and labour productivity. These are annual, manual, and published only at budget time — better suited to a one-off budget-time page than a weekly tracker.</p></div>
+    </div>
+  </section>
 
   <div class="legend">
     <div>
@@ -127,7 +147,7 @@
 </div>
 
 <script id="seed" type="application/json">{
-  "generated": "2026-06-27T12:32:23+00:00",
+  "generated": "2026-06-27T12:59:50+00:00",
   "seed": true,
   "state_vs_state": {
     "columns": [
@@ -214,6 +234,7 @@
       }
     ]
   },
+  "news": [],
   "tiles": {
     "gdp_nat": {
       "id": "gdp_nat",
@@ -1047,6 +1068,68 @@
         "direction": "up"
       }
     },
+    "completions": {
+      "id": "completions",
+      "label": "Dwelling completions (NSW, qtrly)",
+      "section": "economy",
+      "source": "ABS",
+      "value": 11800,
+      "unit": "",
+      "period": "2026-Q1",
+      "change": 0.5,
+      "change_kind": "pct",
+      "direction": "up",
+      "spark": [
+        12701.0,
+        12997.0,
+        12718.0,
+        12541.0,
+        12116.0,
+        12145.0,
+        11997.0,
+        12181.0,
+        12514.0,
+        12705.0,
+        12435.0,
+        11892.0,
+        11629.0,
+        11933.0,
+        12047.0,
+        12320.0,
+        12121.0,
+        11868.0,
+        11743.0,
+        11800
+      ],
+      "spark_p": [
+        "2021-Q2",
+        "2021-Q3",
+        "2021-Q4",
+        "2022-Q1",
+        "2022-Q2",
+        "2022-Q3",
+        "2022-Q4",
+        "2023-Q1",
+        "2023-Q2",
+        "2023-Q3",
+        "2023-Q4",
+        "2024-Q1",
+        "2024-Q2",
+        "2024-Q3",
+        "2024-Q4",
+        "2025-Q1",
+        "2025-Q2",
+        "2025-Q3",
+        "2025-Q4",
+        "2026-Q1"
+      ],
+      "year_ago": {
+        "value": 12320.0,
+        "change": -4.2,
+        "change_kind": "pct",
+        "direction": "down"
+      }
+    },
     "pop": {
       "id": "pop",
       "label": "Population growth (NSW, TTY)",
@@ -1065,14 +1148,14 @@
         1.5,
         1.4,
         1.4,
-        1.4,
+        1.3,
         1.4,
         1.4,
         1.4,
         1.4,
         1.3,
         1.2,
-        1.3,
+        1.2,
         1.3,
         1.3,
         1.3,
@@ -1122,51 +1205,51 @@
       "direction": "flat",
       "spark": [
         4.1,
+        4.11,
         4.12,
         4.12,
         4.12,
         4.11,
         4.12,
-        4.12,
-        4.14,
+        4.13,
+        4.15,
         4.15,
         4.16,
-        4.16,
-        4.16,
+        4.15,
         4.15,
         4.16,
         4.18,
-        4.19,
-        4.19,
+        4.18,
+        4.2,
         4.19,
         4.19,
         4.19,
         4.2,
         4.21,
         4.23,
+        4.24,
         4.23,
         4.23,
-        4.22,
         4.23,
-        4.23,
+        4.24,
         4.25,
         4.26,
-        4.27,
-        4.27,
+        4.26,
+        4.26,
         4.26,
         4.27,
-        4.28,
+        4.27,
         4.28,
         4.3,
         4.31,
         4.31,
-        4.31,
+        4.3,
         4.3,
         4.31,
-        4.33,
+        4.32,
         4.34,
         4.34,
-        4.35,
+        4.34,
         4.34,
         4.35
       ],
@@ -1222,6 +1305,245 @@
       ],
       "year_ago": {
         "value": 4.28,
+        "change": 0.1,
+        "change_kind": "pt",
+        "direction": "up"
+      },
+      "decimals": 2
+    },
+    "fx": {
+      "id": "fx",
+      "label": "AUD / USD",
+      "section": "markets",
+      "source": "RBA",
+      "value": 0.66,
+      "unit": "",
+      "period": "2026-06",
+      "change": null,
+      "change_kind": "pt",
+      "direction": "flat",
+      "spark": [
+        0.67,
+        0.68,
+        0.68,
+        0.68,
+        0.66,
+        0.66,
+        0.66,
+        0.67,
+        0.68,
+        0.68,
+        0.67,
+        0.66,
+        0.65,
+        0.66,
+        0.66,
+        0.67,
+        0.67,
+        0.67,
+        0.66,
+        0.65,
+        0.66,
+        0.67,
+        0.68,
+        0.68,
+        0.67,
+        0.66,
+        0.65,
+        0.66,
+        0.67,
+        0.67,
+        0.68,
+        0.67,
+        0.65,
+        0.66,
+        0.66,
+        0.66,
+        0.67,
+        0.67,
+        0.66,
+        0.66,
+        0.65,
+        0.66,
+        0.67,
+        0.67,
+        0.67,
+        0.67,
+        0.66,
+        0.66
+      ],
+      "spark_p": [
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12",
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05",
+        "2023-06",
+        "2023-07",
+        "2023-08",
+        "2023-09",
+        "2023-10",
+        "2023-11",
+        "2023-12",
+        "2024-01",
+        "2024-02",
+        "2024-03",
+        "2024-04",
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06"
+      ],
+      "year_ago": {
+        "value": 0.66,
+        "change": 0.0,
+        "change_kind": "pt",
+        "direction": "flat"
+      },
+      "decimals": 2,
+      "prefix": "US$"
+    },
+    "bond10": {
+      "id": "bond10",
+      "label": "10yr Govt bond yield",
+      "section": "markets",
+      "source": "RBA",
+      "value": 4.3,
+      "unit": "%",
+      "period": "2026-06",
+      "change": null,
+      "change_kind": "pt",
+      "direction": "flat",
+      "spark": [
+        3.88,
+        3.93,
+        3.95,
+        3.94,
+        3.88,
+        3.9,
+        3.91,
+        3.97,
+        4.02,
+        4.05,
+        4.01,
+        3.94,
+        3.96,
+        3.98,
+        4.02,
+        4.08,
+        4.1,
+        4.04,
+        4.04,
+        3.99,
+        4.0,
+        4.07,
+        4.15,
+        4.14,
+        4.14,
+        4.11,
+        4.06,
+        4.08,
+        4.14,
+        4.21,
+        4.23,
+        4.19,
+        4.15,
+        4.1,
+        4.12,
+        4.19,
+        4.27,
+        4.26,
+        4.25,
+        4.17,
+        4.15,
+        4.19,
+        4.27,
+        4.33,
+        4.34,
+        4.29,
+        4.26,
+        4.3
+      ],
+      "spark_p": [
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12",
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05",
+        "2023-06",
+        "2023-07",
+        "2023-08",
+        "2023-09",
+        "2023-10",
+        "2023-11",
+        "2023-12",
+        "2024-01",
+        "2024-02",
+        "2024-03",
+        "2024-04",
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06"
+      ],
+      "year_ago": {
+        "value": 4.19,
         "change": 0.1,
         "change_kind": "pt",
         "direction": "up"
@@ -1353,7 +1675,8 @@ const MANUAL_SOURCES = new Set(["Manual","NAB","Cotality","Domain","Budget","S&P
 const POLARITY = {
   gdp_nat:"good_up", unemp_nsw:"good_down", unemp_aus:"good_down",
   emp_growth:"good_up", cpi:"good_down", wpi:"good_up",
-  spending:"neutral", approvals:"good_up", pop:"neutral", cash_rate:"neutral"
+  spending:"neutral", approvals:"good_up", completions:"good_up", pop:"neutral",
+  cash_rate:"neutral", fx:"neutral", bond10:"neutral"
 };
 function semColour(id, delta){
   const pol=POLARITY[id], s=delta>0?1:delta<0?-1:0;
@@ -1372,9 +1695,10 @@ function trendColorVar(t){
   return good?"var(--good)":"var(--bad)";
 }
 const SECTION_ORDER = {
-  economy:["gdp_nat","sfd","gsp","unemp_nsw","unemp_aus","emp_growth","cpi","wpi","spending","approvals","pop","cash_rate","nab"],
+  economy:["gdp_nat","sfd","gsp","unemp_nsw","unemp_aus","emp_growth","cpi","wpi","spending","approvals","completions","pop","cash_rate","nab"],
   property:["house_median","apt_median","dwelling_index"],
-  fiscal:["budget_result","net_debt","interest_expense","credit_rating"]
+  fiscal:["budget_result","net_debt","interest_expense","credit_rating"],
+  markets:["fx","bond10"]
 };
 
 function fmtPeriod(p){
@@ -1516,10 +1840,21 @@ function render(data){
 
   // state vs state
   const s=data.state_vs_state;
+  const note=document.getElementById("svs-note");
+  if(note) note.style.display = (s && s.live) ? "none" : "";
   if(s){
     let h="<thead><tr><th>Indicator</th>"+s.columns.map(c=>'<th'+(c==="NSW"?' class="nsw"':'')+'>'+c+'</th>').join("")+"</tr></thead><tbody>";
-    h+=s.rows.map(r=>"<tr><td>"+r.label+"</td>"+r.vals.map((v,i)=>'<td'+(s.columns[i]==="NSW"?' class="nsw"':'')+'>'+v+'</td>').join("")+"</tr>").join("");
+    h+=s.rows.map(r=>"<tr><td>"+r.label+"</td>"+r.vals.map((v,i)=>'<td'+(s.columns[i]==="NSW"?' class="nsw"':'')+'>'+(v==null?"—":v)+'</td>').join("")+"</tr>").join("");
     document.getElementById("svs").innerHTML=h+"</tbody>";
+  }
+
+  // news digest
+  const news=data.news||[];
+  const nel=document.getElementById("news");
+  if(nel){
+    nel.innerHTML = news.length
+      ? news.map(n=>'<a href="'+n.link+'" target="_blank" rel="noopener"><span class="nh-title">'+n.title+'</span><span class="nh-meta">'+(n.source||'')+(n.date?' · '+n.date:'')+'</span></a>').join("")
+      : '<div class="empty">No headlines pulled this week.</div>';
   }
 }
 

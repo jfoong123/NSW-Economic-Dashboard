@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T06:55:48+00:00",
+  "generated": "2026-06-28T23:49:14+00:00",
   "state_vs_state": {
     "columns": [
       "NSW",
@@ -107,9 +107,9 @@
         "date": "23 Jun"
       },
       {
-        "title": "Public transport fee relief and car rego cut by $100 in NSW budget targeting cost-of-living pressures",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNU1ObW5Ubm1WMDRLWFBnOVVFVF9xcHg2SnF2cUY4dFllZm95SUJtSi02MHdsWkgyN3lRNTZ4RklmVTY3Rndibkh5Z2VHTHJSUUlWS00tYTRnQzAxcVg1dHVDY0FwVHpVZlJvZTZEODBKTU9fYmZFRTl5MHRISVJaLXlUXy1UcFRFUWFTVmxScVd6dFVwbktSMVBLTmo4MU1SZkdtNkxzWThyaFp2bnZGUDBJWkd2QXJoZ3dhUWRCRkNQZDR0Nlc4QUxhd21uQUJPTkRURk9NTFI?oc=5",
-        "source": "The Guardian",
+        "title": "NSW Budget offers modest legal relief as Law Society warns that courts are being left behind",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOVVOX3BucEVHQUVfZnZ2VXpsQlg1MldjZnNjRUdYZE5fNV8ySlNiaTlyNUlVVUp1ZlRXN3JtdGdVeF9ONWtOUkJsTmNCU1lOVGRGejkyUC1OcGxGcHgyODAzXzBld2FwRG83c2Q0emJ4azAydDFWN21tdTNFd3hDczRMS0NZRHNENURmcVBtVWxjdWJFWldwRU1xNG5hYmFyNWpZZWlraTVaYzZjN09pMUdzOFRZc0FiVEdaZkpn?oc=5",
+        "source": "Law Society Journal",
         "date": "23 Jun"
       }
     ],
@@ -136,7 +136,7 @@
         "title": "Boring budget? What Mookhey is banking on to win over voters",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZHVKU0NOazFtRWpFcFFjOWhqTWNFeVd1MklUMzlYb1h4Y3NOY3pBV00tdG1XcWxWUGRFYUlidHBNN2FEcTJkR3NyZnZONXVxMkVPN0FlZG5NeGg2dEd3M29KN1U0SDNRcy00NlhKd0o5RUgzckZBQ1NXR0FrQlc0b2Q3aUpWLXhzbFVFWHM3QUFiY2RTTVUzdG1qb00ydHc3RWQwOWdqdkt1YmhVWlA5X1Zqdm9aUjQ?oc=5",
         "source": "SMH.com.au",
-        "date": "19 Jun"
+        "date": "20 Jun"
       },
       {
         "title": "Welcome to Mookheynomics: NSW\u2019s \u2018disciplined\u2019 budget to eclipse rivals",
@@ -153,7 +153,7 @@
     ],
     "volume": {
       "this": 100,
-      "last": 36
+      "last": 35
     },
     "top_sources": [
       {
@@ -162,11 +162,11 @@
       },
       {
         "source": "NSW Government",
-        "count": 7
+        "count": 8
       },
       {
-        "source": "Australian Broadcasting Corporation",
-        "count": 5
+        "source": "NSW Liberals",
+        "count": 6
       }
     ],
     "themes": [
@@ -180,15 +180,15 @@
       },
       {
         "label": "Debt & tax",
-        "count": 50
+        "count": 51
       },
       {
         "label": "Cost of living",
-        "count": 47
+        "count": 46
       },
       {
         "label": "Jobs",
-        "count": 19
+        "count": 20
       }
     ]
   },

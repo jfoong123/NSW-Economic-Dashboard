@@ -82,10 +82,19 @@ STATE_TABLE = {
     ],
 }
 
-# Weekly news digest via Google News RSS (no API key needed). Edit the query freely.
+# Weekly news digest via Google News RSS (no API key needed). Edit freely.
+# Google News can't expose view counts, but article *volume* per theme and per
+# outlet are clean, pullable proxies for what's getting attention.
 NEWS = {
-    "query": "NSW economy OR NSW budget OR NSW treasurer OR NSW cost of living",
+    "base": "NSW economy OR NSW budget OR NSW treasurer OR NSW cost of living",
     "max": 6,
+    "themes": {
+        "Cost of living": "NSW cost of living",
+        "Budget": "NSW budget",
+        "Housing": "NSW housing OR Sydney housing",
+        "Debt & tax": "NSW debt OR NSW tax OR NSW stamp duty",
+        "Jobs": "NSW jobs OR NSW unemployment",
+    },
 }
 
 MANUAL_TILES = ["sfd", "gsp", "nab",

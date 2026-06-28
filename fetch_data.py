@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# fetch_data.py  --  v2.4  (live state table + dwelling completions + AUD/USD + 10yr bond + weekly news digest; history sparklines w/ dates; single-loop ABS)
+# fetch_data.py  --  v2.5  (ranked news this-week/last-week + theme volumes + active outlets; live state table; completions; markets; history sparklines)
 """
 Pulls the automatable tiles, the live state-vs-state table, and a weekly NSW
 economic news digest, and writes data.json.
@@ -239,10 +239,42 @@ def parse_news_rss(xml_text, limit):
         out.append({"title": title, "link": link, "source": source, "date": _news_date(pub)})
     return out
 
+def _news_url(query, after=None, before=None):
+    q = query
+    if after:  q += f" after:{after}"
+    if before: q += f" before:{before}"
+    return f"https://news.google.com/rss/search?q={quote(q)}&hl=en-AU&gl=AU&ceid=AU:en"
+
+def _news_items(query, after=None, before=None):
+    return parse_news_rss(http_get(_news_url(query, after, before)), 200)
+
+def _top_sources(items, k=3):
+    from collections import Counter
+    c = Counter(i["source"] for i in items if i["source"])
+    return [{"source": s, "count": n} for s, n in c.most_common(k)]
+
 def fetch_news():
     try:
-        url = f"https://news.google.com/rss/search?q={quote(NEWS['query'])}&hl=en-AU&gl=AU&ceid=AU:en"
-        return parse_news_rss(http_get(url), NEWS["max"])
+        today = dt.date.today()
+        d7  = (today - dt.timedelta(days=7)).isoformat()
+        d14 = (today - dt.timedelta(days=14)).isoformat()
+        tom = (today + dt.timedelta(days=1)).isoformat()
+        this_all = _news_items(NEWS["base"], after=d7,  before=tom)
+        last_all = _news_items(NEWS["base"], after=d14, before=d7)
+        themes = []
+        for label, q in NEWS.get("themes", {}).items():
+            try:
+                themes.append({"label": label, "count": len(_news_items(q, after=d7, before=tom))})
+            except Exception:
+                pass
+        themes.sort(key=lambda x: -x["count"])
+        return {
+            "this_week":   this_all[:NEWS["max"]],
+            "last_week":   last_all[:NEWS["max"]],
+            "volume":      {"this": len(this_all), "last": len(last_all)},
+            "top_sources": _top_sources(this_all),
+            "themes":      themes,
+        }
     except Exception:
         return None
 
@@ -291,9 +323,10 @@ def main():
 
     news = fetch_news()
     if news is None:
-        news = prev.get("news", [])
+        news = prev.get("news") or {}
         errors.append("news: fetch failed (kept previous)")
-    print(f"  news {len(news)} headlines")
+    n_this = len((news or {}).get("this_week", []))
+    print(f"  news {n_this} headlines this week, {len((news or {}).get('themes', []))} themes")
 
     out = {
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),

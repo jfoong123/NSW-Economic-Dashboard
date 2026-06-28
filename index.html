@@ -58,16 +58,33 @@
   .modal .chartwrap{margin-top:16px}
   .modal .chartwrap svg{width:100%;height:auto;display:block}
   .modal .chg.up{color:var(--good)} .modal .chg.down{color:var(--bad)} .modal .chg.flat{color:var(--flat)}
-  .news{display:flex;flex-direction:column;gap:2px}
-  .news a{display:flex;justify-content:space-between;align-items:baseline;gap:14px;text-decoration:none;color:inherit;padding:10px 4px;border-bottom:1px solid var(--line)}
-  .news a:last-child{border-bottom:none}
+  .news-cols{display:grid;grid-template-columns:1fr 1fr;gap:14px 28px}
+  @media(max-width:640px){.news-cols{grid-template-columns:1fr}}
+  .news-head{font-family:"IBM Plex Mono",monospace;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);display:flex;align-items:baseline;gap:8px;margin-bottom:4px;border-bottom:1px solid var(--line);padding-bottom:6px}
+  .news-head .vol{color:var(--accent);font-size:10.5px;margin-left:auto}
+  .news-list{list-style:none;counter-reset:n;margin:0;padding:0}
+  .news-list li{counter-increment:n;position:relative;padding:9px 4px 9px 22px;border-bottom:1px solid var(--line)}
+  .news-list li:last-child{border-bottom:none}
+  .news-list li::before{content:counter(n);position:absolute;left:0;top:10px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted-2)}
+  .news a{display:flex;justify-content:space-between;align-items:baseline;gap:12px;text-decoration:none;color:inherit}
   .news a:hover .nh-title{color:var(--accent)}
-  .news .nh-title{font-size:14px;line-height:1.35}
-  .news .nh-meta{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--muted-2);white-space:nowrap;flex-shrink:0}
+  .news .nh-title{font-size:13px;line-height:1.35}
+  .news .nh-meta{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--muted-2);white-space:nowrap;flex-shrink:0}
   .news .empty{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted-2);padding:8px 4px}
-  .nothere{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px 24px}
-  .nh-block h4{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--ink);margin:0 0 4px}
-  .nh-block p{font-size:12.5px;line-height:1.5;color:var(--muted);margin:0}
+  .news-sources{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--muted-2);margin-top:8px}
+  .themes{margin-top:18px;border-top:1px solid var(--line);padding-top:12px}
+  .themes-head{font-family:"IBM Plex Mono",monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:8px}
+  .theme-row{display:flex;align-items:center;gap:10px;margin:5px 0}
+  .theme-lab{font-size:12px;width:110px;flex-shrink:0;color:var(--ink)}
+  .theme-bar{flex:1;height:8px;background:var(--line);border-radius:4px;overflow:hidden}
+  .theme-bar span{display:block;height:100%;background:var(--accent);border-radius:4px}
+  .theme-ct{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);width:26px;text-align:right}
+  .nothere{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px 26px}
+  .nh-block h4{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--ink);margin:0 0 6px}
+  .nh-block p{font-size:12px;line-height:1.5;color:var(--muted);margin:0 0 6px}
+  .nh-block ul{margin:0;padding-left:16px}
+  .nh-block li{font-size:12px;line-height:1.5;color:var(--muted);margin:1px 0}
+  .nh-block .why{font-style:italic;color:var(--muted-2);font-size:11.5px}
   .tile.stale{opacity:.6}
   .tile .name{font-size:11.5px;color:var(--muted);font-weight:500;padding-right:52px;min-height:30px}
   .tile .val{font-size:27px;font-weight:700;letter-spacing:-.02em;margin-top:auto;line-height:1.05}
@@ -121,13 +138,35 @@
   <section class="sec"><div class="sec-head"><h2>The government's books</h2><div class="rule"></div></div><div class="grid" id="fiscal"></div></section>
   <section class="sec"><div class="sec-head"><h2>Markets &amp; macro</h2><div class="rule"></div></div><div class="grid" id="markets"></div></section>
   <section class="sec"><div class="sec-head"><h2>State vs state</h2><div class="rule"></div></div><p id="svs-note" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--manual);margin:-4px 0 12px">Illustrative figures — not yet wired to live data</p><div class="tbl-wrap"><table id="svs"></table></div></section>
-  <section class="sec"><div class="sec-head"><h2>In the news this week</h2><div class="rule"></div></div><div id="news" class="news"></div></section>
+  <section class="sec"><div class="sec-head"><h2>In the news</h2><div class="rule"></div></div><div id="news" class="news"></div></section>
   <section class="sec"><div class="sec-head"><h2>What's not here (and why)</h2><div class="rule"></div></div>
     <div class="nothere">
-      <div class="nh-block"><h4>Manual — no free machine feed exists</h4><p>State Final Demand &amp; Gross State Product (state national accounts aren't in the ABS data API), Sydney property medians (Cotality/Domain are paywalled), NAB business conditions (PDF only), and the budget tiles — budget result, net debt, interest expense, credit rating (budget papers &amp; S&amp;P, released a couple of times a year). These are typed in at each release, ~5 minutes a month.</p></div>
-      <div class="nh-block"><h4>Could be automated later</h4><p>Trade / export value (the ABS trade dataflow has no clean exports-only dimension to verify against), rest-of-NSW vs Greater Sydney jobs (Labour Force is published at state level here), and an ABS/RBA release calendar (next CPI, next rate decision). Worth doing if you want them.</p></div>
-      <div class="nh-block"><h4>Deliberately excluded</h4><p>Political talking points and narrative claims (health, education, police, infrastructure "achievements"). This board is built to be numbers only, sourced from ABS/RBA, so the figures can't be argued with.</p></div>
-      <div class="nh-block"><h4>Budget-paper &amp; forecast material (a separate "budget edition")</h4><p>The multi-year economic forecasts, revenue/expense and taxation breakdowns, the infrastructure program &amp; major projects, superannuation liability, and labour productivity. These are annual, manual, and published only at budget time — better suited to a one-off budget-time page than a weekly tracker.</p></div>
+      <div class="nh-block"><h4>Economic forecasts (forward years)</h4>
+        <ul><li>Gross State Product growth</li><li>State Final Demand growth</li><li>Employment growth</li><li>Unemployment rate</li><li>Sydney CPI</li><li>Wage Price Index</li><li>Population growth</li></ul>
+        <p class="why">Each forecast for 2025-26 → 2028-29. Treasury projections, not an ABS series — published only in the Budget.</p></div>
+      <div class="nh-block"><h4>Budget — revenue lines</h4>
+        <ul><li>Taxation revenue</li><li>GST &amp; Commonwealth grants</li><li>Sales of goods &amp; services</li><li>Dividends &amp; tax-equivalent income</li><li>Royalties</li><li>Fines, fees &amp; other</li><li>Interest income</li></ul>
+        <p class="why">Budget papers, twice a year.</p></div>
+      <div class="nh-block"><h4>Budget — expense lines</h4>
+        <ul><li>Employee expenses</li><li>Superannuation</li><li>Operating expenses</li><li>Depreciation &amp; amortisation</li><li>Interest expense (composition)</li><li>Grants &amp; subsidies</li><li>Other expenses</li></ul>
+        <p class="why">Budget papers, twice a year.</p></div>
+      <div class="nh-block"><h4>Taxation breakdown</h4>
+        <ul><li>Payroll tax</li><li>Transfer (stamp) duty</li><li>Land tax</li><li>Motor vehicle taxes</li><li>Gambling &amp; betting taxes</li><li>Insurance duties</li><li>Other taxes</li></ul>
+        <p class="why">Budget papers, twice a year.</p></div>
+      <div class="nh-block"><h4>Fiscal aggregates</h4>
+        <ul><li>Net operating balance (forward years)</li><li>Capital expenditure / non-financial asset purchases</li><li>Net debt as % of GSP</li><li>Net financial liabilities ($ &amp; % of GSP)</li><li>Unfunded superannuation liability</li><li>Average annual revenue &amp; expense growth</li><li>Forecast average annual surplus</li></ul>
+        <p class="why">Budget papers / HYR.</p></div>
+      <div class="nh-block"><h4>Infrastructure &amp; productivity</h4>
+        <ul><li>Total 4-year infrastructure program ($)</li><li>Restart NSW balance</li><li>Rebuilding NSW commitments</li><li>Top capital projects (Metro, motorways, schools, hospitals)</li><li>Labour productivity growth (long-run vs current)</li></ul>
+        <p class="why">Budget papers, annual.</p></div>
+      <div class="nh-block"><h4>Already on the board, but manual</h4>
+        <ul><li>State Final Demand &amp; Gross State Product</li><li>Sydney property medians (house / apartment / index)</li><li>NAB business conditions</li><li>Budget result, net debt, interest expense, credit rating</li></ul>
+        <p class="why">No free machine feed — state national accounts aren't in the ABS API; property is paywalled (Cotality/Domain); NAB is PDF-only; budget &amp; S&amp;P are event-driven. ~5 min/month to type in.</p></div>
+      <div class="nh-block"><h4>Could be automated later</h4>
+        <ul><li>Total goods exports ($) &amp; trading-partner shares</li><li>Average retail price of bread &amp; milk</li><li>Rest-of-NSW vs Greater Sydney jobs</li><li>ABS/RBA release calendar (next CPI, next rate decision)</li></ul>
+        <p class="why">Feasible but unverified or outside the curated layer — say the word.</p></div>
+      <div class="nh-block"><h4>Deliberately excluded</h4>
+        <p>Political talking points and narrative claims (health, education, police, infrastructure "achievements"). This board is numbers only, sourced from ABS/RBA, so the figures can't be argued with.</p></div>
     </div>
   </section>
 
@@ -234,7 +273,106 @@
       }
     ]
   },
-  "news": [],
+  "news": {
+    "this_week": [
+      {
+        "title": "NSW budget deficit narrows as stamp duty recovers",
+        "link": "https://news.google.com/",
+        "source": "The Sydney Morning Herald",
+        "date": "26 Jun"
+      },
+      {
+        "title": "Treasurer flags cost-of-living relief in mini-budget",
+        "link": "https://news.google.com/",
+        "source": "ABC News",
+        "date": "25 Jun"
+      },
+      {
+        "title": "Housing approvals stall across Greater Sydney",
+        "link": "https://news.google.com/",
+        "source": "AFR",
+        "date": "24 Jun"
+      },
+      {
+        "title": "Land tax changes spark debate among investors",
+        "link": "https://news.google.com/",
+        "source": "news.com.au",
+        "date": "24 Jun"
+      },
+      {
+        "title": "NSW wages lag inflation, unions warn",
+        "link": "https://news.google.com/",
+        "source": "The Guardian",
+        "date": "23 Jun"
+      },
+      {
+        "title": "Infrastructure spend under scrutiny in budget estimates",
+        "link": "https://news.google.com/",
+        "source": "The Daily Telegraph",
+        "date": "23 Jun"
+      }
+    ],
+    "last_week": [
+      {
+        "title": "Mid-year review points to softer revenue outlook",
+        "link": "https://news.google.com/",
+        "source": "AFR",
+        "date": "19 Jun"
+      },
+      {
+        "title": "Sydney rents climb as vacancy rate tightens",
+        "link": "https://news.google.com/",
+        "source": "Domain",
+        "date": "18 Jun"
+      },
+      {
+        "title": "Business groups urge payroll tax threshold review",
+        "link": "https://news.google.com/",
+        "source": "The Sydney Morning Herald",
+        "date": "17 Jun"
+      }
+    ],
+    "volume": {
+      "this": 18,
+      "last": 12
+    },
+    "top_sources": [
+      {
+        "source": "ABC News",
+        "count": 4
+      },
+      {
+        "source": "The Sydney Morning Herald",
+        "count": 3
+      },
+      {
+        "source": "AFR",
+        "count": 2
+      }
+    ],
+    "themes": [
+      {
+        "label": "Cost of living",
+        "count": 14
+      },
+      {
+        "label": "Budget",
+        "count": 9
+      },
+      {
+        "label": "Housing",
+        "count": 6
+      },
+      {
+        "label": "Jobs",
+        "count": 4
+      },
+      {
+        "label": "Debt & tax",
+        "count": 3
+      }
+    ]
+  },
   "tiles": {
     "gdp_nat": {
       "id": "gdp_nat",
@@ -1848,13 +1986,30 @@ function render(data){
     document.getElementById("svs").innerHTML=h+"</tbody>";
   }
 
-  // news digest
-  const news=data.news||[];
+  // news digest (object: this_week/last_week/themes/volume/top_sources; tolerates old array form)
   const nel=document.getElementById("news");
   if(nel){
-    nel.innerHTML = news.length
-      ? news.map(n=>'<a href="'+n.link+'" target="_blank" rel="noopener"><span class="nh-title">'+n.title+'</span><span class="nh-meta">'+(n.source||'')+(n.date?' · '+n.date:'')+'</span></a>').join("")
-      : '<div class="empty">No headlines pulled this week.</div>';
+    let nd=data.news||{};
+    if(Array.isArray(nd)) nd={this_week:nd,last_week:[],themes:[],volume:{},top_sources:[]};
+    const list=items=>(items&&items.length)
+      ? '<ol class="news-list">'+items.map(n=>'<li><a href="'+n.link+'" target="_blank" rel="noopener"><span class="nh-title">'+n.title+'</span><span class="nh-meta">'+(n.source||'')+(n.date?' · '+n.date:'')+'</span></a></li>').join("")+'</ol>'
+      : '<div class="empty">No headlines pulled.</div>';
+    const vol=nd.volume||{};
+    const srcs=(nd.top_sources||[]).map(s=>s.source+' ('+s.count+')').join(' · ');
+    const themes=nd.themes||[];
+    const maxc=Math.max(1,...themes.map(t=>t.count));
+    const themeBars=themes.length
+      ? '<div class="themes"><div class="themes-head">Trending themes this week — article volume</div>'
+        +themes.map(t=>'<div class="theme-row"><span class="theme-lab">'+t.label+'</span><span class="theme-bar"><span style="width:'+Math.round(t.count/maxc*100)+'%"></span></span><span class="theme-ct">'+t.count+'</span></div>').join("")
+        +'</div>'
+      : '';
+    const volTag=(v)=> (v==null?'':'<span class="vol">'+v+' article'+(v===1?'':'s')+'</span>');
+    nel.innerHTML=
+      '<div class="news-cols">'
+        +'<div class="news-col"><div class="news-head">This week '+volTag(vol.this)+'</div>'+list(nd.this_week)
+          +(srcs?'<div class="news-sources">Most active: '+srcs+'</div>':'')+'</div>'
+        +'<div class="news-col"><div class="news-head">Last week '+volTag(vol.last)+'</div>'+list(nd.last_week)+'</div>'
+      +'</div>'+themeBars;
   }
 }
 

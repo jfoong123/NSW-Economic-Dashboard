@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T23:49:14+00:00",
+  "generated": "2026-07-05T23:45:15+00:00",
   "state_vs_state": {
     "columns": [
       "NSW",
@@ -38,13 +38,13 @@
       {
         "label": "Building approvals (12m, '000)",
         "vals": [
-          51.8,
-          54.6,
-          43.9,
-          14.6,
+          51.4,
+          54.7,
+          44.7,
+          14.8,
           24.1,
-          2.5,
-          196.4
+          2.6,
+          197.2
         ]
       },
       {
@@ -77,6 +77,44 @@
   "news": {
     "this_week": [
       {
+        "title": "$40 million for great open spaces in high growth areas",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdWpfUnlPaHlTSjRzZ3NFcUpVekdMTXlMWUhxZ01PTjQ4cmgwT2tKZkEyRmFicmhSSTh4MWZUc1dPTlNUQ3c0VGdKekFfLUZUcTVNd0J6VXlUYnR0ZzFiVUtMbW9SOHpBQzhRUmZfNG5SWlR0NTM3alMwcE1OdlpiMUFiUVdCbDJ6NEpnQml1SFNvVUQ1UmFpN3ZR?oc=5",
+        "source": "NSW Government",
+        "date": "30 Jun"
+      },
+      {
+        "title": "New measures coming to NSW include end to 'one of the biggest rip-offs'",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdVVBWUs3RVRNUUdVMkJaRFhuUkdtUDl5UVlpQ3FsbnJZY1ZmMUU1b3NvVXFQVGZiMWs4SUt3LTBVeU5qdmpic3NGUS02dUZORTlTTDMtVHdFQnhDOWRWOUtzeElKRjBhYjZ5RkwwRW5sdEFLX21XamduREc3R3BOOHNpUEVpbUFTVmtjLXZBTXpaVkdiQWdMVndvZw?oc=5",
+        "source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+        "date": "29 Jun"
+      },
+      {
+        "title": "Expressions of Interest open for the future of housing construction in NSW",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcnhPMjNsRnZqaGdmOGxlNFhMaFZLZjFwRUZFS2JJSGFkZ096N2JOdll2b2tZdm9tR1hFdzhDaWVjZHM3eDJVVTBnalVDRjAwRXpUWHhNQnVqazVLMS1oUzczamx3bkpkOHFUaGZEdU9QSHljTF9yNUxKWlNFemJ3b3pweHhWbTRnV0JEQnRMeEJLSW1FVDBseDg2LURXUnJ5bG43d21iMXJ0ZXp3UnJKUQ?oc=5",
+        "source": "NSW Government",
+        "date": "2 Jul"
+      },
+      {
+        "title": "Investing in the regions: $30 million for North Coast roads",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcTZhbEFnTjFIanFSbUVJOWk1WWFydW8tRE5JeWNYSjlpUHByNzN0aWhJc2pQYTZkQUgwYXVMQklpT3dlMkY2OGk4a1RSaTNIclVrNnptMXRMZ29MdUljdW1OVzVWOVBOYjRvdjJJd2JGNnBwZTJtUkpzS01rOXhQQXJaekNDcHUxSVI2UnJYU01uZExQSjFjMkd3?oc=5",
+        "source": "NSW Government",
+        "date": "1 Jul"
+      },
+      {
+        "title": "Major milestone reached on 60-home Bomaderry build-to-rent development",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNckIwWWdjU0RhQi1hY3lRbXBhYVp6SlF0MGp6ZjhsdktYV1RKTFJLMVBvbHBGX2xnRVVkd3k5VU1zQ0oxS0RVMDdSVjZFeHZpTTJCbEFDUzB2THoyU013MkRtTjNKdVlVRzllZEw0NEJXSDBxUXBIN2hZNS1iVVdLYkFRSFVfbS15azBxOFBDMXJtRHU3VGJzUTRicjBXSkNyTG5GSXlnZHdVenlkMkhqUG9ueDA?oc=5",
+        "source": "NSW Government",
+        "date": "29 Jun"
+      },
+      {
+        "title": "Rugby Grants go for a Second Round!",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZDdPT0E0Y2lGYlBPUjVDVDkwLXhXRW5wR2Fkd1p4ZjhZWUdfLXl4QnFjRWg2dmpOalFMT0JnQUVDSGxfdFZ5aG5ZRDZ6S1FsMl8yLVNkcDRiaG9hQ2tIZ3hFR3FWa1Fpa3J5VGszUTc5OWlLUXNPZDg1amV4RVZSa280Y0Q0ZlIxRWdxRTAxNFVLbkNGVm55MzJWQU4zVnpkcDI3OW5KdGU0aUtHOXBrQkNVd3d4bEE?oc=5",
+        "source": "NSW Government",
+        "date": "3 Jul"
+      }
+    ],
+    "last_week": [
+      {
         "title": "NSW Budget 2026-27: Cost-of-living measures",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS2tpT3ZWajMweWc5cl95OENmZDdXbEJ1UUZhN0U5S3VQc2c3NXJTalZ3MjljWnB0VHpJakFuZERkem9VV0pxV3hKOS10TnRSYWVsWWFoMEplc2d1YkxjUlJ0bnVhQ3R3VEFfWDNGcHdzSW8yVEp0Z3lPSXotZlZjaGllOVRBS2RreGpxLWdOZw?oc=5",
         "source": "NSW Government",
@@ -85,19 +123,7 @@
       {
         "title": "Cost-of-living relief is promised in the NSW budget. See where you can save",
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMzlSY0hmbXBCb0VDUzhwRXllUkZKV05QdlpHMWZ1b19Ua0VuY3JPbjhBYVdiQUxhLUN2azNHYVhwWmRSVE85cTJYQ2lvcTl3S2lzU0NWN2Z5c0ZWcU8yWW1FSmhfeThLYlR3WnUzbUk1NFRZWXNkQ3JHcnBkeFV2RzV1YlZBS2NYWTBqc0hscXMzdkNsYnppbHFB?oc=5",
-        "source": "Australian Broadcasting Corporation",
-        "date": "23 Jun"
-      },
-      {
-        "title": "NSW state budget preview: the property tax canary in the coal mine",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMzlmZk10bUFVWkR4SVQ5R1VPQnBPWGI1QjRxVlMyRGtrUDJETDZfS1B5SGlHLTIwOGowLUI3bjBOX3RuZW1vbzVGN0gxNUlJYlhMUDkxa0tVUTg2NVRoM3VOSlFFdml3bWpFZnRDc3ZBNXdJTXEyQlJMNTdXY3lqUmJLV1JHZGx4?oc=5",
-        "source": "e61 INSTITUTE",
-        "date": "22 Jun"
-      },
-      {
-        "title": "2026-27 NSW Budget Analysis",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WbUdUWGc4MVdFTDNCUkJpb1IwNlVNRk1ZTks3TjF0dE1FNlYwWnAzZUwyMlY0VkRrYXQwcEpWZGVuQm9hMzZJSGRNaWV0T3RZQlBDVEYxTmh4Mm43SjVEYk9jV1p0OHlXcDdmOFFheDBDNVVJcWNPYnhGYnlTRU0?oc=5",
-        "source": "Property Council Australia",
+        "source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
         "date": "23 Jun"
       },
       {
@@ -107,88 +133,62 @@
         "date": "23 Jun"
       },
       {
+        "title": "NSW state budget preview: the property tax canary in the coal mine",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMzlmZk10bUFVWkR4SVQ5R1VPQnBPWGI1QjRxVlMyRGtrUDJETDZfS1B5SGlHLTIwOGowLUI3bjBOX3RuZW1vbzVGN0gxNUlJYlhMUDkxa0tVUTg2NVRoM3VOSlFFdml3bWpFZnRDc3ZBNXdJTXEyQlJMNTdXY3lqUmJLV1JHZGx4?oc=5",
+        "source": "e61 INSTITUTE",
+        "date": "22 Jun"
+      },
+      {
+        "title": "Thousands of public servants to receive cash bonus from government",
+        "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQUmQ1djY2QU16VEJoakREbHVOX1VIajIwWkg4RFIzOEFRalUzSmdzU1BHN2tra2RIdW5PZXNNOUpqZnVRLXJGY3BlUGNCRWxZUGlhbGRQWkJmRjRfYmdsWkxYckt5R0VaTS02ZHl4OVdJMmFNdUpoaVc0SDBET0VoMmY1RHVNR3NGbjZXUm5YNXlqdFltdmJtNm5ZQ1ZCUEdHWlVPMzcwY1YteEVPMEV1RWlMMGcxaHg2VmstUHZpRmVBUUJHYzNaS1lQQTUwQ1hzd0podnFYdE43N0J4dHBQWW91SWY1anNHNk1kTW14d3otOWViMzBnb3JqeXUtMDdkeDVzbUlXdTI5UjI3SzhULTVKZDFxSG9OSmdCckNlONIBpAJBVV95cUxNZEMtdER0aFdrcVpUR3NkUUZzaVJLOThXbVNwdnl0c1pJeVdzZUhmaERmd05TWWdDM3lpbzdaaURQdHFzRXkyVzRNdDhNMVdQbm5Vdk51U2Z0X3k3eHhfWXlyOWRQb3o1YktHR1RYQzd4bV9Hdktka0llSEFhNFlXQUpoS0NCSWRYWGh0bHlYNHJUcVVydWFSX3dGbTd3cVViM2gwclBibXFSbVd6RzlxaHUyVTRvSkpELTgtZnFBeTNyZ1g1aTFnNktLbkFGSUlXeTR6WEcxYXBlWFdQTG53NGlod2NKVGpLNjN2YjdpUGxUUWd1QVQydnRHdWQyc3pWQ1Z1ZWJXQ1NZQkJCZnZzS0VCWjRTNDBZX0s0QzRSYk03SlFs?oc=5",
+        "source": "Sky News Australia",
+        "date": "23 Jun"
+      },
+      {
         "title": "NSW Budget offers modest legal relief as Law Society warns that courts are being left behind",
         "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOVVOX3BucEVHQUVfZnZ2VXpsQlg1MldjZnNjRUdYZE5fNV8ySlNiaTlyNUlVVUp1ZlRXN3JtdGdVeF9ONWtOUkJsTmNCU1lOVGRGejkyUC1OcGxGcHgyODAzXzBld2FwRG83c2Q0emJ4azAydDFWN21tdTNFd3hDczRMS0NZRHNENURmcVBtVWxjdWJFWldwRU1xNG5hYmFyNWpZZWlraTVaYzZjN09pMUdzOFRZc0FiVEdaZkpn?oc=5",
         "source": "Law Society Journal",
         "date": "23 Jun"
       }
     ],
-    "last_week": [
-      {
-        "title": "$71.7 million additional support for regional patients",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZWQwTVRvNmpuY2dXal9iNUEtOG1pN3ItVldMN2ZvMl9uV0pZSG1zOWxhWTkwNTlRUGl2cGpyN254Tm9TVnk5ZEpkZ3dqbmx4RThSUnA2Q3ZvaEs0UG13X3NHVGNPZEF2a3FiN0FXNjIwT0NkTUNQd25ibF9qOUdsQTZaQlZoZThVVm9rdzc2U1V1eUx4bmNzSjgzTjY?oc=5",
-        "source": "NSW Government",
-        "date": "17 Jun"
-      },
-      {
-        "title": "Public transport to be cheaper as NSW treasurer says \u2018discipline\u2019 key to electoral success",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQM3lPLWg0QlhpSzV3eGJuSUJjN3FhYXBvdWhFMFhGTHlDS0hRSUI1SUd1aF9mTXAtT04yTmM3QW5WOUJSSDdicWVMYVlKV0VPV0NCYkx4eExGemRsSHBmOExWV3ZPMFpkbnJURlg5QVJXckRvMlpaYXljX1luVU1LbXQxVVRTSXNsSm9TdUc4V2pkbGZuYUtSVUJ2OC02WWFibjBaU3RpMC1UYmhDMWh0RW8yMlZjVDFTTzJPXzRUNA?oc=5",
-        "source": "The Guardian",
-        "date": "19 Jun"
-      },
-      {
-        "title": "NSW Liberals and Nationals to deliver $100 Rego rebate for drivers",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU2F4V1RSMHlFMzlfMllDU1FGNFJwMk52MnN0WFpSYjE3RTc0YnZ1R0lmMGZrU0ZRWFNEV2MzZjh2dVVneUJMUS1makp3UE13SXhRWG4xZ2ZkMXZkb0JwNGZDbjRpU20wRWo4bVhVcFRPQl9mVjRZZWMxZ1d5MjVrNHpsN1RFZTFUWWM1TTh5RFJER1dTQ184TkEyTktpQQ?oc=5",
-        "source": "NSW Liberals",
-        "date": "19 Jun"
-      },
-      {
-        "title": "Boring budget? What Mookhey is banking on to win over voters",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZHVKU0NOazFtRWpFcFFjOWhqTWNFeVd1MklUMzlYb1h4Y3NOY3pBV00tdG1XcWxWUGRFYUlidHBNN2FEcTJkR3NyZnZONXVxMkVPN0FlZG5NeGg2dEd3M29KN1U0SDNRcy00NlhKd0o5RUgzckZBQ1NXR0FrQlc0b2Q3aUpWLXhzbFVFWHM3QUFiY2RTTVUzdG1qb00ydHc3RWQwOWdqdkt1YmhVWlA5X1Zqdm9aUjQ?oc=5",
-        "source": "SMH.com.au",
-        "date": "20 Jun"
-      },
-      {
-        "title": "Welcome to Mookheynomics: NSW\u2019s \u2018disciplined\u2019 budget to eclipse rivals",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc0xDVVhiOHZEU0R1b0ppWWtmcVk1eGY2bWcxdEhnWGZlSy1mTFFGWHFnNHJZX1lrVy1rbVJWMXAzcF91RjFqU3MyaGlPeG9iSUYwMWpVcmdkeFdjV2lidmg5VFhmcU5aSFp0UHNFajdnb1VTZlAxSjlpWWxmOFRYZWdqY2x1QjN1Uk5uVW9ld2ZfTm4yaVRGWUtRWFl3TUNoVFQ3aDhQZkppWXEzUjNDM0d3?oc=5",
-        "source": "AFR",
-        "date": "19 Jun"
-      },
-      {
-        "title": "From Factory To Front Door: Plan To Deliver Homes Faster In NSW",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNeFVTem1LRmVuNnhpT0RfeG5ucnJTSF9ITGNkbEtEekJPbzcyQU5NTndDdXg1Tm5KZE8zNHZDcjFGSW1ZMEpiRmdnWmNxOGFlQlo5MUhab0pZN1hUN00tazVWWlpoWGx3aTZTQXBvODBvQk1IR2h3Q0lNdHVtUzBQQ1k3a2NNT1dEMFJ5cUo4S1hHRGh0LTBuTUx5bVd0QUkxTVlFbERsY2tPYWxoUFJvNlFYVnJVRVFiTmJ3YXktRFlEa1ltUG5wYURuT0V5V19OTGJSTE5FVDhqNnNUNWVWQzJVYUV3SFlHTGxWaWVwZXBlQQ?oc=5",
-        "source": "Sydney Times",
-        "date": "20 Jun"
-      }
-    ],
     "volume": {
-      "this": 100,
-      "last": 35
+      "this": 55,
+      "last": 94
     },
     "top_sources": [
       {
-        "source": "SMH.com.au",
-        "count": 11
-      },
-      {
         "source": "NSW Government",
-        "count": 8
+        "count": 35
       },
       {
         "source": "NSW Liberals",
-        "count": 6
+        "count": 2
+      },
+      {
+        "source": "The Guardian",
+        "count": 2
       }
     ],
     "themes": [
-      {
-        "label": "Budget",
-        "count": 100
-      },
       {
         "label": "Housing",
         "count": 100
       },
       {
-        "label": "Debt & tax",
-        "count": 51
+        "label": "Budget",
+        "count": 62
       },
       {
         "label": "Cost of living",
-        "count": 46
+        "count": 61
+      },
+      {
+        "label": "Debt & tax",
+        "count": 39
       },
       {
         "label": "Jobs",
-        "count": 20
+        "count": 5
       }
     ]
   },
@@ -2504,9 +2504,9 @@
       "unit": "%"
     },
     "approvals": {
-      "value": 4466.0,
-      "period": "2026-04",
-      "change": 1.4,
+      "value": 4483.0,
+      "period": "2026-05",
+      "change": 0.4,
       "change_kind": "pct",
       "direction": "up",
       "spark": [
@@ -2593,23 +2593,24 @@
         2927.0,
         4535.0,
         3817.0,
-        4244.0,
-        4563.0,
+        4236.0,
+        4562.0,
         3142.0,
         4071.0,
         3715.0,
         5269.0,
         4779.0,
-        4711.0,
+        4712.0,
         3166.0,
         5492.0,
         4181.0,
         4730.0,
         4157.0,
         2575.0,
-        3914.0,
+        4227.0,
         4405.0,
-        4466.0
+        4466.0,
+        4483.0
       ],
       "spark_p": [
         "2018-01",
@@ -2711,13 +2712,14 @@
         "2026-01",
         "2026-02",
         "2026-03",
-        "2026-04"
+        "2026-04",
+        "2026-05"
       ],
       "year_ago": {
-        "value": 3715.0,
-        "change": 20.2,
+        "value": 5269.0,
+        "change": -14.9,
         "change_kind": "pct",
-        "direction": "up"
+        "direction": "down"
       },
       "id": "approvals",
       "label": "Dwelling approvals (NSW, monthly)",
@@ -2905,12 +2907,11 @@
       "unit": "%",
       "value": 4.35,
       "decimals": 2,
-      "period": "2026-06",
+      "period": "2026-07",
       "change": null,
       "change_kind": "pt",
       "direction": "flat",
       "spark": [
-        1.0,
         1.0,
         1.0,
         0.75,
@@ -2993,10 +2994,10 @@
         4.1,
         4.1,
         4.35,
+        4.35,
         4.35
       ],
       "spark_p": [
-        "2019-07",
         "2019-08",
         "2019-09",
         "2019-10",
@@ -3079,7 +3080,8 @@
         "2026-03",
         "2026-04",
         "2026-05",
-        "2026-06"
+        "2026-06",
+        "2026-07"
       ],
       "year_ago": {
         "value": 3.85,
@@ -3096,7 +3098,7 @@
       "unit": "",
       "value": 0.69,
       "decimals": 2,
-      "period": "2026-06",
+      "period": "2026-07",
       "change": null,
       "change_kind": "pt",
       "direction": "flat",
@@ -3142,6 +3144,7 @@
         0.68,
         0.71,
         0.72,
+        0.69,
         0.69
       ],
       "spark_p": [
@@ -3186,10 +3189,11 @@
         "2026-03",
         "2026-04",
         "2026-05",
-        "2026-06"
+        "2026-06",
+        "2026-07"
       ],
       "year_ago": {
-        "value": 0.66,
+        "value": 0.65,
         "change": 0.0,
         "change_kind": "pt",
         "direction": "up"
@@ -3202,14 +3206,13 @@
       "section": "markets",
       "source": "RBA",
       "unit": "%",
-      "value": 4.98,
+      "value": 4.83,
       "decimals": 2,
-      "period": "2026-05",
+      "period": "2026-06",
       "change": null,
       "change_kind": "pt",
       "direction": "flat",
       "spark": [
-        1.39,
         1.32,
         0.96,
         1.03,
@@ -3292,10 +3295,10 @@
         4.76,
         4.93,
         4.97,
-        4.98
+        4.98,
+        4.83
       ],
       "spark_p": [
-        "2019-06",
         "2019-07",
         "2019-08",
         "2019-09",
@@ -3378,10 +3381,11 @@
         "2026-02",
         "2026-03",
         "2026-04",
-        "2026-05"
+        "2026-05",
+        "2026-06"
       ],
       "year_ago": {
-        "value": 4.35,
+        "value": 4.21,
         "change": 0.6,
         "change_kind": "pt",
         "direction": "up"

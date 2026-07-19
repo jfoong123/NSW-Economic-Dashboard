@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T22:34:12+00:00",
+  "generated": "2026-07-19T22:37:40+00:00",
   "state_vs_state": {
     "columns": [
       "NSW",
@@ -77,96 +77,96 @@
   "news": {
     "this_week": [
       {
+        "title": "Major projects cementing Western Sydney Aerotropolis as a centre for industry and innovation",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc0d3aTBFbVNnYXNkVmJCY3pQV2MxVThCRmdKX0pjRmxYSkRJTnJodDV2QUJFU1czekpocV9FZU1SUTlJZ0hBM1prZFJ0QjBqdUM4bHRtSXBIR3E1eFV1WElLd2FjVTh4Sm5qMlQxVDRpaWczU2lSRzYxRGgtRlF3ZUM5bXA?oc=5",
+        "source": "NSW Government",
+        "date": "16 Jul"
+      },
+      {
+        "title": "Former fire chief: reject NSW\u2019s biggest coal expansion",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMGp4S0tVcFE4U1AxNzIzNHJkQ0hfcGxJbUJSRW00YVhjR0xlNWVsUXhKYjhvV2VwTkhjelh4cjk1YXRFLUxPdjBQbzRwc182VTBLRGhHMm1pX0t4dTlWVjFBdXdQWERoM3JqUlVEcF9hbHltaWlMZjRpUllPVUFOVkpYbF91ckhHLUE4d1lnLUx3OUJWbzZxbUZFMThNQQ?oc=5",
+        "source": "Climate Council",
+        "date": "14 Jul"
+      },
+      {
+        "title": "Minns promised housing fixes: Voters think he\u2019s failing",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQbWM2d1ZjblFjLW04LWJjOG1icUY2bU9FYnI3RWxKc0NVQjNfT3pQaXpqb3NVU1E0a0V0MUtLWnpFUnVEZHBmLTlvR1FteTRYdVowQy1sclFvM2htOWxKRnBwSks4Z2NuZ1V5WUR3TzYxOHFMcWU4c1hlaHJUcGxvY3NlUlA2RTBNaG5RaU40bE40bmhtUzBHZXRINWFfV3dnRWlnQ0oyZ0MwQUdDU0hFWjBTQ1VxaGszYzZEbjVURnRBZlNLRHpCeEpOQW95UmRRa1d6azJKTW9EbFZ3WUY4UUlsVWFXQ1VON2s3aTdIdEtGbDdXbGfSAfsBQVVfeXFMTy1NdjFRMlp1NHJyOW9SdWNkSVM0R2V2TDN2ZDFZX3NacFk5WU1nZ2lIQW1DZUw0bHNwRDY2OHJDODgxUlhUeUprbGVCRUlYWXR5Ry1DZUZEbVNpSDNZOHNEclFWdmNfNFJrcl9WSldOR0dwdGFudEdCQThNaERaOHdmVkhqZ18tLWpLOGE3a2JnSHZlNlJVMVEtNXA2UDVPTTRDdXV5eTByR0U5djVjZVhQV0JuU2xiVDZtR29nLUdaY0JORnIwVHliQkFxNm5ZVGhVZFhlcEVBRGc4WWhadHJqNXJVVVVVcmM4NmFXakRfQ3JDSUc2T3p6NFE?oc=5",
+        "source": "The Daily Telegraph",
+        "date": "19 Jul"
+      },
+      {
+        "title": "NSW regional towns that boomed most in the past year",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRXZrSVVfY0NOTGc3V3RDN2xXa1k3R3BNRkdISVdhb1E1SUNUeDk3Y3FEZDROZ1RsNG50dUJ0TkhjcXZra3RmVUdPb0Z6QU1Xek1wRTdCS2Z5ZUJVSVBKVDRyQjJRM1NqSlhxVGVYTGhhZFhwMk5jSUhTb3hKNVNOSGVvb2RxalNTUjdkbHRrSmNXNFJZUjE0dmZKYi1WMHhabWQ3Z3NQd1BaVjh3eGRz?oc=5",
+        "source": "SMH.com.au",
+        "date": "15 Jul"
+      },
+      {
+        "title": "Mareeta for Monaro",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EQkRjVndaR1AwZXFvcmFhM25iUFZCRlVQSDNqaFRFQlZObm54MWI5ZGRxdGlQX0Y0QnNONjNEWl9XNGJQY3E2dlV2akdaVFdpdkZSb0VXa1BSWHpRNXhqZQ?oc=5",
+        "source": "NSW Nationals",
+        "date": "19 Jul"
+      },
+      {
+        "title": "Rank-and-file ticket to contest NSW Nurses and Midwives\u2019 Association election",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNREtEMDlyck9fbjJ6dU9Nc0RWeWtmdzMwd3BOVDlJVEV2S05nS0REM0tYbDY4a2pGMFBzQlppZ2FWemFBU2FvdzkzOGJvVnVaN1ZzOUVBQ1o5Rm5ZbTkwSGl2Z2I2Rnh3em9aajl3WWtXRk01QVFvdTlmQ1BXMzB5U1BDaFBsLVBlOUlnQjZNOFotT0VvWU1fQWZqTUNnV2pSUnRMb0g5Y3BObllVaF9QT0pLT3RodE5IQlp6S3pR?oc=5",
+        "source": "Green Left",
+        "date": "15 Jul"
+      }
+    ],
+    "last_week": [
+      {
+        "title": "2026-27 NSW Budget Analysis",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WbUdUWGc4MVdFTDNCUkJpb1IwNlVNRk1ZTks3TjF0dE1FNlYwWnAzZUwyMlY0VkRrYXQwcEpWZGVuQm9hMzZJSGRNaWV0T3RZQlBDVEYxTmh4Mm43SjVEYk9jV1p0OHlXcDdmOFFheDBDNVVJcWNPYnhGYnlTRU0?oc=5",
+        "source": "Property Council Australia",
+        "date": "6 Jul"
+      },
+      {
         "title": "New service centres for Western Sydney",
         "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeWhhMlVpOE1KNnU2MloxTlFmc3lYemV4SnJTV1dKaWhfeU5rdnlhMk1OTl92S0ctSG1jQ01GVEtkb2RLQjI3cmZpRW1DUjlrOF9odVlkZG4xbUZOT29jYjNEWmlkQ3pkRVVWM3RDcFk4WU1tZHVfdV9YR1lIVlFqcnVaNkVraTZuMXc?oc=5",
         "source": "NSW Government",
         "date": "9 Jul"
       },
       {
-        "title": "PSA Wins Up to $1,000 Cost of Living Payment for members",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uYm51c0pQWDUybHdlOHY3WEZBdkprbGs4Q1pBcnVfRjFtSC01bUlNUWU5a2EwVnIzOFg2YjdFbDh1RG1xU3ZaNHVfMUJoNUl1d1NWV1pVUC1TS3NnR1RaT1VxRjFQaU85M1VodzdMeEVUUlVMWC16VlVqRUludUU?oc=5",
-        "source": "PSA CPSU NSW",
-        "date": "7 Jul"
-      },
-      {
         "title": "NSW public servants score $1,000 inflation compo bonus",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUUJCSFFlVTU4bDlMaUp3M3F5YWdOTEJXUDVWWkNtMnY1UFUydGUzaUxHOExaVWVLQ0l1SHlCSm1oc1h4ekh3WXdEU1NIOEJUTDhpVGFvUzczNVRfQ1h0ZURrT2NKTnJzVVEzRnZmSm9OTTdXeV9QVjV0eWdIWll4Q0ZtVV80VTF3Uy1mamJxTlFzUU1WUGc?oc=5",
         "source": "The Mandarin",
-        "date": "7 Jul"
+        "date": "8 Jul"
       },
       {
         "title": "New analysis backs a fairer way to fund NSW's emergency services",
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdW1QVGpKbWR3dHdtNUJRTjBlaUxVMGtoS1c5X3Z6S1ZIUzVYejh1VzRPclFTSUQzVTZBZTlrYkR5OHBYR1l6UUVOYzFMNURjWVEzejVhVzFJN21BajA5cXdTMWRQTkoxWWpDYnFLYkF3bjM3b3d3bG9nNzRTdHZ2RVVkekZCRHFiNmZtOHBkRHBGRE40aW9Xay1rTU9TVWhQUThuSTR4WjE?oc=5",
         "source": "Insurance Council of Australia",
-        "date": "6 Jul"
+        "date": "7 Jul"
+      },
+      {
+        "title": "Penrith\u2019s Service NSW centre to relocate, government confirms",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaFlkeWhKOFd3dWdIemtwSzFVYWo1SHlHMEJBWHRvRWlmM0R5b0hXeXA0VFRnTElpX0FyX3JZZXYzbWI0NGxTb1lGNHBFeFZBZ19NVGU0RUVUMjJyVlIwMjFqOEF5TUs1TG5NR0l1WlJPek4zSllvbWlLMUpJZEhIUnA5UHRXazJhbWt3R2t5WTNHS19wLURLcnZ1Y20tUG5hcV8xU3hsYw?oc=5",
+        "source": "The Western Weekender",
+        "date": "9 Jul"
       },
       {
         "title": "Greg Warren on what\u2019s in the NSW Budget for Campbelltown",
         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNc19UM2VfRTNSUTc4YU54WlQzTVltVkZ0dUlNNC05V2ptbFNPNDVHTWwxbGlXa2RfaGd3UTRkTE5ORGJDcmpfRUhZNWUzYVBnaWw4VjM5NzNib0VJSmhud1J0SWsxdmJZSFlRR3FtLU9ha29BRWUySGYzNkFkdk1YRnlGSVFPaUppNVFrRnhWX21SaWo2VjdrTA?oc=5",
         "source": "Good Morning Macarthur",
         "date": "6 Jul"
-      },
-      {
-        "title": "NSW digital bond transfer scheme to launch with protections for landlords",
-        "link": "https://news.google.com/rss/articles/CBMimgRBVV95cUxOUXN0Y0ZNaUJXZlU0ODVjdmdRQmxqN2lCNkZBdno4OGZreXNtN1YxY1YxdG5McG1MS3hQc3BhUlZTMFFiWnBScUpMUXYyNWY2a09ncXpqRTNTNWFTRjNLZ1hNcmxHelhEYzBnOGMxUEpURmYtekp2SFRfZTRpcmhHU1Zmdzh4LXdzQ19RaHNINlpHb1FHNC02SDFsSEVKaEs1anhiWWxlaHNHZGNKSW5TVnd6M0tBUGpPanRRMXh0NU9TZ3R4b09xdGpNVTdSQ3E2R0VNMmhDV3hqcUo4bldJbzhoUVptZVFwLVA4X1JFTllUbjBEYnpyRGhSVzBEdkJMd0VrZGpUX1c0bFBiNnpNa2lpM3FTY28xR1FMQWpTWXlxTWZSdVpPNmV4d3FqQ2J6MHZvajRWMXQweHhRVENOcnByTVBnbXF2cVdUcGVVSnN1bUtHcks4Si1aQi1pMDhjTGp5aFNNdTlwUGVTSzhObExFNVMyejduaDJTbHBERFl6T3ItTWNMSHIwcUt2aUlVTGhDdVR0WUdxYnJ2dnpkYVBndWtMVzJKc0VBeVV0T1h3YUhTekxVQmY5cjB1TWhmYVJ3VFFPNzMyY3RQcXNMeE5DcUs4eGcwdVpyRkNQeFJlYkd0dlRCeEt0MG5mTXdWYkVYZXRjT0E3bWxuSUJ3RGlYclpkTTJFeU5zUW9hemFfTF9YZDZhRThn?oc=5",
-        "source": "Smart Property Investment",
-        "date": "7 Jul"
-      }
-    ],
-    "last_week": [
-      {
-        "title": "Investing in the regions: $30 million for North Coast roads",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcTZhbEFnTjFIanFSbUVJOWk1WWFydW8tRE5JeWNYSjlpUHByNzN0aWhJc2pQYTZkQUgwYXVMQklpT3dlMkY2OGk4a1RSaTNIclVrNnptMXRMZ29MdUljdW1OVzVWOVBOYjRvdjJJd2JGNnBwZTJtUkpzS01rOXhQQXJaekNDcHUxSVI2UnJYU01uZExQSjFjMkd3?oc=5",
-        "source": "NSW Government",
-        "date": "1 Jul"
-      },
-      {
-        "title": "Debt concerns raised over \u2018$8 billion black hole\u2019 in NSW budget",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM1QxRWNudkloZXB6YjBpUlBQdmFWd09tWUpXckNOaXdiZXRpcHFVS0NESmpiamJUWldiTGxqVlJXZV9Zd0x4Ml9Qa2ZFc05uNDJkWTJQdGpwaEh4aHhkR0JoV2p1SGdLM2RsLWRGRl82TWlFTHZhUW9tbnExczlQcVA3Wm8xZ3Y2RU5CbGJHV044VFR3UXdtOGd3YVJGN0ZoZEwycnZmUFd1S0Y0c1c3b1l4MzY3Wm40YXQtNnp4QQ?oc=5",
-        "source": "Accountants Daily",
-        "date": "29 Jun"
-      },
-      {
-        "title": "New measures coming to NSW include end to 'one of the biggest rip-offs'",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdVVBWUs3RVRNUUdVMkJaRFhuUkdtUDl5UVlpQ3FsbnJZY1ZmMUU1b3NvVXFQVGZiMWs4SUt3LTBVeU5qdmpic3NGUS02dUZORTlTTDMtVHdFQnhDOWRWOUtzeElKRjBhYjZ5RkwwRW5sdEFLX21XamduREc3R3BOOHNpUEVpbUFTVmtjLXZBTXpaVkdiQWdMVndvZw?oc=5",
-        "source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
-        "date": "29 Jun"
-      },
-      {
-        "title": "NSW Budget 2026-2027 locks in delivery for Pittwater, but more to do: Scruby",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUHozN2p5NHZBTFExbDRLNDRUWllpWmhsanJLeVlpWlp5TmNMb2tHRTFDcEpaR2t1VmpWcDlsS1d3Q2ZiN2hGVGdNaE1HMlBGMXNjTDc3b0hiaFgtTndLVHNvXzhTQ3Q5QW0tU0tQRGNJTzl1WUx6OU94SkIzSklBN3JpSGhkX1czaF9HMnNuMA?oc=5",
-        "source": "Pittwater Online News",
-        "date": "28 Jun"
-      },
-      {
-        "title": "Schools PSA end of term wrap up: your pay rise and cost of living payment!",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZWQxNVZndlBmQ2NObGUtRWJWZnFKMk9pWE9KbzBuYkYwX3djYkRQSXcxejZNOEd2cE5BbVlYeVpjeDlKV3FIR2dvclEwVlBwQnpSa1ZHNWhlLWpqY3NReDhvSGpuSEIzeWFIQkpzZ25MaFQyMWQyNGdGZU00aGxEOXJCeW93VUo4bEotQ214dmxULU9NQUxz?oc=5",
-        "source": "PSA CPSU NSW",
-        "date": "2 Jul"
-      },
-      {
-        "title": "$40 million for great open spaces in high growth areas",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdWpfUnlPaHlTSjRzZ3NFcUpVekdMTXlMWUhxZ01PTjQ4cmgwT2tKZkEyRmFicmhSSTh4MWZUc1dPTlNUQ3c0VGdKekFfLUZUcTVNd0J6VXlUYnR0ZzFiVUtMbW9SOHpBQzhRUmZfNG5SWlR0NTM3alMwcE1OdlpiMUFiUVdCbDJ6NEpnQml1SFNvVUQ1UmFpN3ZR?oc=5",
-        "source": "NSW Government",
-        "date": "30 Jun"
       }
     ],
     "volume": {
-      "this": 29,
-      "last": 35
+      "this": 24,
+      "last": 41
     },
     "top_sources": [
       {
         "source": "NSW Government",
-        "count": 6
+        "count": 5
       },
       {
-        "source": "realestate.com.au",
-        "count": 2
+        "source": "SMH.com.au",
+        "count": 4
       },
       {
-        "source": "PSA CPSU NSW",
-        "count": 1
+        "source": "The Daily Telegraph",
+        "count": 3
       }
     ],
     "themes": [
@@ -175,20 +175,20 @@
         "count": 100
       },
       {
-        "label": "Budget",
-        "count": 59
-      },
-      {
         "label": "Cost of living",
-        "count": 53
+        "count": 50
       },
       {
         "label": "Debt & tax",
-        "count": 35
+        "count": 31
+      },
+      {
+        "label": "Budget",
+        "count": 21
       },
       {
         "label": "Jobs",
-        "count": 4
+        "count": 6
       }
     ]
   },
@@ -3098,7 +3098,7 @@
       "section": "markets",
       "source": "RBA",
       "unit": "",
-      "value": 0.69,
+      "value": 0.7,
       "decimals": 2,
       "period": "2026-07",
       "change": null,
@@ -3147,7 +3147,7 @@
         0.71,
         0.72,
         0.69,
-        0.69
+        0.7
       ],
       "spark_p": [
         "2023-01",
@@ -3196,7 +3196,7 @@
       ],
       "year_ago": {
         "value": 0.65,
-        "change": 0.0,
+        "change": 0.1,
         "change_kind": "pt",
         "direction": "up"
       },

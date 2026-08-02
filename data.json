@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26T23:35:19+00:00",
+  "generated": "2026-08-02T21:01:39+00:00",
   "state_vs_state": {
     "columns": [
       "NSW",
@@ -38,13 +38,13 @@
       {
         "label": "Building approvals (12m, '000)",
         "vals": [
-          51.4,
-          54.7,
-          44.7,
-          14.8,
-          24.1,
+          51.5,
+          54.6,
+          47.2,
+          14.9,
+          24.6,
           2.6,
-          197.2
+          200.1
         ]
       },
       {
@@ -77,10 +77,48 @@
   "news": {
     "this_week": [
       {
-        "title": "Minns Labor Government commits additional $250 million for Bandon Road",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1RSlhVbTVBT0FzX1VNVEYxclZhTllNSFBNdm90STJyYW1FQW5nbktRTEJmM0VVWWt0UXQwajQ3cVU4aXFXcGpNSkoyeVd3eVNqdEtPSWxId3dLZ0ZWcGR0UzNpaDUtbEhxNnEtSEhXclduTGM3ZlRHb1VCYw?oc=5",
+        "title": "New reforms to keep more homes coming for future generations",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNGhzeUpCZDJfX0phc3E0dXVxTk5lVUcxSTNUeGZCYnNQbWRmMmRUM1hPUURUcjZyN01vbE1mSmpQb3hlbWpJX052VFhqY1NzUDBKYjY2TXVkU2JLQ0RrZVVrdlZEOV9SdHlWN3VvR1hBMl81Y2tsNUJET2ZyU1ZYYjFxRnlpT0E?oc=5",
         "source": "NSW Government",
-        "date": "20 Jul"
+        "date": "29 Jul"
+      },
+      {
+        "title": "Homes NSW Departmental Committee meeting update",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PdlJxOHhlM29uNkNsZWdzTHlQbEhseWIyTkZVcHVuSlVCSnQ1SkVMcnhRMVlOeUxZd0xNZE5iZEY4WDJ4amk1Um5GOGRNYVVybV9tZ05yTmozWDNWTzVGV3NoRjRrazh3TEFYZ214QXQyTlpfSGdzQg?oc=5",
+        "source": "PSA CPSU NSW",
+        "date": "31 Jul"
+      },
+      {
+        "title": "Labor threatens Sydney councils as cost to build an apartment hits $1m",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObWxqMU83bzZWZVNtb0p0U2JjMmZQelFLZlZrXzByd3NWWG1CaERJLTNrMUstYlR3Z1loS2ZFRXY0OFVXNWdsX2dTTHowQmJMOFZXVmF3MEZFVkJOU0lQdEw5c3ZSQk1xSzNiQ2kydFhwTXFrVzRnZTBGNmNPdXBQZGk0SUo4dzBOdVBveEJXNURXY0twM3NVWTlzYVFIcDhrNHVlUldId05fTFdQSmI0NUctSUxxQkJDYXlOMGVOUkV1NHMw?oc=5",
+        "source": "AFR",
+        "date": "29 Jul"
+      },
+      {
+        "title": "\u2018The town cannot cope\u2019: Sydney suburb fights NSW government over housing tower",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWDk4NS12TlQ3YXdwUXd3Q1JmSWJfWnUwcEFKa0dRX09YbGhhNkJic1pUR3NPU3Z0NGQtVkpVMlY0S2ZXVnFmSk9HQkZYbFFlYVlUMzd3R1YtVDFUdThzRmd6TjZ3WnEwQml1ZlpheE9HVzZRazY0M3hUam0tbTZrbmFSbG5RZlFnWWpxWF95ZFE4aDRLQXh2QTR2MEVfOGN2cl93bzFYb2JxYnNlUlVBRkpvNjdsVG5HWWVEV2M5bUNtOGh0WFdycnhSNExOLUhv?oc=5",
+        "source": "Nine.com.au",
+        "date": "26 Jul"
+      },
+      {
+        "title": "Revealed: The 12 best NSW towns to retire in",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS3pnRjNKeXJtM0FneWhLbkduQlpVNXZWSTBtN080R2ZoeDdoVmFMWEM0VF9uSDJWd1dJcjBlSTdXWFdQaVExX1ZuSmIxWGRhaVNDckc4dHV6OERXaGp0QmlrZWhuWFZ2Mk5xeklybEpqa0F5ZzNEblFiUVJCODdyZ2RqSHc2S2RFYnFMTmZ2dw?oc=5",
+        "source": "Time Out Worldwide",
+        "date": "28 Jul"
+      },
+      {
+        "title": "NSW is sitting on thousands of buildable homes",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMUdNZlBxZkd3S1Z1U19GTUtXR0lsdFc5U1dqd1NpcHJZcDNxRUdBV0FDbHdHS3g3MHBOWXhPVmEteUdlYnQ4WkVlRGc4d1FydXNrRi1xcGRqVFJGeWhaekhkakJoU29HTkpLNDlHbjBBQzZYeGxLTklhN0o2QUI1OFBLQTJjY2tTVk14LXR6RTl2aVJGRlVIVFBhYTFkejdvX3FaX2xaNmpnVjlQWE1oOEJBLUtWQ1dIQWxBZFU5WUZXakpsUDFhMUdtNk9PbnpDb19Z?oc=5",
+        "source": "NSW Government",
+        "date": "29 Jul"
+      }
+    ],
+    "last_week": [
+      {
+        "title": "Beverly Hills Town Centre (West) rezoning proposal on exhibition",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN2NrTzdTMDRYTTZjV3kxbkFZcnlGcVVSeXk4N1gtSXgzbE01TWNEWUZEM1JHYVNQbG5EVXBnY1VfR0hzY3BvT05fTjljUEtxbnN0allwQktiWEZwSjdsdkdPeGF1YU8xRUdGQmk5c1lpcmR5NG5HLWMyVzcwOGFJU2ZhSW9LR2t3N0ZEUDFzaDRLRDZGRFNv?oc=5",
+        "source": "NSW Government",
+        "date": "24 Jul"
       },
       {
         "title": "\u2018It is remarkable\u2019: NSW regional towns where house prices rose most",
@@ -101,72 +139,34 @@
         "date": "19 Jul"
       },
       {
-        "title": "Beverly Hills Town Centre (West) rezoning proposal on exhibition",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN2NrTzdTMDRYTTZjV3kxbkFZcnlGcVVSeXk4N1gtSXgzbE01TWNEWUZEM1JHYVNQbG5EVXBnY1VfR0hzY3BvT05fTjljUEtxbnN0allwQktiWEZwSjdsdkdPeGF1YU8xRUdGQmk5c1lpcmR5NG5HLWMyVzcwOGFJU2ZhSW9LR2t3N0ZEUDFzaDRLRDZGRFNv?oc=5",
-        "source": "NSW Government",
-        "date": "24 Jul"
+        "title": "Streamlining Housing Approvals In Sydney's South",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd09OcG81SDI0bnRrRDlLWHRHQzdzckhLRjVXVjdVLURrYjJwNTBPMmYzbVpveUw4QS1ndXgyenltekQtWVZVMVVENnhzVFNSQlFScVQ5ejB6NzZEZldoeFA2T3Zwb2ZrN2MzNVVnRmNlNkM5MkpXV1VkdTA4RmxzRk9XMWR3Q3lOVW9v?oc=5",
+        "source": "Mirage News",
+        "date": "22 Jul"
       },
       {
-        "title": "Revealed: What you\u2019ll pay for school in NSW by 2031",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSUh0LWc1Y2N1T045TW9ZdUNRUVpteTVneDlTeVJVcEtncFMzckZjOHRIT193clZDaFFtWHpUVGFLM05lMWF6TUx3RnhrYjB1eGRqWVRNRWdvdzZvYXhMRFY4dTU0cGkxbnlvSHlqYXBfR1Vod3ZrbnZJWjRjczIzaHdicnZfQW5kQXdUTk5IUU5Ca1NmcG5PZEliN3lva1dCSGNHZE5lSmJ5VXJTLTN2dEZXc19TTHZWRlJWOXdqUldBNlJNMThVWUplOU9PRUJHRmRlQUk1V3dxLWhuV0NCQ3dIQUxSa3l3V1d2a0hlQUY1UdIB9wFBVV95cUxOeExYZWJlRDY0V3loQlphN0dMbWNzWk9rQjVUUXpnQ0JNOUFtRFJRTmJGYzRLcThuTGplN29pWDdvQkxPNTRkclJUbExtSkdaemxJcUdBQU5hMGM0a2RscS0xYnZOb0NoYUtQdHptd1dnVWR3R3pNMG56dE4xUGk2Y2JTdTlkT0VMZFhtQ1dnTk5wNUZ4OUJrVVdCNUthcjlpcmNUbWEwQUJJYmtOcGdTb1dqNm1JdlNOcVpBSTV0NUVYVVVmZzBfVkNSd1R2OExmVE1OWURmNnFacDJrSmpVZGJxR0ZTQUhSVEJDc3Z4SVEyNFN4RzFB?oc=5",
-        "source": "The Daily Telegraph",
-        "date": "26 Jul"
-      }
-    ],
-    "last_week": [
-      {
-        "title": "Upper Hunter to host first NSW trial of smart intersection safety technology",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOU0pKT09IaGZnOE84b2FIdEUyS3NCUHpSa1dMUDlBUGxNNll6M05yYV95eWhQUEpJV0dQVTI1MWVGM2s1UkYxU3pKeHRSMnNuZHEtVVJKbUd1Rkxtcnp0SVdKT3QtcVNyMWJkZGVJMnppdS10REhDUXd6NDRBTHY0OGU4VENiSjRYR1E?oc=5",
-        "source": "NSW Government",
-        "date": "15 Jul"
-      },
-      {
-        "title": "ACT minister responds to claim that hospital turned NSW patient away",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQzk2VUdSSzZoYi1MOFlxNDFCYUFoV2FBd2F6RUx3aGJEU0t4dzBuVnBYb1FEYWRlVExrMW1rd2swVzdDNE5QeFBQeVQyQ2Z3dEY3X1dpS1k4dTlPNjdJWU9UT1VnS0g4OHluZ1owM29YV1JsM1B3czZUQkRGbXhaa3h5MnBXNFA3ZUFRclhlVzF2SXZzZ2psczVPczQzeVFLcjBfQ2tNbXdUUQ?oc=5",
-        "source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
-        "date": "16 Jul"
-      },
-      {
-        "title": "NSW regional towns that boomed most in the past year",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRXZrSVVfY0NOTGc3V3RDN2xXa1k3R3BNRkdISVdhb1E1SUNUeDk3Y3FEZDROZ1RsNG50dUJ0TkhjcXZra3RmVUdPb0Z6QU1Xek1wRTdCS2Z5ZUJVSVBKVDRyQjJRM1NqSlhxVGVYTGhhZFhwMk5jSUhTb3hKNVNOSGVvb2RxalNTUjdkbHRrSmNXNFJZUjE0dmZKYi1WMHhabWQ3Z3NQd1BaVjh3eGRz?oc=5",
-        "source": "SMH.com.au",
-        "date": "16 Jul"
-      },
-      {
-        "title": "Asbestos pick-up trial could put NSW public at risk, experts warn",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNLXpEZlFVbGswZlB5LWNNMjN4UmxMYTl1bFhPT01kUTdIdXRMV1pqTXlEYm4td1A3c0NvRGtsWFpHRGdvTmlfTmV3aXFZSHVHSXE5V2s2TTBkY3poTjF1RDNfbXFYNU5PZWhjb1V1Sk1mZ25LVGtwOHlsX1RIajBFc0VxVm5aX19UblpTUzNTYWpSd05icE44UjI0WlNWd0k3?oc=5",
-        "source": "realestate.com.au",
-        "date": "14 Jul"
-      },
-      {
-        "title": "Securing the Hunter's future: Jobs and investment from mining land reuse",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTnFDN0hyZVdfSjIwNm45NkhMQmlPQjA1ZlllTGtSS2VHbkdkMThndEdmNFFpYm8tOGU3ejh5Y0h1cVBEZUZwSnRocjNvVnlGdGhrallvbkxZYVkwT2g5eGh1Q0VTWGpodHVwcUZldzJBcGhoREZmUU5VSDRUa0szZHhR?oc=5",
-        "source": "NSW Government",
-        "date": "14 Jul"
-      },
-      {
-        "title": "Second Wild Migratory Bird H5 avian influenza detection",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9FUmdGT1UwQVA2V3R5NVNYeFU3RGxTN3JYZXNvc2JId1k1emQ5UXZ2aWZvbWpOdklORUM4MUJrSXdTQVNQWnBsMUZRUHI2QWNESXVIdHlVai10SXhJaWhsRGQySVV2ekRRX2E1OVZOY0ZNYXp6YkYwaFpMZkhnZw?oc=5",
-        "source": "NSW Government",
-        "date": "16 Jul"
+        "title": "Sky News Australia. . Shadow Assistant Minister for Citizenship Dave Sharma warns around 100 NSW small businesses are collapsing each week, blaming rising costs and Labor's budget measures for worsening the crisis.",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUWlnRUNwTXgtV0FRTjNQTnkyTGJtelZ1UVgyLVB3R1VNRUNpdG9yVTQwQko0aFdnNXJQSEdSZEV4RkM3emFhbVB6cHJ3d25wMXZaeEtUXzNjZE10LTduakVwX2otUmtIRjJZSk9RUVBlaGZ5cGZ1UUdVTV9RY1I1cmJkanV0WDM0LVEyUy10a3dPblJpTm1XZlJJb3NXS2Q0NGk2WlBzUWFUUUpvaUVlM043dUUyQlh4VHlZZFZFdW1UVThyUF9jdg?oc=5",
+        "source": "facebook.com",
+        "date": "22 Jul"
       }
     ],
     "volume": {
-      "this": 37,
-      "last": 33
+      "this": 34,
+      "last": 43
     },
     "top_sources": [
       {
         "source": "NSW Government",
-        "count": 9
+        "count": 4
+      },
+      {
+        "source": "abc.net.au",
+        "count": 4
       },
       {
         "source": "SMH.com.au",
-        "count": 5
-      },
-      {
-        "source": "The Daily Telegraph",
-        "count": 2
+        "count": 4
       }
     ],
     "themes": [
@@ -176,19 +176,19 @@
       },
       {
         "label": "Cost of living",
-        "count": 51
+        "count": 37
       },
       {
         "label": "Debt & tax",
-        "count": 28
+        "count": 23
       },
       {
         "label": "Budget",
-        "count": 25
+        "count": 6
       },
       {
         "label": "Jobs",
-        "count": 12
+        "count": 5
       }
     ]
   },
@@ -2160,11 +2160,11 @@
       "unit": "%"
     },
     "cpi": {
-      "value": 4.2,
-      "period": "2026-05",
-      "change": 0.0,
+      "value": 4.0,
+      "period": "2026-06",
+      "change": -0.2,
       "change_kind": "pt",
-      "direction": "flat",
+      "direction": "down",
       "spark": [
         2.1,
         2.2,
@@ -2179,7 +2179,8 @@
         3.8,
         4.4,
         4.2,
-        4.2
+        4.2,
+        4.0
       ],
       "spark_p": [
         "2025-04",
@@ -2195,11 +2196,12 @@
         "2026-02",
         "2026-03",
         "2026-04",
-        "2026-05"
+        "2026-05",
+        "2026-06"
       ],
       "year_ago": {
-        "value": 2.2,
-        "change": 2.0,
+        "value": 1.7,
+        "change": 2.3,
         "change_kind": "pt",
         "direction": "up"
       },
@@ -2522,9 +2524,9 @@
       "unit": "%"
     },
     "approvals": {
-      "value": 4483.0,
-      "period": "2026-05",
-      "change": 0.4,
+      "value": 4879.0,
+      "period": "2026-06",
+      "change": 8.8,
       "change_kind": "pct",
       "direction": "up",
       "spark": [
@@ -2615,20 +2617,21 @@
         4562.0,
         3142.0,
         4071.0,
-        3715.0,
+        3712.0,
         5269.0,
         4779.0,
         4712.0,
         3166.0,
         5492.0,
-        4181.0,
+        4180.0,
         4730.0,
         4157.0,
         2575.0,
         4227.0,
-        4405.0,
+        4431.0,
         4466.0,
-        4483.0
+        4486.0,
+        4879.0
       ],
       "spark_p": [
         "2018-01",
@@ -2731,13 +2734,14 @@
         "2026-02",
         "2026-03",
         "2026-04",
-        "2026-05"
+        "2026-05",
+        "2026-06"
       ],
       "year_ago": {
-        "value": 5269.0,
-        "change": -14.9,
+        "value": 4779.0,
+        "change": 2.1,
         "change_kind": "pct",
-        "direction": "down"
+        "direction": "up"
       },
       "id": "approvals",
       "label": "Dwelling approvals (NSW, monthly)",

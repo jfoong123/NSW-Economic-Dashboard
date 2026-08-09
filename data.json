@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-02T21:01:39+00:00",
+  "generated": "2026-08-09T20:38:53+00:00",
   "state_vs_state": {
     "columns": [
       "NSW",
@@ -26,13 +26,13 @@
       {
         "label": "Household spending (TTY %)",
         "vals": [
-          4.8,
           4.7,
-          5.6,
-          6.8,
-          7.6,
-          6.9,
-          5.5
+          5.2,
+          6.1,
+          7.0,
+          9.5,
+          8.3,
+          6.0
         ]
       },
       {
@@ -77,16 +77,54 @@
   "news": {
     "this_week": [
       {
+        "title": "A modern era of construction methods and approvals begins",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOTF2by1vemk1V0hWSWJvTFFHSm14VHdxZDM5NU9mQUNhS0ZpMTZmSUlZZWk5QUhvUW10dXBIdU5CN1JUb3V4SUxacXdEZmFzVm1PcHpzY01zTnB1N0dMaVFEbkswRGNoN0hkNWNpMWhQU2ExVXFndEtWZ1RRLTVKN3hzaktYY3J5WHMzWnpXMHlxQ25iS0p1XzNCeUR4Rjl3SUNj?oc=5",
+        "source": "nsw.gov.au",
+        "date": "5 Aug"
+      },
+      {
+        "title": "What you need to know about toll reform in NSW",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRUJLazF6NkdCM1FCSEZkeWFHbHVVZ3FORUtIYkdGdkhoQWNVMlhUWGhVZE1kUk5wRVNnM0FhWk1iSFYxLXFaM3MzczlzaVNwVUxJWDZ2b3ZZa0w5SzhVLWY2RnZ0ME91Y0VlM1BrQWpxTzFxdm9XcXJONUQ0VWxhcw?oc=5",
+        "source": "Transurban",
+        "date": "3 Aug"
+      },
+      {
+        "title": "Calls to scrap NSW emergency services levy as insurance costs rise",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb1NydmEyUmJwT3YwZEZEeUV2VkJfZE5YOGV4UFgxU0Rac09yTmxuZTloRmlxaGpMdUJPYWY0bHlDSklFNjBSVHZwMEhTVkUwUndVd3p6am42aEM0OGc0aWMwQnZnZTdWa1JrYmI5eHZpS2h3ejhGbXlMZndpUFk5V1JfclpmNjlaeDNyeTBxZWF6dDNaeV94TVVqR0pPN29DMXRoZWJR?oc=5",
+        "source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+        "date": "3 Aug"
+      },
+      {
+        "title": "Why are we waiting? Business, consumer and community groups call on NSW MPs to scrap the insurance tax",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNGFxd0FSRzRfUFFxNHpsOUZVYlNWSDgxeXhIekN5THh1ZmMwdG1COXo0ZjVOdlI0TUM2eVZibXFLTUd2YlI0czV2VTRrb3k0MlQtZnR2NHJPYVk5Tm5LZ2p4RWYyUTc5SDZNZFd6U203QTEzbG1KTXpwREVuYndkMlJqOHNrNERZQ2ZXUEZkdUdVZW95V3JkUGg1OS1Ia2d0N0JjeWVOMWhhQ0NEQmxkQV96WGFXTENhM3IxTTNCNA?oc=5",
+        "source": "Insurance Council of Australia",
+        "date": "3 Aug"
+      },
+      {
+        "title": "How Michelle Jablko disarmed the Macquarie Street toll raid",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQS0hheFlBM3pfWnhseEtJeTFqV185LUFhTDN0SVpmT2lKRTl3YWdDbE9YRTdrWFhCeTZILU8zOVhHU3RCNEVWZ01xNFEySjJkY3VnS25JNVYxOGN5Nk8zMFNmSy1zMW9RUURqOEhmbXFmTk9fMjZ2eW9ydGtRZnMycHVMQm9OR3lPY1B3a2F3Zlk0YzJLYVpMTXQwWjJWUVh3bDBTTUJqTmVidGc?oc=5",
+        "source": "AFR",
+        "date": "3 Aug"
+      },
+      {
+        "title": "Labor wanted to restore Sydney\u2019s nightlife. But young people don\u2019t have \u2018time for hangovers\u2019",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbmp1Q1hwbmRHU29yOVZDQmJqZ1JMSGlQakJ1VVJqcG9RUGpSdDZydTdsNV9jVUlGaTZXUnViOHNLZzRJSV93ZVdvcUJoRm9ZZURicXVieG1EcEh1cV8zZzlyUWdDM1Y0cS1heWR0aTdGOFVzMVFaTDk4QjZJOHk2VHZGVk1OdVo1THJqZEtUQlo2OGpvSmV6MGpmWjQxWG1lNmU3eDdFc1ZSaUVnMVFfOExucWg3czVyeFZmcFJJa2hYVGduemg3QnI2ZXl3bmJ4cU5heUtsV293a1YxMVk4?oc=5",
+        "source": "SMH.com.au",
+        "date": "8 Aug"
+      }
+    ],
+    "last_week": [
+      {
         "title": "New reforms to keep more homes coming for future generations",
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNGhzeUpCZDJfX0phc3E0dXVxTk5lVUcxSTNUeGZCYnNQbWRmMmRUM1hPUURUcjZyN01vbE1mSmpQb3hlbWpJX052VFhqY1NzUDBKYjY2TXVkU2JLQ0RrZVVrdlZEOV9SdHlWN3VvR1hBMl81Y2tsNUJET2ZyU1ZYYjFxRnlpT0E?oc=5",
-        "source": "NSW Government",
+        "source": "nsw.gov.au",
         "date": "29 Jul"
       },
       {
-        "title": "Homes NSW Departmental Committee meeting update",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PdlJxOHhlM29uNkNsZWdzTHlQbEhseWIyTkZVcHVuSlVCSnQ1SkVMcnhRMVlOeUxZd0xNZE5iZEY4WDJ4amk1Um5GOGRNYVVybV9tZ05yTmozWDNWTzVGV3NoRjRrazh3TEFYZ214QXQyTlpfSGdzQg?oc=5",
-        "source": "PSA CPSU NSW",
-        "date": "31 Jul"
+        "title": "Revealed: The 12 best NSW towns to retire in",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS3pnRjNKeXJtM0FneWhLbkduQlpVNXZWSTBtN080R2ZoeDdoVmFMWEM0VF9uSDJWd1dJcjBlSTdXWFdQaVExX1ZuSmIxWGRhaVNDckc4dHV6OERXaGp0QmlrZWhuWFZ2Mk5xeklybEpqa0F5ZzNEblFiUVJCODdyZ2RqSHc2S2RFYnFMTmZ2dw?oc=5",
+        "source": "timeout.com",
+        "date": "29 Jul"
       },
       {
         "title": "Labor threatens Sydney councils as cost to build an apartment hits $1m",
@@ -95,78 +133,40 @@
         "date": "29 Jul"
       },
       {
-        "title": "\u2018The town cannot cope\u2019: Sydney suburb fights NSW government over housing tower",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWDk4NS12TlQ3YXdwUXd3Q1JmSWJfWnUwcEFKa0dRX09YbGhhNkJic1pUR3NPU3Z0NGQtVkpVMlY0S2ZXVnFmSk9HQkZYbFFlYVlUMzd3R1YtVDFUdThzRmd6TjZ3WnEwQml1ZlpheE9HVzZRazY0M3hUam0tbTZrbmFSbG5RZlFnWWpxWF95ZFE4aDRLQXh2QTR2MEVfOGN2cl93bzFYb2JxYnNlUlVBRkpvNjdsVG5HWWVEV2M5bUNtOGh0WFdycnhSNExOLUhv?oc=5",
-        "source": "Nine.com.au",
-        "date": "26 Jul"
+        "title": "Coastal NSW emerges as reverse mortgage hotspot",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQUJKQnR3RzBhWUg4djRFc0ROaEJ5WUc4dmNVYTFsQ0FrSVBaS2NITWhNTlpJVWd6LUVUQmpaY05JUlRlb1VySjF4dFVXT2pYa1VqMDVCUll4WGtkaUVYR1djaXVRWW5SbXZ2OUliMUFVYUlYREVpdTEwRjNtUjNSaHV6cm9CaTM2bE5hTlJmTGFiZDg1NnZWZVFQc3FvUEFkUktvT1dfYUlpVUpm?oc=5",
+        "source": "Australian Broker",
+        "date": "31 Jul"
       },
       {
-        "title": "Revealed: The 12 best NSW towns to retire in",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS3pnRjNKeXJtM0FneWhLbkduQlpVNXZWSTBtN080R2ZoeDdoVmFMWEM0VF9uSDJWd1dJcjBlSTdXWFdQaVExX1ZuSmIxWGRhaVNDckc4dHV6OERXaGp0QmlrZWhuWFZ2Mk5xeklybEpqa0F5ZzNEblFiUVJCODdyZ2RqSHc2S2RFYnFMTmZ2dw?oc=5",
-        "source": "Time Out Worldwide",
-        "date": "28 Jul"
-      },
-      {
-        "title": "NSW is sitting on thousands of buildable homes",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMUdNZlBxZkd3S1Z1U19GTUtXR0lsdFc5U1dqd1NpcHJZcDNxRUdBV0FDbHdHS3g3MHBOWXhPVmEteUdlYnQ4WkVlRGc4d1FydXNrRi1xcGRqVFJGeWhaekhkakJoU29HTkpLNDlHbjBBQzZYeGxLTklhN0o2QUI1OFBLQTJjY2tTVk14LXR6RTl2aVJGRlVIVFBhYTFkejdvX3FaX2xaNmpnVjlQWE1oOEJBLUtWQ1dIQWxBZFU5WUZXakpsUDFhMUdtNk9PbnpDb19Z?oc=5",
-        "source": "NSW Government",
+        "title": "Aussie region faces worst drought in more than 50 years",
+        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTURuZ3otOEhZYWxhdmo0NkMtZ05rbEt6RUg0d0pTMEtuUEI1dU5BUVJUSjMzSWs0VUZydDdHTTMzenhGLUN3UjhyYTRKMzFNdUtyWFdHOURxeGN4NHVpX3pvUkE3RGJWSUNDQUo3RV9kMi1OOEJUNnF2bU5LMHU3M1NYclBQaFVlVEUtT2dEeF9FTHRSS0QzUWw3TDFFWkdFUXJIRV85UkhyMzhQVEFjUGhwUlVpOUFHbUZ1azF0X1pPNmlSWUhacm9vZW92U2NmV2d3cUJSVWJETzhycHYxTXhXSE9MSVZlcld0ZWhpZEF3RzlBZTNjQjJfeFdUOV9fcDVXOGZVSEHSAY4CQVVfeXFMTVRlZ1VBSUVPLURtU3F0RVJkbUZLelhzcVE2T2Z0QUszem01dWkwN2R3ZGo0YXdZWTctblVBWGJZUllqVTlobERhd0xPLW02UVAzempEYjFkMmRLeTJuRmJEdEYzOUhqUzVaUEtadVYzVjQwODdHODRWMlU5bnJOUXFtMDFQVFVoTEE0Y2FWdXl2eFNkSlAyc2diNEtrSmo3MEdYOHIybXY4SktveVk1NHdpeGRwN3Z2V2JCb1VIWFM2VjE3WU1xSnluTDI5WDl1bk41Z1FZSXpfZG9uUnozWlk4NXNhQnc2eENqa2xxZFh6ZEs0YjBGTnp3a01kTnlRc2hBdi01aDk3Rmk0cWVR?oc=5",
+        "source": "The Weekly Times",
         "date": "29 Jul"
-      }
-    ],
-    "last_week": [
-      {
-        "title": "Beverly Hills Town Centre (West) rezoning proposal on exhibition",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN2NrTzdTMDRYTTZjV3kxbkFZcnlGcVVSeXk4N1gtSXgzbE01TWNEWUZEM1JHYVNQbG5EVXBnY1VfR0hzY3BvT05fTjljUEtxbnN0allwQktiWEZwSjdsdkdPeGF1YU8xRUdGQmk5c1lpcmR5NG5HLWMyVzcwOGFJU2ZhSW9LR2t3N0ZEUDFzaDRLRDZGRFNv?oc=5",
-        "source": "NSW Government",
-        "date": "24 Jul"
       },
       {
-        "title": "\u2018It is remarkable\u2019: NSW regional towns where house prices rose most",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVG9PdllXazNJS2t0UVZSOHptdVg5YnkyazZOdVhJdHVJbnlyYnp3TVpJaHMyUkU5TGt3TWppVFlHaUw3UkVYeGFKZUdyZXp0NHN5RWg2SDl3Y0w1RTVud1VvT3JRQWpweld6ZnBQX0k3RjNxNFN4Y0JMb0YxSlJfcV93cjBXVzVvaHhNWjFCa3ZoSC1VWl96YXRUNHRzcFhiMmVMeGVLMV95cmtsYjZPTzRzS1Yza3J2WGpRcFpTbw?oc=5",
-        "source": "SMH.com.au",
-        "date": "24 Jul"
-      },
-      {
-        "title": "\u2018Glaring loophole\u2019 gives next gen data centres a power bill discount",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOblRPTHpLTHZnSk00QS15WFp5NHV6ZkUzakJtWEFGOFBkWWF6anI2M0JSSXlqNXptVVJib2VvcVlxWFNzNEN0QzVsYkJ1cHV2akk1VXBaN2FudEtsa3daZlN2dGtDRWtLTFpBZzVycHVBNVVKc3Fhd2t0MXdyYTVSMFUySHl3YnFXLWdRT2JoUlptb1MtQ3EySmdwdTZ4VWxUMkVfQXpESHpxOVJYTXlFWGtsaTRkQWtPak5mN2dMZ1ZEX0t3aWp3?oc=5",
-        "source": "AFR",
-        "date": "19 Jul"
-      },
-      {
-        "title": "Mareeta for Monaro",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EQkRjVndaR1AwZXFvcmFhM25iUFZCRlVQSDNqaFRFQlZObm54MWI5ZGRxdGlQX0Y0QnNONjNEWl9XNGJQY3E2dlV2akdaVFdpdkZSb0VXa1BSWHpRNXhqZQ?oc=5",
-        "source": "NSW Nationals",
-        "date": "19 Jul"
-      },
-      {
-        "title": "Streamlining Housing Approvals In Sydney's South",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd09OcG81SDI0bnRrRDlLWHRHQzdzckhLRjVXVjdVLURrYjJwNTBPMmYzbVpveUw4QS1ndXgyenltekQtWVZVMVVENnhzVFNSQlFScVQ5ejB6NzZEZldoeFA2T3Zwb2ZrN2MzNVVnRmNlNkM5MkpXV1VkdTA4RmxzRk9XMWR3Q3lOVW9v?oc=5",
-        "source": "Mirage News",
-        "date": "22 Jul"
-      },
-      {
-        "title": "Sky News Australia. . Shadow Assistant Minister for Citizenship Dave Sharma warns around 100 NSW small businesses are collapsing each week, blaming rising costs and Labor's budget measures for worsening the crisis.",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUWlnRUNwTXgtV0FRTjNQTnkyTGJtelZ1UVgyLVB3R1VNRUNpdG9yVTQwQko0aFdnNXJQSEdSZEV4RkM3emFhbVB6cHJ3d25wMXZaeEtUXzNjZE10LTduakVwX2otUmtIRjJZSk9RUVBlaGZ5cGZ1UUdVTV9RY1I1cmJkanV0WDM0LVEyUy10a3dPblJpTm1XZlJJb3NXS2Q0NGk2WlBzUWFUUUpvaUVlM043dUUyQlh4VHlZZFZFdW1UVThyUF9jdg?oc=5",
-        "source": "facebook.com",
-        "date": "22 Jul"
+        "title": "Aboriginal Affairs NSW: PSA members\u2019 meeting notice",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8ySzlpR2hlekl0cE1GRGV1MGxWY1VWakhpX2NHQThpbjA3ZmNuUER4d1Vzb1BwZlN1STFYNGNwNVB6VTdnMG5HSFZ6TW1QV05CbmRwUU02U3IyMGZ2WjFTZjZRVS1GZHpKMzI1Q3VCUGJaZkFZc01tRlh2RQ?oc=5",
+        "source": "PSA CPSU NSW",
+        "date": "31 Jul"
       }
     ],
     "volume": {
-      "this": 34,
-      "last": 43
+      "this": 33,
+      "last": 31
     },
     "top_sources": [
       {
-        "source": "NSW Government",
-        "count": 4
+        "source": "nsw.gov.au",
+        "count": 6
       },
       {
-        "source": "abc.net.au",
-        "count": 4
+        "source": "AFR",
+        "count": 3
       },
       {
-        "source": "SMH.com.au",
-        "count": 4
+        "source": "realestate.com.au",
+        "count": 3
       }
     ],
     "themes": [
@@ -176,15 +176,15 @@
       },
       {
         "label": "Cost of living",
-        "count": 37
-      },
-      {
-        "label": "Debt & tax",
-        "count": 23
+        "count": 48
       },
       {
         "label": "Budget",
-        "count": 6
+        "count": 42
+      },
+      {
+        "label": "Debt & tax",
+        "count": 27
       },
       {
         "label": "Jobs",
@@ -2300,9 +2300,9 @@
       "unit": "%"
     },
     "spending": {
-      "value": 4.8,
-      "period": "2026-05",
-      "change": -0.2,
+      "value": 4.7,
+      "period": "2026-06",
+      "change": -0.1,
       "change_kind": "pt",
       "direction": "down",
       "spark": [
@@ -2313,40 +2313,40 @@
         5.6,
         6.5,
         5.2,
-        6.4,
+        6.3,
         4.9,
-        4.6,
+        4.5,
         3.7,
         3.7,
         5.0,
         1.0,
         2.8,
         0.6,
-        -0.1,
+        -0.2,
         -1.5,
         -0.2,
         -1.1,
         -1.2,
         -1.3,
         -2.4,
-        -1.7,
-        -1.9,
+        -1.6,
+        -2.0,
         -3.5,
         -8.0,
-        -25.2,
+        -25.3,
         -12.6,
         -5.3,
         -0.5,
-        -3.8,
+        -3.7,
         -2.8,
-        -1.6,
+        -1.7,
         -0.7,
         -1.6,
         -2.8,
         1.2,
         6.4,
         34.7,
-        14.8,
+        14.7,
         3.7,
         -11.8,
         -10.4,
@@ -2357,56 +2357,57 @@
         7.8,
         12.0,
         13.5,
-        13.8,
-        16.2,
+        13.7,
+        16.3,
         20.9,
         36.9,
         40.2,
         36.6,
         22.5,
         17.4,
-        17.2,
-        18.4,
+        17.1,
+        18.5,
         13.0,
-        10.8,
+        10.9,
         9.2,
         6.8,
-        5.5,
+        5.4,
         4.8,
         4.5,
         5.2,
         2.0,
-        3.7,
+        3.8,
         2.4,
         3.7,
-        2.9,
-        2.4,
-        2.0,
-        2.3,
-        2.7,
-        2.2,
-        2.0,
-        -0.1,
         2.8,
-        2.0,
+        2.3,
+        2.1,
+        2.3,
+        2.6,
+        1.8,
+        1.9,
+        -0.1,
+        2.7,
+        1.9,
         3.7,
-        1.5,
+        1.6,
         3.3,
         3.7,
         3.2,
-        3.9,
-        4.5,
         3.8,
+        4.6,
+        4.3,
         3.2,
         4.8,
-        5.3,
+        5.4,
         5.7,
         4.1,
-        4.2,
+        4.1,
         3.3,
         5.4,
         5.0,
-        4.8
+        4.8,
+        4.7
       ],
       "spark_p": [
         "2018-01",
@@ -2509,11 +2510,12 @@
         "2026-02",
         "2026-03",
         "2026-04",
-        "2026-05"
+        "2026-05",
+        "2026-06"
       ],
       "year_ago": {
-        "value": 3.9,
-        "change": 0.9,
+        "value": 4.6,
+        "change": 0.1,
         "change_kind": "pt",
         "direction": "up"
       },
@@ -2931,12 +2933,11 @@
       "unit": "%",
       "value": 4.35,
       "decimals": 2,
-      "period": "2026-07",
+      "period": "2026-08",
       "change": null,
       "change_kind": "pt",
       "direction": "flat",
       "spark": [
-        1.0,
         1.0,
         0.75,
         0.75,
@@ -3019,10 +3020,10 @@
         4.1,
         4.35,
         4.35,
+        4.35,
         4.35
       ],
       "spark_p": [
-        "2019-08",
         "2019-09",
         "2019-10",
         "2019-11",
@@ -3105,11 +3106,12 @@
         "2026-04",
         "2026-05",
         "2026-06",
-        "2026-07"
+        "2026-07",
+        "2026-08"
       ],
       "year_ago": {
-        "value": 3.85,
-        "change": 0.5,
+        "value": 3.6,
+        "change": 0.7,
         "change_kind": "pt",
         "direction": "up"
       }
@@ -3122,7 +3124,7 @@
       "unit": "",
       "value": 0.7,
       "decimals": 2,
-      "period": "2026-07",
+      "period": "2026-08",
       "change": null,
       "change_kind": "pt",
       "direction": "flat",
@@ -3169,6 +3171,7 @@
         0.71,
         0.72,
         0.69,
+        0.7,
         0.7
       ],
       "spark_p": [
@@ -3214,11 +3217,12 @@
         "2026-04",
         "2026-05",
         "2026-06",
-        "2026-07"
+        "2026-07",
+        "2026-08"
       ],
       "year_ago": {
         "value": 0.65,
-        "change": 0.1,
+        "change": 0.0,
         "change_kind": "pt",
         "direction": "up"
       },
@@ -3230,14 +3234,13 @@
       "section": "markets",
       "source": "RBA",
       "unit": "%",
-      "value": 4.83,
+      "value": 4.92,
       "decimals": 2,
-      "period": "2026-06",
+      "period": "2026-07",
       "change": null,
       "change_kind": "pt",
       "direction": "flat",
       "spark": [
-        1.32,
         0.96,
         1.03,
         1.04,
@@ -3320,10 +3323,10 @@
         4.93,
         4.97,
         4.98,
-        4.83
+        4.83,
+        4.92
       ],
       "spark_p": [
-        "2019-07",
         "2019-08",
         "2019-09",
         "2019-10",
@@ -3406,10 +3409,11 @@
         "2026-03",
         "2026-04",
         "2026-05",
-        "2026-06"
+        "2026-06",
+        "2026-07"
       ],
       "year_ago": {
-        "value": 4.21,
+        "value": 4.29,
         "change": 0.6,
         "change_kind": "pt",
         "direction": "up"

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09T20:38:53+00:00",
+  "generated": "2026-08-16T20:28:41+00:00",
   "state_vs_state": {
     "columns": [
       "NSW",
@@ -77,9 +77,47 @@
   "news": {
     "this_week": [
       {
+        "title": "2026-27 NSW Budget Analysis",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WbUdUWGc4MVdFTDNCUkJpb1IwNlVNRk1ZTks3TjF0dE1FNlYwWnAzZUwyMlY0VkRrYXQwcEpWZGVuQm9hMzZJSGRNaWV0T3RZQlBDVEYxTmh4Mm43SjVEYk9jV1p0OHlXcDdmOFFheDBDNVVJcWNPYnhGYnlTRU0?oc=5",
+        "source": "Property Council Australia",
+        "date": "9 Aug"
+      },
+      {
+        "title": "$2.5 billion investment in the Hunter's future",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaW03YnM2UE90TXN6aDJMNnduVm5hbW5XTzlReFVoUDM1b0ZpY3ZzT3I2UGEzZFRDUi1kcEZobUlYTVB1NUVOYjZ3S2wxeURwa2hzbkIwY3pDLW9MS29yYVNsWHZKR08yTWxtaWJ6NEFVQll6LTBFWGlnSUdPczF5SzlfX1JNRG8?oc=5",
+        "source": "NSW Government",
+        "date": "13 Aug"
+      },
+      {
+        "title": "NSW and Queensland on verge of rating cut after hit to stamp duty",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeHhRejBfS2Vwa1BpZHpFNWczMmpHSEt1QjNQQ3FmZzFRQkZJQ3E0eGJ1V2dPcFR0VE9aVjNZMHNaRmhJNE9PSDdheHNxMnpTQ3oySzBhU0tQRjRGWlFsX3NhdDY2ZDBsVk1Kby1UdjkzczFhVDZJdE01RldUN3dab3NIc1o2UktyNmc4QUhMalJIa1BHOFJONTJfMjNWVTMwME5sWVA3dEFDNW1uc05qTUwxTG56RTh0UFBvY0RSZw?oc=5",
+        "source": "AFR",
+        "date": "11 Aug"
+      },
+      {
+        "title": "One item could save Aussies hundreds",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVmNuV193bTVFS0V1dnRhVnVrZlhWbVZHYnYxeTVYc1dKWWNsMXU3ZTl5bkY0dlhXWEhnNEVoeUZXMUplZ0JBVEFqemNadkFKZmFlMG1DV1YxNFhSXy1OZ0NpdF95ZmVpWmVaamRsMG14QjhqSVpDcndxTXNNdnJYVWNQQnozWEE0OW5ZeHMzY1FySVRXdlpxU3ZRSlQ2WXU3Qmt5WC1mSUo0WmtoYVZ5QWlwQ29Gbi0xVmZTcEFydjVLeGx3TmR6Smg4MzNySGoyMm81akNTYzJreDBDVUpaal9HRzBaYkJVNkHSAe8BQVVfeXFMT3NNbURLa25fWnBaajB3akVJcG54QmJiaHFyRFZ1UmtleFhxSDF5R3dsM083UUZ4SWQ5VVNTZ3FQbHJyVFdjRzExNjhFckhiNndCR3J6WklDR3F6UVZjNVRpZ3RldGtIV3dtTlBWVm1tTE1CVTNWNjRfYUEzQ2tqdG1pa3pXSGJyd1E4RjN5THAyQUlpRW91V01ObHdEUGRvYjNIQ1VjVnhsUnBGQ25VN0FfbU1rYTV6SHFDeV9tTkF5dUVkeFVDdFlicXE1RkJQT3FRVzVsVERYOXhpRHZXVnIza0tMbC1fdlByMGJBV1E?oc=5",
+        "source": "News.com.au",
+        "date": "9 Aug"
+      },
+      {
+        "title": "Big changes for NSW renters as portable bond scheme begins",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVUJkN00wOWdpV3QtR2U1Tkh3SGMzM0M4N2xaMDN4aWFYajdvZ2diUVRhZnFyaF92UzJxWllNYzFjVWVySnFpNWwxb2Vzc1lCWHBaVVZuMHQ5THRPUU5jaGNLX2FhVTFuSlI0VFdlZ3ZrZklBa3pwNThLYjRHQWFCZUpsczJQV25EYXhhdURBUC1Ydw?oc=5",
+        "source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+        "date": "9 Aug"
+      },
+      {
+        "title": "Thousands of Aussies now eligible for scheme that slashes cost of key household item",
+        "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQOWJCVHRwV013SHhDUTFtb0ZOSnZDRzdvSU83ZDNkYlBOYmd6Rk9UTlE1a1NHd0xfYndsaVhDdzQzdkd3RURqa08wQzhpRmUxRnlwZFV2dXpPck1ZdUF1N25JbDF3M2t5VUNxRnRGSnBMMERPN2plTkVwRFU0cDNKUDlFVDM3TEZERGRwbTFfSFVXekNmZDlHMWhjWTNFcjlDRnFZMXhDOU5mbE5pMTIwbGM3Z29pY09lTGVBSUQxelkyT2NyZVhTTDRRUWl5RkVRX0hDN3A1dTdIQ090eWw5c3M2X0RNcHZkZDZkbmNaU0NuTy1tQXpFRDk3WDMyVnp2b001cnE4RkJZQjBJWnB1WTJ6dlA2Q0pveHFHckoyYzM0RmZkVmdGX0xaTjRYTUFzZWVTSNIBugJBVV95cUxQeEZKV3FFUmV6MlV0WHBXREhZOXJoT09sa1dEem5yMjdwdXZLWF9qOUM3aFB4UmRlV0ZSREhncDJsM0JUNG1yQUMyNzhWcUV5MjdDOC1OTTJqOFlaOFFEZnVRakU3QzhLSGlIV1BLVWtjUDgxV1J0MmxQanNQQUJ4enUzTEd3SkFEbzFRc2VjVGRodVNFbGtPZGlxQXQ5NkhkYUlfZEZwS01TV2ZQY3RLZDV4RHpTVGZubEhiMnhnTGI0VlFqRjBJQVF3dVNCek5pTG5kdUFvRVFpc2ZIdDRUcmRuODhOeU8tdXBGNjl1V19tZ1ZHVGFtTXhqS25sZWE2anhrZTlwMG1ZYVVTNWM1TVo1Zmh1VU1EUG5sR1Z2WGRUbHBmSVJOWk1icXVrcEhoZ3BLaGJnaUpnQQ?oc=5",
+        "source": "news24.com.au",
+        "date": "10 Aug"
+      }
+    ],
+    "last_week": [
+      {
         "title": "A modern era of construction methods and approvals begins",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOTF2by1vemk1V0hWSWJvTFFHSm14VHdxZDM5NU9mQUNhS0ZpMTZmSUlZZWk5QUhvUW10dXBIdU5CN1JUb3V4SUxacXdEZmFzVm1PcHpzY01zTnB1N0dMaVFEbkswRGNoN0hkNWNpMWhQU2ExVXFndEtWZ1RRLTVKN3hzaktYY3J5WHMzWnpXMHlxQ25iS0p1XzNCeUR4Rjl3SUNj?oc=5",
-        "source": "nsw.gov.au",
+        "source": "NSW Government",
         "date": "5 Aug"
       },
       {
@@ -98,7 +136,7 @@
         "title": "Why are we waiting? Business, consumer and community groups call on NSW MPs to scrap the insurance tax",
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNGFxd0FSRzRfUFFxNHpsOUZVYlNWSDgxeXhIekN5THh1ZmMwdG1COXo0ZjVOdlI0TUM2eVZibXFLTUd2YlI0czV2VTRrb3k0MlQtZnR2NHJPYVk5Tm5LZ2p4RWYyUTc5SDZNZFd6U203QTEzbG1KTXpwREVuYndkMlJqOHNrNERZQ2ZXUEZkdUdVZW95V3JkUGg1OS1Ia2d0N0JjeWVOMWhhQ0NEQmxkQV96WGFXTENhM3IxTTNCNA?oc=5",
         "source": "Insurance Council of Australia",
-        "date": "3 Aug"
+        "date": "4 Aug"
       },
       {
         "title": "How Michelle Jablko disarmed the Macquarie Street toll raid",
@@ -107,66 +145,28 @@
         "date": "3 Aug"
       },
       {
-        "title": "Labor wanted to restore Sydney\u2019s nightlife. But young people don\u2019t have \u2018time for hangovers\u2019",
-        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbmp1Q1hwbmRHU29yOVZDQmJqZ1JMSGlQakJ1VVJqcG9RUGpSdDZydTdsNV9jVUlGaTZXUnViOHNLZzRJSV93ZVdvcUJoRm9ZZURicXVieG1EcEh1cV8zZzlyUWdDM1Y0cS1heWR0aTdGOFVzMVFaTDk4QjZJOHk2VHZGVk1OdVo1THJqZEtUQlo2OGpvSmV6MGpmWjQxWG1lNmU3eDdFc1ZSaUVnMVFfOExucWg3czVyeFZmcFJJa2hYVGduemg3QnI2ZXl3bmJ4cU5heUtsV293a1YxMVk4?oc=5",
-        "source": "SMH.com.au",
-        "date": "8 Aug"
-      }
-    ],
-    "last_week": [
-      {
-        "title": "New reforms to keep more homes coming for future generations",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNGhzeUpCZDJfX0phc3E0dXVxTk5lVUcxSTNUeGZCYnNQbWRmMmRUM1hPUURUcjZyN01vbE1mSmpQb3hlbWpJX052VFhqY1NzUDBKYjY2TXVkU2JLQ0RrZVVrdlZEOV9SdHlWN3VvR1hBMl81Y2tsNUJET2ZyU1ZYYjFxRnlpT0E?oc=5",
-        "source": "nsw.gov.au",
-        "date": "29 Jul"
-      },
-      {
-        "title": "Revealed: The 12 best NSW towns to retire in",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS3pnRjNKeXJtM0FneWhLbkduQlpVNXZWSTBtN080R2ZoeDdoVmFMWEM0VF9uSDJWd1dJcjBlSTdXWFdQaVExX1ZuSmIxWGRhaVNDckc4dHV6OERXaGp0QmlrZWhuWFZ2Mk5xeklybEpqa0F5ZzNEblFiUVJCODdyZ2RqSHc2S2RFYnFMTmZ2dw?oc=5",
-        "source": "timeout.com",
-        "date": "29 Jul"
-      },
-      {
-        "title": "Labor threatens Sydney councils as cost to build an apartment hits $1m",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObWxqMU83bzZWZVNtb0p0U2JjMmZQelFLZlZrXzByd3NWWG1CaERJLTNrMUstYlR3Z1loS2ZFRXY0OFVXNWdsX2dTTHowQmJMOFZXVmF3MEZFVkJOU0lQdEw5c3ZSQk1xSzNiQ2kydFhwTXFrVzRnZTBGNmNPdXBQZGk0SUo4dzBOdVBveEJXNURXY0twM3NVWTlzYVFIcDhrNHVlUldId05fTFdQSmI0NUctSUxxQkJDYXlOMGVOUkV1NHMw?oc=5",
-        "source": "AFR",
-        "date": "29 Jul"
-      },
-      {
-        "title": "Coastal NSW emerges as reverse mortgage hotspot",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQUJKQnR3RzBhWUg4djRFc0ROaEJ5WUc4dmNVYTFsQ0FrSVBaS2NITWhNTlpJVWd6LUVUQmpaY05JUlRlb1VySjF4dFVXT2pYa1VqMDVCUll4WGtkaUVYR1djaXVRWW5SbXZ2OUliMUFVYUlYREVpdTEwRjNtUjNSaHV6cm9CaTM2bE5hTlJmTGFiZDg1NnZWZVFQc3FvUEFkUktvT1dfYUlpVUpm?oc=5",
-        "source": "Australian Broker",
-        "date": "31 Jul"
-      },
-      {
-        "title": "Aussie region faces worst drought in more than 50 years",
-        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTURuZ3otOEhZYWxhdmo0NkMtZ05rbEt6RUg0d0pTMEtuUEI1dU5BUVJUSjMzSWs0VUZydDdHTTMzenhGLUN3UjhyYTRKMzFNdUtyWFdHOURxeGN4NHVpX3pvUkE3RGJWSUNDQUo3RV9kMi1OOEJUNnF2bU5LMHU3M1NYclBQaFVlVEUtT2dEeF9FTHRSS0QzUWw3TDFFWkdFUXJIRV85UkhyMzhQVEFjUGhwUlVpOUFHbUZ1azF0X1pPNmlSWUhacm9vZW92U2NmV2d3cUJSVWJETzhycHYxTXhXSE9MSVZlcld0ZWhpZEF3RzlBZTNjQjJfeFdUOV9fcDVXOGZVSEHSAY4CQVVfeXFMTVRlZ1VBSUVPLURtU3F0RVJkbUZLelhzcVE2T2Z0QUszem01dWkwN2R3ZGo0YXdZWTctblVBWGJZUllqVTlobERhd0xPLW02UVAzempEYjFkMmRLeTJuRmJEdEYzOUhqUzVaUEtadVYzVjQwODdHODRWMlU5bnJOUXFtMDFQVFVoTEE0Y2FWdXl2eFNkSlAyc2diNEtrSmo3MEdYOHIybXY4SktveVk1NHdpeGRwN3Z2V2JCb1VIWFM2VjE3WU1xSnluTDI5WDl1bk41Z1FZSXpfZG9uUnozWlk4NXNhQnc2eENqa2xxZFh6ZEs0YjBGTnp3a01kTnlRc2hBdi01aDk3Rmk0cWVR?oc=5",
-        "source": "The Weekly Times",
-        "date": "29 Jul"
-      },
-      {
-        "title": "Aboriginal Affairs NSW: PSA members\u2019 meeting notice",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8ySzlpR2hlekl0cE1GRGV1MGxWY1VWakhpX2NHQThpbjA3ZmNuUER4d1Vzb1BwZlN1STFYNGNwNVB6VTdnMG5HSFZ6TW1QV05CbmRwUU02U3IyMGZ2WjFTZjZRVS1GZHpKMzI1Q3VCUGJaZkFZc01tRlh2RQ?oc=5",
-        "source": "PSA CPSU NSW",
-        "date": "31 Jul"
+        "title": "Sydney is the best place in NSW to start a business in 2026, but nationally it ranks just 15th, behind every state capital except Canberra",
+        "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNaFRRRTA4MTRJRWdsN3kxd050VUdXRkdtTkRfOWQwUHlCUlpvOTBOVENNWktERkNwX3dmSUZVTElvNUJXcTZ2MzNFWmhyTXhPOTZsdk1TZUY5RGZmaGZCSTgxZ1kyNmViN0pKUTNtcUVVV3FaYWFLR204SEVVQllaVlVQWlFDakpUaDRId1lsUmdwSFFnZ0tnSXVna2UxNUFqQ2xIMTZZWVRsbGE3WkpuNFBuSHk4U05CSnhrNWFPU0F3Z1hlRVBjQ1k4ZjdYVlBuZ0hVXzFabklJNzJNRFMybHM4ZkNtLUxZelQ0eGlJQk9OQzFGY29nN3l5c3dqUjJBRU5sWVVJRUxfdVNZ?oc=5",
+        "source": "Sydney Times",
+        "date": "5 Aug"
       }
     ],
     "volume": {
-      "this": 33,
-      "last": 31
+      "this": 34,
+      "last": 39
     },
     "top_sources": [
       {
-        "source": "nsw.gov.au",
-        "count": 6
+        "source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+        "count": 5
       },
       {
-        "source": "AFR",
+        "source": "The Daily Telegraph",
         "count": 3
       },
       {
-        "source": "realestate.com.au",
-        "count": 3
+        "source": "NSW Government",
+        "count": 2
       }
     ],
     "themes": [
@@ -175,20 +175,20 @@
         "count": 100
       },
       {
-        "label": "Cost of living",
-        "count": 48
+        "label": "Budget",
+        "count": 49
       },
       {
-        "label": "Budget",
+        "label": "Cost of living",
         "count": 42
       },
       {
         "label": "Debt & tax",
-        "count": 27
+        "count": 31
       },
       {
         "label": "Jobs",
-        "count": 5
+        "count": 4
       }
     ]
   },
@@ -3122,7 +3122,7 @@
       "section": "markets",
       "source": "RBA",
       "unit": "",
-      "value": 0.7,
+      "value": 0.71,
       "decimals": 2,
       "period": "2026-08",
       "change": null,
@@ -3172,7 +3172,7 @@
         0.72,
         0.69,
         0.7,
-        0.7
+        0.71
       ],
       "spark_p": [
         "2023-01",
@@ -3222,7 +3222,7 @@
       ],
       "year_ago": {
         "value": 0.65,
-        "change": 0.0,
+        "change": 0.1,
         "change_kind": "pt",
         "direction": "up"
       },

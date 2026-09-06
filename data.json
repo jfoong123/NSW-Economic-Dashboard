@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T22:34:41+00:00",
+  "generated": "2026-09-06T22:02:27+00:00",
   "state_vs_state": {
     "columns": [
       "NSW",
@@ -38,13 +38,13 @@
       {
         "label": "Building approvals (12m, '000)",
         "vals": [
-          51.5,
-          54.6,
-          47.2,
+          51.9,
+          55.0,
+          47.8,
           14.9,
-          24.6,
-          2.6,
-          200.1
+          25.0,
+          2.7,
+          201.9
         ]
       },
       {
@@ -77,96 +77,96 @@
   "news": {
     "this_week": [
       {
-        "title": "NSW invests in the future of innovative manufacturing with new $6 million fund",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEJiV094VUJVa2dBNlM2WHBXUzBhNlduWTlEZG5NYTk1cTVMMnlSbHJHODZ4b05LXzF0RzRlYXdXV3NFZHNsSC00OUxQeG42WjlfS0l5SElha3AzaXBRNnlSWnhDVjA2NWhNaHhPWDRGQWRNZU44UklfTjQ0SUp5eE5qak91RkxPUzJ6X2N1Q1ZoVG5BOEQtQm0ybUtHUjZvTkxSNjhBN0xuUV9ORnc?oc=5",
-        "source": "NSW Government",
-        "date": "20 Aug"
+        "title": "Minns Labor Government\u2019s $100 rego discount kicks in today for more than 4.4 million NSW vehicles",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUkVlNVBfblVvdF9rbzBZMlE4VVpYS1dYLURUbUYtN2EtRWdaenAyV3hfZUlmRldiR0pBWDh0YkVJRW9QSkhCMS1kNC1ieUxFN2pTa29Jc0hPWTdyTklOYlZiVWF3ZTZNcXhKdTZFNm51YzRTV2F5ZkRXT1gyUU9rSk80WlpMLUlURThQdkYyMHJud3lSdUo0YjRRWDhzSlFlV1JIaHNITzBxSjIyekE3a2dwYVZjQzZOejBubFZMelE4VUxEX2ZBRE1sUFY1X05n?oc=5",
+        "source": "nsw.gov.au",
+        "date": "1 Sep"
       },
       {
-        "title": "Nation-leading framework to harness NSW data centre investment",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN2h0ODV1cFRxclRWckctS2J0VlVhcXc2OTlkTDIwNkdOV25yQ3FMOGlPQkhYTjM5WnJfUWtRaVhoX3lzdUdOSEU3Mm0wanpDbmtHVWV4aV9JMllONmdPaHA1NUJ2Q01nOWk1Y2FyZUZwbEYybmVlQ1dqM1lkRWs5aE1MXzRyUjZ4bmMzcmQyUi1TMGdDOGY0blJSbXlkSDBHUnlEMkhCUDd2QQ?oc=5",
-        "source": "NSW Government",
-        "date": "16 Aug"
+        "title": "Labor steady as Coalition wins back voters from One Nation in new NSW state poll",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLW1mRUdkMFkyR2FFT21Wbjc5cmJNaGhXd1Ewb0JidnpKSTNRZ3NQeG44TmxiblpQQmxJVmxlUHRyWndUX0hMQXA2TUFzMlVKMDNBMEl2RGlYSXRoVVFmdUszMUpMZmhhT2R3U1ltRWZIVXo2U1R6dkRxeENFbU51eFU0X3ZTdld5Wi04eGdzd2xHMXlGZ0QxY010dk5LSlFhcmN6N1ZpNW9zUQ?oc=5",
+        "source": "DemosAU",
+        "date": "31 Aug"
       },
       {
-        "title": "Future of disability advocacy secured in NSW with $75 million investment",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYTVXTEdiY0s3d2pxbGRpc1I4b3ByZjJRbGFTMTNqLThmN0dWb3JWOXdlSjBFNmRRN3o1Nkk5bWJmWjEtQ1NsOFhDY1hPaWJQeVNYQWYyR1Y4eUZEZGlNWnJOSzJ3NUVwdWZvcWY5VDB3Q2FDakl6QTVyQmNfWkN0VVJGdnFrVHNGVVl6WU9R?oc=5",
-        "source": "NSW Government",
-        "date": "18 Aug"
+        "title": "NSW economy flatlines under Labor",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tak9wVDZkdGxibDBkMEpORURYUWhnYmYxS040QVU0SmYxdll1U0RMUXpFWEgzQU5fbnE2VzhPLXhabUxTSnpvVkVPV1RPOVEyRmdBNXFkbTZ1cTc3QXdhbDgyd21feDBFczc2aHA1ZERnZw?oc=5",
+        "source": "NSW Liberals",
+        "date": "3 Sep"
       },
       {
-        "title": "Blitzed building sites show improvements in Port Macquarie and New England",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcUNwUUZaalZ0SnhXRnROaERwandGUFBHTkNYUTdKNVNjUzVZdTZMY28xcTVjNEN0SjJEajhwVnkzbkZqR0wtM1dDblBnYVhQQ3NBMHJpTy1sd2tkSVluTzd1UUhCRFphemVMVUVzaWY2S2s2MzJQZko2eS1OajRwc1F6TjFqbGtJdGxiNWVmajVIZ0xWb3psSXB0ei13T0tZWDlDTzJmVDVXT0pQeWlpSmdfTnpudw?oc=5",
-        "source": "NSW Government",
-        "date": "18 Aug"
+        "title": "Rego Fees Discounted for NSW Drivers During Cost-of-Living Crisis",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaXBzR1EzV25hVVdYSFp5TWVHYjFMbTZabjlIOGZQd2YzMnJ4UnRYVkVEU1NtTkVyMUJFc3RURkRBdFJvVFlQZzBiTjhsT21rLWpvSmV3LTlXRjZJTlI0NVBSb3lMMzZiOG5lV0VKdnZoa1ZHN3FSa3FIbmxhVnZHQ0dzRVdqb2lwekJYLVctWkVMOEVFY19SRVhsczNNNWg5U2c?oc=5",
+        "source": "Cootamundra Times",
+        "date": "2 Sep"
       },
       {
-        "title": "Minns Labor Government unlocks thousands more homes in Westmead",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMENwMUE0VUtjc0VqeFV6bDlqSmpQaEZDMFB5d3NtZGZzMzE5ZTBGc0R5djJfSW8wNlpmbzF6ZjlaT1hSMEpaX1RRZlRkS2drenhMTUhsQVZoRUpzellLVDJTaWJZS25NV253Mkx5eGNGa2ZtN1l3THNRaHlZaG5mNzVLTQ?oc=5",
-        "source": "NSW Government",
-        "date": "19 Aug"
+        "title": "Drivers in one state to get cash relief amid cost-of-living crunch",
+        "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPMzUwZ25ncG1BMjNWaEJRZ2pBdlEzNmFyMHA3N1NDbXo1ODVFWkIwM1BpRW5talh6dlJMVFlGWkxfX3VhZnY5OXF0QTJtWjVRWkpSUW5TQ0Q3enMxeTRHYzkydmRvWllmSk5YZDdERGt0UjNXLUdtcFlmQnlEeEFDa3VlcTlkaEd4SzVzYjlHODNBYUVyTzl1YnREaDFqcFdEX2ZTeU5mdmZwZG1IWlZCVzlUbGNtanVkRHEzZG5pOUJtaW9wWk9FOVN4SXJ0bkg5WVBTb1hxcGpiY0pEeldfNENTZnhyY3lZUDIzQTdoQ2VTTlZ3U1FPQ1FpbGQ1SWlVZC1RaUd0Qy1lX2pUNnMw0gGUAkFVX3lxTE1zbEpaMkpQUDN4WnR2enZwTk5IWXBOSUJBRjhfZXJ6d0U0b1VlN1l2WWtGMWxxR0hOVGxUUzcwYUZrTHA0ZXlxVXlUTnd6YzlSRy1nZDFhR1pacS1laTZ4TkdxRTgyZ1lCc3Y1U0RUM1QzOVZPVmhsNHRRMFdvaFZHNmJ0QTFvM21yVy1HWmZRdXJjMzhCVGZIZXd5c0lHejN0OFRISmY3clNFaXVjNHd6R1ZPdXZQYmF6Nk53a0dReEpZZFYzdzhmajNkblh0Wlk4Yy1HTzZsUWJuOVdTMUJqbWx5MXJ2OGZFZXJlblpLVFdEUnFWSGRXUXBGVjg5c1NHTWJLYXBIbDluMjNDaVJkNk1kUQ?oc=5",
+        "source": "news24.com.au",
+        "date": "1 Sep"
       },
       {
-        "title": "Funding boost to fix and future-proof the Great Western Highway",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcDFHOHVncXd1NUJ1dUJhU0dWQTR3amo5ZFpXT195U1ZxaTFoN2ZlQ05HdlFCeU5PN1FzaGNGX253dktSZzBmXzFIQ25KWnBqUFdHVkRYZzMyRS1tYXlMYk1kOTJKZjB4c1VudEswZlZ5TE1mOUt5Z3FhbVhrZGROLW1JNEVkTlp5QU50UXVUQ0dqeThsMEtIQmJXRFpkWXU2em5vbUtB?oc=5",
-        "source": "NSW Government",
-        "date": "19 Aug"
+        "title": "CWA Of NSW Calls Time On Rural Health Crisis",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZWxXRElPUWhDWGNNLTFUa2pOeFp5VGRJYjVUZXNjejlSVXN0Z00wd0gtYndEM0g5UHIyUnpnT3Jyc0otb1FSbXNfV25vLTlzUXNIT3B4WkgzN1U2bEpaTDJOUGF4UmxXUVZ3Tkw0Nkl0TkRvVGhyZGh2RlhVMHVkakJFel93Ym8?oc=5",
+        "source": "Mirage News",
+        "date": "4 Sep"
       }
     ],
     "last_week": [
       {
-        "title": "2026-27 NSW Budget Analysis",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WbUdUWGc4MVdFTDNCUkJpb1IwNlVNRk1ZTks3TjF0dE1FNlYwWnAzZUwyMlY0VkRrYXQwcEpWZGVuQm9hMzZJSGRNaWV0T3RZQlBDVEYxTmh4Mm43SjVEYk9jV1p0OHlXcDdmOFFheDBDNVVJcWNPYnhGYnlTRU0?oc=5",
-        "source": "Property Council Australia",
-        "date": "9 Aug"
+        "title": "Keeping live music venues alive as cost crunch hits",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbHBOYXd0dTY4c1Nfb1pwOVJ6MjlzZjVuZUtwRkwzRXktOGJBekcwQ094d1MtOUd5QVduUkFFZTEteWxILVdPM21wbzdXSF9QcV8tSDk4MWFPRUhJTHllc0NhY0V1c3dEa29MWGFROWdqREVlTk0tcF80dS1HWnlHUE81THJmdTVMNWMycEZhV2VaVk9uek9zbmZvbmhPeEhpb01RNnN3b3BjeGFUMlN0Snh4N1FKUk84c09JN3ZhWmlQWUxDdWlJaDZrSjJJZw?oc=5",
+        "source": "nsw.gov.au",
+        "date": "24 Aug"
       },
       {
-        "title": "Minns Labor Government finalises 20-year Sydney Plan",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMU1iQ2NlcE8zdzZqVEgwT0VZTHJZa0gtakQ5WTM4N2JudTZmSkFTUzkwem9pY0gtYmxLd2M4U3gwMFNlTHl3TGZhTGpIazBxSzJ6aEpyeGdiNm9IV2VQV2hWdVpVM05zSENqaGlrUk8yVHpFR0tBOGlURzZzVS1PenV3UQ?oc=5",
-        "source": "NSW Government",
-        "date": "13 Aug"
+        "title": "Ageing population to push NSW debt to 90pc of GSP: report",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVVdLck45TmFtOVVDQXJHa2tzWnYzTzJEVkFHQnlQV3FFdU9DQWc4YWVUSzBIRU9JdFlVUjFQb2I3Q0x6bzZaclZuZ0xtSDV5SHFiQUUyY2pWbVNNa0txbWp6R1U4UTBmSVhFWW9ORk83S1kxT0tYWDNpNURndEhxS1NRTTc3dTRMdnJaVmxGY0VlZUxfajd5RDh4eTkxcnhrYjJF?oc=5",
+        "source": "AFR",
+        "date": "27 Aug"
       },
       {
-        "title": "Big changes for NSW renters as portable bond scheme begins",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVUJkN00wOWdpV3QtR2U1Tkh3SGMzM0M4N2xaMDN4aWFYajdvZ2diUVRhZnFyaF92UzJxWllNYzFjVWVySnFpNWwxb2Vzc1lCWHBaVVZuMHQ5THRPUU5jaGNLX2FhVTFuSlI0VFdlZ3ZrZklBa3pwNThLYjRHQWFCZUpsczJQV25EYXhhdURBUC1Ydw?oc=5",
+        "title": "Audiences flock to DIY shows as traditional live music venues struggle",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLW9YeHBiY3hlQjU5TkhGamt5X1ltbTFwY1kwZHBCaGVYRUoxcjdiMVlta2xVVlpZUTBUOFVoVmJnVlpZUzkxaHNkQTdiRzZ6cFVGbHptSlBJdFNxUl95MjZvUkVJbGdqbDJOMDU3bUNZMWZYU3g2Q3hYMjVVd1gyTTJPbUJCOHpYWEhHSXJrWDhMN19Jc2hmVXIwSlFkaTlONFBoNjZoaGlTMTRLNzRqZnBn?oc=5",
         "source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
-        "date": "9 Aug"
+        "date": "23 Aug"
       },
       {
-        "title": "$2.5 billion investment in the Hunter's future",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaW03YnM2UE90TXN6aDJMNnduVm5hbW5XTzlReFVoUDM1b0ZpY3ZzT3I2UGEzZFRDUi1kcEZobUlYTVB1NUVOYjZ3S2wxeURwa2hzbkIwY3pDLW9MS29yYVNsWHZKR08yTWxtaWJ6NEFVQll6LTBFWGlnSUdPczF5SzlfX1JNRG8?oc=5",
-        "source": "NSW Government",
-        "date": "13 Aug"
+        "title": "Bigger, richer, greyer: What NSW will look like in 2066",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaFIxVHIwOWVsS2RHaWVEMURxMnpfVlRVUHBPRDA5WE9QU2ZQcU02S0JpTlJtN0JHWGpjRzV1OEJTd0xvbFRPNkJ3elZuLTJ2WmlNR1NLZ1BfNGJ6RjRHSm1DUFcxYUJLTFEwWHRLWGlPMFpyZUt1M3lBSzRzdHBPZjZrVEpsNmM3U0d2WUJNY2R2aVFFMDNfRjZSVml1X0VNenQ2bFVXUkwyMEdWa0E?oc=5",
+        "source": "SMH.com.au",
+        "date": "27 Aug"
       },
       {
-        "title": "Renewable Energy Zone unlocks $1.4 million agtech program for Central-West farmers",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ3FEMUdhaVJYYUpPOU1fakFray1WeWZ3RWIwRVRRUTVEbnotVEpFTVNfeTJFdFhDUVpNY25FUDd4a29iRl9VTFFvNkJtOVh0SEZQQUwzYW1XNnY4SnVDSWN6aHVpOFFzLXlPRC1DNVlVY1B4bXlfTm5MZWRqMjhMYWlrMnRDTlFtdl95Qy1kQzVkVW5DYkVSYmUyUGtkSXRzZ2VkeDZBaVZ3N2IzTE9vUlRjdXJ5RjV1aTROejZqYl9sZw?oc=5",
-        "source": "NSW Government",
-        "date": "12 Aug"
+        "title": "NSW Government invests $3.8 million to help keep live music venues open",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSXBwdk14SDVhclZqdnFNdk5xeFFRYkxxempEdDhuXy1rQlhqT3p5WkotQnYyVDNaMDhaYlRjTW9sWjVSTTRsVE50dWxJcjJuYi1xc3Y0Y0Y4eGVwUGhWTTNnMkcyd0lYY3VSQXlHYTdwQjZWdWlJMUhHckZPUHRXWUh0Z2tGOUxTckVxbFZlUzQ0eWthQlFNRGVxczh3ZFQ1c1Z1ekJaaw?oc=5",
+        "source": "ausleisure.com.au",
+        "date": "25 Aug"
       },
       {
-        "title": "Minns Government examines measures to halt AI\u2019s impact on cognitive development of a generation of NSW students",
-        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRmV2ckYwV244TEt6Zkxfd0VHcElDU1FUSzREUWdPZ1pXaTFiTlZOMXhsT3VFdFUzNld1RDltRlo4enZiOVNEaUdTc3lqWW00aEhrMWJMZHVvcWRScmpEYy1RbDNrTU04THVyQUl3a1hLbDdqdGtoUURVandSTmNnX19kY3lLMmxKTk1aTGNIdkRuWXVQOE5zRURnNkJ0M3RSTDdNYnVWX0lUR3JxcUwwSDJBaFRaemhSZTBfZmJ4MmNxcno3NHFtR3JxNG5MTHlXSHMxSkg5VUloajRhS2NtT3EzWTNPaUNzMHc?oc=5",
-        "source": "NSW Government",
-        "date": "10 Aug"
+        "title": "NSW Government extends live music funding",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LVkdSYjA5ekNBOHRQUDlLN1poQU1MRU00a2dHNXRPdERXMTlPSGUxYWR1TnpZb0MzQ3FQV3JwZjdqOEVrcnJlTGhJUmt2bjlpQkV6SDgxanpSRW9jdEwwRlNSZ0tJUEQ2Wmh4Mjg5T0tsRUdt?oc=5",
+        "source": "theshout.com.au",
+        "date": "26 Aug"
       }
     ],
     "volume": {
-      "this": 28,
-      "last": 33
+      "this": 25,
+      "last": 34
     },
     "top_sources": [
       {
-        "source": "NSW Government",
-        "count": 21
-      },
-      {
-        "source": "SMH.com.au",
+        "source": "nsw.gov.au",
         "count": 2
       },
       {
-        "source": "Sydney Times",
-        "count": 1
+        "source": "NSW Liberals",
+        "count": 2
+      },
+      {
+        "source": "Mirage News",
+        "count": 2
       }
     ],
     "themes": [
@@ -176,63 +176,64 @@
       },
       {
         "label": "Budget",
-        "count": 58
+        "count": 62
       },
       {
         "label": "Cost of living",
-        "count": 53
+        "count": 46
       },
       {
         "label": "Debt & tax",
-        "count": 30
+        "count": 39
       },
       {
         "label": "Jobs",
-        "count": 9
+        "count": 8
       }
     ]
   },
   "tiles": {
     "gdp_nat": {
-      "value": 0.3,
-      "period": "2026-Q1",
-      "change": -0.6,
+      "value": 0.4,
+      "period": "2026-Q2",
+      "change": 0.1,
       "change_kind": "pt",
-      "direction": "down",
+      "direction": "up",
       "spark": [
-        1.0,
+        1.1,
         0.7,
         0.4,
-        0.3,
-        0.7,
+        0.2,
+        0.8,
         0.3,
         0.6,
         0.6,
         -0.2,
-        -6.7,
-        3.5,
+        -6.8,
+        3.4,
         3.4,
         2.2,
-        0.8,
-        -1.7,
-        3.6,
-        0.9,
+        0.7,
+        -1.8,
+        3.7,
         1.0,
+        0.9,
         0.5,
-        0.8,
-        0.5,
-        0.5,
+        0.9,
+        0.6,
+        0.3,
         0.4,
         0.0,
+        0.3,
         0.2,
         0.3,
-        0.3,
         0.4,
-        0.3,
-        1.0,
         0.4,
+        0.8,
+        0.5,
         0.9,
-        0.3
+        0.3,
+        0.4
       ],
       "spark_p": [
         "2018-Q1",
@@ -267,13 +268,14 @@
         "2025-Q2",
         "2025-Q3",
         "2025-Q4",
-        "2026-Q1"
+        "2026-Q1",
+        "2026-Q2"
       ],
       "year_ago": {
-        "value": 0.3,
-        "change": 0.0,
+        "value": 0.8,
+        "change": -0.4,
         "change_kind": "pt",
-        "direction": "flat"
+        "direction": "down"
       },
       "id": "gdp_nat",
       "label": "GDP growth (national, QoQ)",
@@ -2550,9 +2552,9 @@
       "unit": "%"
     },
     "approvals": {
-      "value": 4879.0,
-      "period": "2026-06",
-      "change": 8.8,
+      "value": 5128.0,
+      "period": "2026-07",
+      "change": 6.3,
       "change_kind": "pct",
       "direction": "up",
       "spark": [
@@ -2655,9 +2657,10 @@
         2575.0,
         4227.0,
         4431.0,
-        4466.0,
+        4462.0,
         4486.0,
-        4879.0
+        4822.0,
+        5128.0
       ],
       "spark_p": [
         "2018-01",
@@ -2761,11 +2764,12 @@
         "2026-03",
         "2026-04",
         "2026-05",
-        "2026-06"
+        "2026-06",
+        "2026-07"
       ],
       "year_ago": {
-        "value": 4779.0,
-        "change": 2.1,
+        "value": 4712.0,
+        "change": 8.8,
         "change_kind": "pct",
         "direction": "up"
       },
@@ -2957,12 +2961,11 @@
       "unit": "%",
       "value": 4.35,
       "decimals": 2,
-      "period": "2026-08",
+      "period": "2026-09",
       "change": null,
       "change_kind": "pt",
       "direction": "flat",
       "spark": [
-        1.0,
         0.75,
         0.75,
         0.75,
@@ -3045,10 +3048,10 @@
         4.35,
         4.35,
         4.35,
+        4.35,
         4.35
       ],
       "spark_p": [
-        "2019-09",
         "2019-10",
         "2019-11",
         "2019-12",
@@ -3131,7 +3134,8 @@
         "2026-05",
         "2026-06",
         "2026-07",
-        "2026-08"
+        "2026-08",
+        "2026-09"
       ],
       "year_ago": {
         "value": 3.6,
@@ -3148,7 +3152,7 @@
       "unit": "",
       "value": 0.72,
       "decimals": 2,
-      "period": "2026-08",
+      "period": "2026-09",
       "change": null,
       "change_kind": "pt",
       "direction": "flat",
@@ -3196,6 +3200,7 @@
         0.72,
         0.69,
         0.7,
+        0.72,
         0.72
       ],
       "spark_p": [
@@ -3242,10 +3247,11 @@
         "2026-05",
         "2026-06",
         "2026-07",
-        "2026-08"
+        "2026-08",
+        "2026-09"
       ],
       "year_ago": {
-        "value": 0.65,
+        "value": 0.66,
         "change": 0.1,
         "change_kind": "pt",
         "direction": "up"
@@ -3258,14 +3264,13 @@
       "section": "markets",
       "source": "RBA",
       "unit": "%",
-      "value": 4.92,
+      "value": 5.01,
       "decimals": 2,
-      "period": "2026-07",
+      "period": "2026-08",
       "change": null,
       "change_kind": "pt",
       "direction": "flat",
       "spark": [
-        0.96,
         1.03,
         1.04,
         1.15,
@@ -3348,10 +3353,10 @@
         4.97,
         4.98,
         4.83,
-        4.92
+        4.92,
+        5.01
       ],
       "spark_p": [
-        "2019-08",
         "2019-09",
         "2019-10",
         "2019-11",
@@ -3434,11 +3439,12 @@
         "2026-04",
         "2026-05",
         "2026-06",
-        "2026-07"
+        "2026-07",
+        "2026-08"
       ],
       "year_ago": {
-        "value": 4.29,
-        "change": 0.6,
+        "value": 4.28,
+        "change": 0.7,
         "change_kind": "pt",
         "direction": "up"
       }
@@ -3560,7 +3566,5 @@
       "id": "credit_rating"
     }
   },
-  "errors": [
-    "news: fetch failed (kept previous)"
-  ]
+  "errors": []
 }

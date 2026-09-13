@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06T22:02:27+00:00",
+  "generated": "2026-09-13T22:16:36+00:00",
   "state_vs_state": {
     "columns": [
       "NSW",
@@ -77,20 +77,58 @@
   "news": {
     "this_week": [
       {
+        "title": "S&P Global upgrades New South Wales Outlook",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcS01RkNBcUk3SVEzalVlckRUaV9hTXNieXgtcUhMUFRPMVBuRmczbEVQRDdKUVJhaGxTRVVPd3NRQktBZFNZYnhVc2pwd1l4cnlSTFJZdWo2M1pBMnU3eWktd3YyWW9aa2V1bDVOc1UtaGZsMmZrY0VrVVBzam80TGRMX3RvSHVGT01mdENrMA?oc=5",
+        "source": "NSW Government",
+        "date": "11 Sep"
+      },
+      {
+        "title": "Hanson is wrecking super system Trump wants to copy: NSW treasurer",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLWczbHYyWXVRSmxMWHdZWjQ4RWI0QjdRUTlfbTZvVG5zTGVVYThQV191V3o5NXgwek9TNWRkQjByaFl4dkxGamZHN2R1Y0J0TC0xTnRLcTZpTENHVmVYZ3lnN1NKZHR0ZmRzNUYxaGstSDE2dXVjYV9IVFlhWXVTRzN1NXhubXk5T245enJlZEpBSFVfQm1nX3Z3NGJvcXBZcFFpRXNDZDhfRUlhSmRN?oc=5",
+        "source": "AFR",
+        "date": "8 Sep"
+      },
+      {
+        "title": "Stable endorsement: Upgraded economic outlook for NSW",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQkRhUlJVbG1DLVFrc0IyenJubTN1WFQzTFhCWUN1emIzanFUemNjQUNBUjRKamhOT3Nrd1lmZkFWY3M3a2Ytand2eFFMTzBJWGhsZmx4cElMSUY2VWxGN0JvNjJ0S211SmptRk1NbDVKck90NklhWnpaRk14VDQ1S21jb3Zkenl4c3hPYmdoUkRUeU9BV2c?oc=5",
+        "source": "themandarin.com.au",
+        "date": "11 Sep"
+      },
+      {
+        "title": "NSW Government Proposes To Build 9,400 New Homes In Woollahra and Edgecliff",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQTB6SUlkaDlnMGJrdDJZdDdPNGM5bWlhR1NGZEp0Yno1TFJ2ODhQb2RYWnA5Z2Vkb1JGM3BxQ0tmQlI5UFhnVkFoOXh4dHctbzZnNktRQWJDSlVjSmZkNUlfNjRKZTNPM0JyVWEyaEV2Z3AwY2NtdkVwY2VtUldJMlhNSW9tTzRDWk5KX3BzUTB1Um1ESWlYMk00VDd3SDg?oc=5",
+        "source": "cityhub.com.au",
+        "date": "8 Sep"
+      },
+      {
+        "title": "NSW Social Housing: Lower Bills, Comfier Homes",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbWNfMGhmNjFZNlh1UzA3VTRvdVY3UldqUkh0eFdRUE9VdGtwaHpLbm9DMDhIUnk5NC12NjJ4NmxRYVpWQllMNE5WMmNSY2FYNE5Fd3FvdEFnNV9yX2V1U3piUHcwSE1VMmpyNWk2UUxYOFBqMnU5ajR5RG1GcTV0QjNLM1pISVE?oc=5",
+        "source": "miragenews.com",
+        "date": "13 Sep"
+      },
+      {
+        "title": "NSW to introduce school screen limits amid poor results",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTHhONXFhbUNXVWktaDcwMElGbnRLSEFJRzFLbGp2WlNBdkdVVGtDMFduNnNnVnE0Z3FGdHRhVUdCSmlsWHA0TWktcHRjZmp2V2lSOGxHWklFMnVSX0EtSE5XbWhNTU5wdVFJVGR0NXhpY2F2dWZiRS1PekVWTTBxYUh4RmJEZlI5QjU2MDFXTTkyZXNrZEY5a29WakpZbzE2eUt4X19oeFJGcG85TngzU2ttclFjUVIyVHEzalNVNkdad2JjLUE?oc=5",
+        "source": "Nine.com.au",
+        "date": "13 Sep"
+      }
+    ],
+    "last_week": [
+      {
         "title": "Minns Labor Government\u2019s $100 rego discount kicks in today for more than 4.4 million NSW vehicles",
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUkVlNVBfblVvdF9rbzBZMlE4VVpYS1dYLURUbUYtN2EtRWdaenAyV3hfZUlmRldiR0pBWDh0YkVJRW9QSkhCMS1kNC1ieUxFN2pTa29Jc0hPWTdyTklOYlZiVWF3ZTZNcXhKdTZFNm51YzRTV2F5ZkRXT1gyUU9rSk80WlpMLUlURThQdkYyMHJud3lSdUo0YjRRWDhzSlFlV1JIaHNITzBxSjIyekE3a2dwYVZjQzZOejBubFZMelE4VUxEX2ZBRE1sUFY1X05n?oc=5",
-        "source": "nsw.gov.au",
+        "source": "NSW Government",
         "date": "1 Sep"
       },
       {
         "title": "Labor steady as Coalition wins back voters from One Nation in new NSW state poll",
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLW1mRUdkMFkyR2FFT21Wbjc5cmJNaGhXd1Ewb0JidnpKSTNRZ3NQeG44TmxiblpQQmxJVmxlUHRyWndUX0hMQXA2TUFzMlVKMDNBMEl2RGlYSXRoVVFmdUszMUpMZmhhT2R3U1ltRWZIVXo2U1R6dkRxeENFbU51eFU0X3ZTdld5Wi04eGdzd2xHMXlGZ0QxY010dk5LSlFhcmN6N1ZpNW9zUQ?oc=5",
         "source": "DemosAU",
-        "date": "31 Aug"
+        "date": "30 Aug"
       },
       {
         "title": "NSW economy flatlines under Labor",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tak9wVDZkdGxibDBkMEpORURYUWhnYmYxS040QVU0SmYxdll1U0RMUXpFWEgzQU5fbnE2VzhPLXhabUxTSnpvVkVPV1RPOVEyRmdBNXFkbTZ1cTc3QXdhbDgyd21feDBFczc2aHA1ZERnZw?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNWVta290REFyVzdqRzdUN3pRVjJ4M2ljSUUyWUphVUo5RFNXQ2pDVjU0U2IxcUFLWVN6UDhjSlZSLURsaHR5eWRHc1ItNWJFS21yWUlsY2hXWDROTl9pNmJDamF0QVp3OTFxSHNBRDNDZ3lOWnZ4VUtBdTZtdHpod2dESHZ0QQ?oc=5",
         "source": "NSW Liberals",
         "date": "3 Sep"
       },
@@ -107,65 +145,27 @@
         "date": "1 Sep"
       },
       {
-        "title": "CWA Of NSW Calls Time On Rural Health Crisis",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZWxXRElPUWhDWGNNLTFUa2pOeFp5VGRJYjVUZXNjejlSVXN0Z00wd0gtYndEM0g5UHIyUnpnT3Jyc0otb1FSbXNfV25vLTlzUXNIT3B4WkgzN1U2bEpaTDJOUGF4UmxXUVZ3Tkw0Nkl0TkRvVGhyZGh2RlhVMHVkakJFel93Ym8?oc=5",
-        "source": "Mirage News",
-        "date": "4 Sep"
-      }
-    ],
-    "last_week": [
-      {
-        "title": "Keeping live music venues alive as cost crunch hits",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbHBOYXd0dTY4c1Nfb1pwOVJ6MjlzZjVuZUtwRkwzRXktOGJBekcwQ094d1MtOUd5QVduUkFFZTEteWxILVdPM21wbzdXSF9QcV8tSDk4MWFPRUhJTHllc0NhY0V1c3dEa29MWGFROWdqREVlTk0tcF80dS1HWnlHUE81THJmdTVMNWMycEZhV2VaVk9uek9zbmZvbmhPeEhpb01RNnN3b3BjeGFUMlN0Snh4N1FKUk84c09JN3ZhWmlQWUxDdWlJaDZrSjJJZw?oc=5",
-        "source": "nsw.gov.au",
-        "date": "24 Aug"
-      },
-      {
-        "title": "Ageing population to push NSW debt to 90pc of GSP: report",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVVdLck45TmFtOVVDQXJHa2tzWnYzTzJEVkFHQnlQV3FFdU9DQWc4YWVUSzBIRU9JdFlVUjFQb2I3Q0x6bzZaclZuZ0xtSDV5SHFiQUUyY2pWbVNNa0txbWp6R1U4UTBmSVhFWW9ORk83S1kxT0tYWDNpNURndEhxS1NRTTc3dTRMdnJaVmxGY0VlZUxfajd5RDh4eTkxcnhrYjJF?oc=5",
-        "source": "AFR",
-        "date": "27 Aug"
-      },
-      {
-        "title": "Audiences flock to DIY shows as traditional live music venues struggle",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLW9YeHBiY3hlQjU5TkhGamt5X1ltbTFwY1kwZHBCaGVYRUoxcjdiMVlta2xVVlpZUTBUOFVoVmJnVlpZUzkxaHNkQTdiRzZ6cFVGbHptSlBJdFNxUl95MjZvUkVJbGdqbDJOMDU3bUNZMWZYU3g2Q3hYMjVVd1gyTTJPbUJCOHpYWEhHSXJrWDhMN19Jc2hmVXIwSlFkaTlONFBoNjZoaGlTMTRLNzRqZnBn?oc=5",
-        "source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
-        "date": "23 Aug"
-      },
-      {
-        "title": "Bigger, richer, greyer: What NSW will look like in 2066",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaFIxVHIwOWVsS2RHaWVEMURxMnpfVlRVUHBPRDA5WE9QU2ZQcU02S0JpTlJtN0JHWGpjRzV1OEJTd0xvbFRPNkJ3elZuLTJ2WmlNR1NLZ1BfNGJ6RjRHSm1DUFcxYUJLTFEwWHRLWGlPMFpyZUt1M3lBSzRzdHBPZjZrVEpsNmM3U0d2WUJNY2R2aVFFMDNfRjZSVml1X0VNenQ2bFVXUkwyMEdWa0E?oc=5",
-        "source": "SMH.com.au",
-        "date": "27 Aug"
-      },
-      {
-        "title": "NSW Government invests $3.8 million to help keep live music venues open",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSXBwdk14SDVhclZqdnFNdk5xeFFRYkxxempEdDhuXy1rQlhqT3p5WkotQnYyVDNaMDhaYlRjTW9sWjVSTTRsVE50dWxJcjJuYi1xc3Y0Y0Y4eGVwUGhWTTNnMkcyd0lYY3VSQXlHYTdwQjZWdWlJMUhHckZPUHRXWUh0Z2tGOUxTckVxbFZlUzQ0eWthQlFNRGVxczh3ZFQ1c1Z1ekJaaw?oc=5",
-        "source": "ausleisure.com.au",
-        "date": "25 Aug"
-      },
-      {
-        "title": "NSW Government extends live music funding",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LVkdSYjA5ekNBOHRQUDlLN1poQU1MRU00a2dHNXRPdERXMTlPSGUxYWR1TnpZb0MzQ3FQV3JwZjdqOEVrcnJlTGhJUmt2bjlpQkV6SDgxanpSRW9jdEwwRlNSZ0tJUEQ2Wmh4Mjg5T0tsRUdt?oc=5",
-        "source": "theshout.com.au",
-        "date": "26 Aug"
+        "title": "The Future State of Construction in NSW",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSkxLYzBjbzZHYXo4SVRSeVNWWUNGQUtYOEMzRnN2X3RlRHEtR0hydTU3ZkwtcE5VbHY4cjVGZTRjRFJYUTJsZjhZVWZ2T1lIRGtBeWhRd0VFTlI4Tndya241NmM2QmlydkV4MTd4QWc2S1RhV0FNT3Bhc2NnZGV2ZWswX2pETHhDZkFCM1JKMTAzSFox?oc=5",
+        "source": "Property Council Australia",
+        "date": "1 Sep"
       }
     ],
     "volume": {
-      "this": 25,
-      "last": 34
+      "this": 27,
+      "last": 31
     },
     "top_sources": [
       {
-        "source": "nsw.gov.au",
-        "count": 2
+        "source": "NSW Government",
+        "count": 4
       },
       {
-        "source": "NSW Liberals",
-        "count": 2
+        "source": "SMH.com.au",
+        "count": 3
       },
       {
-        "source": "Mirage News",
+        "source": "AFR",
         "count": 2
       }
     ],
@@ -175,20 +175,20 @@
         "count": 100
       },
       {
-        "label": "Budget",
-        "count": 62
-      },
-      {
         "label": "Cost of living",
-        "count": 46
+        "count": 54
       },
       {
         "label": "Debt & tax",
-        "count": 39
+        "count": 38
+      },
+      {
+        "label": "Budget",
+        "count": 37
       },
       {
         "label": "Jobs",
-        "count": 8
+        "count": 4
       }
     ]
   },

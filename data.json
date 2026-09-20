@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-13T22:16:36+00:00",
+  "generated": "2026-09-20T22:19:15+00:00",
   "state_vs_state": {
     "columns": [
       "NSW",
@@ -50,13 +50,13 @@
       {
         "label": "Population (y/y %)",
         "vals": [
-          1.2,
-          1.7,
+          1.1,
+          1.6,
           1.6,
           1.0,
-          2.2,
-          0.5,
-          1.5
+          2.1,
+          0.6,
+          1.4
         ]
       },
       {
@@ -77,96 +77,96 @@
   "news": {
     "this_week": [
       {
-        "title": "S&P Global upgrades New South Wales Outlook",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcS01RkNBcUk3SVEzalVlckRUaV9hTXNieXgtcUhMUFRPMVBuRmczbEVQRDdKUVJhaGxTRVVPd3NRQktBZFNZYnhVc2pwd1l4cnlSTFJZdWo2M1pBMnU3eWktd3YyWW9aa2V1bDVOc1UtaGZsMmZrY0VrVVBzam80TGRMX3RvSHVGT01mdENrMA?oc=5",
+        "title": "Crown land reforms pass NSW Parliament",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPT3BrRWVNZ1dCSV9ZakluUW1yVnhVTERhb29RbGdNNnhVSEFYQnlhanVoRjVMaVRfWUEtZ1p0X1pwRVM3N2JCQkJZQ3otY1Z1RFRYYnliNXRNSVZiNnZxNHpieFRQcklUNFd4SlRvZ05tS3BTQ2hEdW5ISnNFU1VTeU9OZy0?oc=5",
         "source": "NSW Government",
-        "date": "11 Sep"
+        "date": "16 Sep"
       },
       {
-        "title": "Hanson is wrecking super system Trump wants to copy: NSW treasurer",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLWczbHYyWXVRSmxMWHdZWjQ4RWI0QjdRUTlfbTZvVG5zTGVVYThQV191V3o5NXgwek9TNWRkQjByaFl4dkxGamZHN2R1Y0J0TC0xTnRLcTZpTENHVmVYZ3lnN1NKZHR0ZmRzNUYxaGstSDE2dXVjYV9IVFlhWXVTRzN1NXhubXk5T245enJlZEpBSFVfQm1nX3Z3NGJvcXBZcFFpRXNDZDhfRUlhSmRN?oc=5",
-        "source": "AFR",
-        "date": "8 Sep"
+        "title": "Winds of change as NSW\u2019s largest power point nears completion at White Bay",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT0Z6c19zV3Q3UUNvRmY0bzktOVJ0bC1td3dycE96TE5MbFEzVk4zbW1BNkUxSUJjSFR3N1B4blZGRFZ5Wk1XZi1KUzhVNC1CZ29HVGs5eWhMMGtOZ0tjeks1WWdxODc3S09jNWh6dkdiak9kSUJxTm9rN0FKNXlGVGhmMVZqMDAzcEZNUkJuUThqbWR5cmMtMjdtQXc4S1ROSUlpMi1IMDlIOWxsYnFmRzNxc0Fzd2p6?oc=5",
+        "source": "NSW Government",
+        "date": "16 Sep"
       },
       {
-        "title": "Stable endorsement: Upgraded economic outlook for NSW",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQkRhUlJVbG1DLVFrc0IyenJubTN1WFQzTFhCWUN1emIzanFUemNjQUNBUjRKamhOT3Nrd1lmZkFWY3M3a2Ytand2eFFMTzBJWGhsZmx4cElMSUY2VWxGN0JvNjJ0S211SmptRk1NbDVKck90NklhWnpaRk14VDQ1S21jb3Zkenl4c3hPYmdoUkRUeU9BV2c?oc=5",
-        "source": "themandarin.com.au",
-        "date": "11 Sep"
+        "title": "$7 million boost for the Illawarra South Coast\u2019s active communities",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYzFlYkxmSmE4Ui03S2JfWEtnY1N4dnhsSFRIRGJHbURQNWctdzM0N1J6QTRrS0FVU0ZQMzhVZXZUWGtaSjdQckhTTWRuR3R2SDQ0aWdORWNXYXl5RnFsYU84TG9zbFJKbi1fVzdvWUg3U1Y5UzZycVpKdUx2bWdmUEdmcnpYVkwtWU1RQW1EaWZWLU0?oc=5",
+        "source": "NSW Government",
+        "date": "18 Sep"
       },
       {
-        "title": "NSW Government Proposes To Build 9,400 New Homes In Woollahra and Edgecliff",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQTB6SUlkaDlnMGJrdDJZdDdPNGM5bWlhR1NGZEp0Yno1TFJ2ODhQb2RYWnA5Z2Vkb1JGM3BxQ0tmQlI5UFhnVkFoOXh4dHctbzZnNktRQWJDSlVjSmZkNUlfNjRKZTNPM0JyVWEyaEV2Z3AwY2NtdkVwY2VtUldJMlhNSW9tTzRDWk5KX3BzUTB1Um1ESWlYMk00VDd3SDg?oc=5",
-        "source": "cityhub.com.au",
-        "date": "8 Sep"
+        "title": "A brighter future for NSW parklands",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BUG93SmhXclRLcGFQbm5Ya0lhRlNKTGhLUWJXVzVpYU9JSTJneVdmeEVfc3hnZV9UdmVjQmFuY1dwQU5MS1hYTFJvZ04zU09MNmVEdE5tSkF0TFdOMU9LR2t5T1VOQ1JfS3l3QWxxZzI5OTlPMlJSMUFDMG4zUQ?oc=5",
+        "source": "NSW Government",
+        "date": "18 Sep"
       },
       {
-        "title": "NSW Social Housing: Lower Bills, Comfier Homes",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbWNfMGhmNjFZNlh1UzA3VTRvdVY3UldqUkh0eFdRUE9VdGtwaHpLbm9DMDhIUnk5NC12NjJ4NmxRYVpWQllMNE5WMmNSY2FYNE5Fd3FvdEFnNV9yX2V1U3piUHcwSE1VMmpyNWk2UUxYOFBqMnU5ajR5RG1GcTV0QjNLM1pISVE?oc=5",
-        "source": "miragenews.com",
-        "date": "13 Sep"
+        "title": "Minns Labor Government strengthening youth crime prevention and responses",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNzZ4NEZ6dXRyTjZibUp0M2tjMHNCX1FpUFctOXQ1Y0RPRDVxQ3lCRnpFREJUaXJqTWdtUVNzTGlfaGFkbTFlc2luTkpQc2JoM19FOTBzR2VUbXoyU3g4OXMxbFVwQ2Z5SHZhLTl5OUtRa0g4eTUxWWZyRWt5ZE5leTFDandOeUpVVXRRUm9kc3ljdzEtQW5NMzU3QzYtVjdqTjZPVUQzNnRieWN6N3FlZjhVdEVxZ01s?oc=5",
+        "source": "NSW Government",
+        "date": "14 Sep"
       },
       {
-        "title": "NSW to introduce school screen limits amid poor results",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTHhONXFhbUNXVWktaDcwMElGbnRLSEFJRzFLbGp2WlNBdkdVVGtDMFduNnNnVnE0Z3FGdHRhVUdCSmlsWHA0TWktcHRjZmp2V2lSOGxHWklFMnVSX0EtSE5XbWhNTU5wdVFJVGR0NXhpY2F2dWZiRS1PekVWTTBxYUh4RmJEZlI5QjU2MDFXTTkyZXNrZEY5a29WakpZbzE2eUt4X19oeFJGcG85TngzU2ttclFjUVIyVHEzalNVNkdad2JjLUE?oc=5",
-        "source": "Nine.com.au",
+        "title": "All new public schools to share facilities with community as Share Our Space program expands",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUUdjZDdBQzRQZ29GdnhvckdlZmRmN1N6QUJKTS1nYzk5RXJmVlVZcm44TlUxWEplcURUUjhSQ3Fzajh2dFZkLVpmbE5VeXJlZWZuMklZMVJjRWRqUnBJbW5iOU8yTFVma1NYX2FqVmY2TDhGa2djRmVwUlNrMUw2ZTBabjRGbTdoOTdCc0UzNFFGY1ctQlBiX184eHpCcUhrSWVsdFZCaDV5aUFMWXFIOUZhaU41LW5MR3RsZ1lmajFiMk5LTmg1UHY4QQ?oc=5",
+        "source": "NSW Government",
         "date": "13 Sep"
       }
     ],
     "last_week": [
       {
-        "title": "Minns Labor Government\u2019s $100 rego discount kicks in today for more than 4.4 million NSW vehicles",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUkVlNVBfblVvdF9rbzBZMlE4VVpYS1dYLURUbUYtN2EtRWdaenAyV3hfZUlmRldiR0pBWDh0YkVJRW9QSkhCMS1kNC1ieUxFN2pTa29Jc0hPWTdyTklOYlZiVWF3ZTZNcXhKdTZFNm51YzRTV2F5ZkRXT1gyUU9rSk80WlpMLUlURThQdkYyMHJud3lSdUo0YjRRWDhzSlFlV1JIaHNITzBxSjIyekE3a2dwYVZjQzZOejBubFZMelE4VUxEX2ZBRE1sUFY1X05n?oc=5",
+        "title": "Minns Labor Government to invest in NSW science, technology and innovation",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSG9YNktXdERlYUpyeFY4M3dwdkVtU1d2eEhWLTVRWHRoZWN1bHlPRk16VmRKYl9uOExsWE0yNTV3VVhnMGs3OERzOE9EdGpUN0hHbHhBSjBnUHRGdkRPMC1QV1FXWFJoSDNOMlV6YU8zRGpsaVAxVDI1MThGQVdtMnphZjg2eFF2NGg0QjVFODF0bC1tVHo0VEJ5SUNlNkt1TnFGal9RZldJQ1hORTBUdlRRRzU?oc=5",
         "source": "NSW Government",
-        "date": "1 Sep"
+        "date": "10 Sep"
       },
       {
-        "title": "Labor steady as Coalition wins back voters from One Nation in new NSW state poll",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLW1mRUdkMFkyR2FFT21Wbjc5cmJNaGhXd1Ewb0JidnpKSTNRZ3NQeG44TmxiblpQQmxJVmxlUHRyWndUX0hMQXA2TUFzMlVKMDNBMEl2RGlYSXRoVVFmdUszMUpMZmhhT2R3U1ltRWZIVXo2U1R6dkRxeENFbU51eFU0X3ZTdld5Wi04eGdzd2xHMXlGZ0QxY010dk5LSlFhcmN6N1ZpNW9zUQ?oc=5",
-        "source": "DemosAU",
-        "date": "30 Aug"
+        "title": "Stamp duty revenue plunges as property slump deepens",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYnplNFp2cWRuR2RSajQzWm16OHUyY0NHdkFUNWUyYlV3TzVSX21yZE5YV1g1cnk1WnZocElzNnBibGhtYUEyZDNodDZ1ZXk2OVN0Y2puaWd4aV8wZjJydTRmYzBpbVVFcHVUQlRIUy1TUHNYbWNWQ3N5ZFVSV3RNaWpUTGhQVmx2NV9BNG1QYTJ2cE9KQjJlLV93Y3VTVjBrQkp4bW9R?oc=5",
+        "source": "AFR",
+        "date": "7 Sep"
       },
       {
-        "title": "NSW economy flatlines under Labor",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNWVta290REFyVzdqRzdUN3pRVjJ4M2ljSUUyWUphVUo5RFNXQ2pDVjU0U2IxcUFLWVN6UDhjSlZSLURsaHR5eWRHc1ItNWJFS21yWUlsY2hXWDROTl9pNmJDamF0QVp3OTFxSHNBRDNDZ3lOWnZ4VUtBdTZtdHpod2dESHZ0QQ?oc=5",
-        "source": "NSW Liberals",
-        "date": "3 Sep"
+        "title": "Largest CBD Solar Farm in Southern Hemisphere coming to ICC Sydney",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSE5BNlphUWl2Q2FNdDcybFFPMmVfZWk4aWNRVDhQaTFDNWFEZ1lSejdlTnp3cXVscGtYZHJGV2pvZExQeXRGbGJpcXQ2TkFzdXAwUTFCYVhuOXlFbEFfUHYxQm5JYTVHS0F1bnktcTY1X3I3SzFTeFltVE1CX0lzUno0WTZKVUlKYUQ0dFNMMEREdmhMZ2wzRFl2Z184V2JUbXJ4SFF1OGxoWjg?oc=5",
+        "source": "NSW Government",
+        "date": "7 Sep"
       },
       {
-        "title": "Rego Fees Discounted for NSW Drivers During Cost-of-Living Crisis",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaXBzR1EzV25hVVdYSFp5TWVHYjFMbTZabjlIOGZQd2YzMnJ4UnRYVkVEU1NtTkVyMUJFc3RURkRBdFJvVFlQZzBiTjhsT21rLWpvSmV3LTlXRjZJTlI0NVBSb3lMMzZiOG5lV0VKdnZoa1ZHN3FSa3FIbmxhVnZHQ0dzRVdqb2lwekJYLVctWkVMOEVFY19SRVhsczNNNWg5U2c?oc=5",
-        "source": "Cootamundra Times",
-        "date": "2 Sep"
+        "title": "First look: Woollahra long-term housing transformation",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWU5Pc3NTWGQ3alg5S0Zac3pkV1ZTQnpKbk82cnVsdVhLZGpjaFNlbzEzMktGbENVOGlteVhxdFBQa01KSzNxYVRWcHBYZm5RLW9zbTQyelk1US1QVTdWdWFHdjdOTVBCc3l2eDdoUUI3ZHBVOWtLMVRzQTVHV0JlZDBhTXdUdk9JcWpIQ2d2MENMd0ZSVXNhQjBZYmc4Zw?oc=5",
+        "source": "NSW Government",
+        "date": "8 Sep"
       },
       {
-        "title": "Drivers in one state to get cash relief amid cost-of-living crunch",
-        "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPMzUwZ25ncG1BMjNWaEJRZ2pBdlEzNmFyMHA3N1NDbXo1ODVFWkIwM1BpRW5talh6dlJMVFlGWkxfX3VhZnY5OXF0QTJtWjVRWkpSUW5TQ0Q3enMxeTRHYzkydmRvWllmSk5YZDdERGt0UjNXLUdtcFlmQnlEeEFDa3VlcTlkaEd4SzVzYjlHODNBYUVyTzl1YnREaDFqcFdEX2ZTeU5mdmZwZG1IWlZCVzlUbGNtanVkRHEzZG5pOUJtaW9wWk9FOVN4SXJ0bkg5WVBTb1hxcGpiY0pEeldfNENTZnhyY3lZUDIzQTdoQ2VTTlZ3U1FPQ1FpbGQ1SWlVZC1RaUd0Qy1lX2pUNnMw0gGUAkFVX3lxTE1zbEpaMkpQUDN4WnR2enZwTk5IWXBOSUJBRjhfZXJ6d0U0b1VlN1l2WWtGMWxxR0hOVGxUUzcwYUZrTHA0ZXlxVXlUTnd6YzlSRy1nZDFhR1pacS1laTZ4TkdxRTgyZ1lCc3Y1U0RUM1QzOVZPVmhsNHRRMFdvaFZHNmJ0QTFvM21yVy1HWmZRdXJjMzhCVGZIZXd5c0lHejN0OFRISmY3clNFaXVjNHd6R1ZPdXZQYmF6Nk53a0dReEpZZFYzdzhmajNkblh0Wlk4Yy1HTzZsUWJuOVdTMUJqbWx5MXJ2OGZFZXJlblpLVFdEUnFWSGRXUXBGVjg5c1NHTWJLYXBIbDluMjNDaVJkNk1kUQ?oc=5",
-        "source": "news24.com.au",
-        "date": "1 Sep"
+        "title": "Regional NSW creatives to benefit from game-changing new collaborations",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM0l6Um9MVnJJMEMzS3RLWDU5UmdDYUMwLXNBa082U1dDUElFMFAxTnVuMTIwdWpvejZyUXdVU2hCbnhXblpUUDFYQVZDWXVkYjZ0ZU5nTlJUMnRHWFhaVTh5aGZXTWI4aDNGV2RFNVpRX1dHbDNMVTIxZE1tU3piQUtYSkZleEZYa3ZCRw?oc=5",
+        "source": "NSW Government",
+        "date": "7 Sep"
       },
       {
-        "title": "The Future State of Construction in NSW",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSkxLYzBjbzZHYXo4SVRSeVNWWUNGQUtYOEMzRnN2X3RlRHEtR0hydTU3ZkwtcE5VbHY4cjVGZTRjRFJYUTJsZjhZVWZ2T1lIRGtBeWhRd0VFTlI4Tndya241NmM2QmlydkV4MTd4QWc2S1RhV0FNT3Bhc2NnZGV2ZWswX2pETHhDZkFCM1JKMTAzSFox?oc=5",
-        "source": "Property Council Australia",
-        "date": "1 Sep"
+        "title": "Five additional H5 bird flu events in NSW",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOVMyRTRVeExiUDM3ZVgzYk5aY2FOX0NfSGlXYko0UmtvUWozMEhFVk9hUy1mcXlWN2FBNG9SZko1blFCNWpELVZ4MEpVU0NEcVBQdlhLTVFhdnlvZlF1UjNzc3h6NUJnRWFRU2s0N3RtbDJvNWd0TVRMcEpOdm9uOUltOWs3dEtLSFE?oc=5",
+        "source": "NSW Government",
+        "date": "11 Sep"
       }
     ],
     "volume": {
-      "this": 27,
-      "last": 31
+      "this": 33,
+      "last": 43
     },
     "top_sources": [
       {
         "source": "NSW Government",
-        "count": 4
+        "count": 24
       },
       {
-        "source": "SMH.com.au",
-        "count": 3
+        "source": "smh.com.au",
+        "count": 1
       },
       {
-        "source": "AFR",
-        "count": 2
+        "source": "miragenews.com",
+        "count": 1
       }
     ],
     "themes": [
@@ -176,19 +176,19 @@
       },
       {
         "label": "Cost of living",
-        "count": 54
-      },
-      {
-        "label": "Debt & tax",
-        "count": 38
+        "count": 56
       },
       {
         "label": "Budget",
-        "count": 37
+        "count": 40
+      },
+      {
+        "label": "Debt & tax",
+        "count": 21
       },
       {
         "label": "Jobs",
-        "count": 4
+        "count": 6
       }
     ]
   },
@@ -2868,8 +2868,8 @@
       "unit": ""
     },
     "pop": {
-      "value": 1.2,
-      "period": "2025-Q4",
+      "value": 1.1,
+      "period": "2026-Q1",
       "change": 0.0,
       "change_kind": "pt",
       "direction": "flat",
@@ -2900,12 +2900,13 @@
         2.1,
         1.92,
         1.62,
-        1.34,
-        1.18,
+        1.35,
+        1.2,
+        1.13,
         1.12,
-        1.15,
-        1.22,
-        1.23
+        1.16,
+        1.13,
+        1.13
       ],
       "spark_p": [
         "2018-Q1",
@@ -2939,13 +2940,14 @@
         "2025-Q1",
         "2025-Q2",
         "2025-Q3",
-        "2025-Q4"
+        "2025-Q4",
+        "2026-Q1"
       ],
       "year_ago": {
-        "value": 1.2,
-        "change": 0.1,
+        "value": 1.1,
+        "change": 0.0,
         "change_kind": "pt",
-        "direction": "up"
+        "direction": "flat"
       },
       "id": "pop",
       "label": "Population growth (NSW, TTY)",
@@ -3150,7 +3152,7 @@
       "section": "markets",
       "source": "RBA",
       "unit": "",
-      "value": 0.72,
+      "value": 0.71,
       "decimals": 2,
       "period": "2026-09",
       "change": null,
@@ -3201,7 +3203,7 @@
         0.69,
         0.7,
         0.72,
-        0.72
+        0.71
       ],
       "spark_p": [
         "2023-01",

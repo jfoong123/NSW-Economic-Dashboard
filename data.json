@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04T22:55:59+00:00",
+  "generated": "2026-10-11T23:32:27+00:00",
   "state_vs_state": {
     "columns": [
       "NSW",
@@ -77,27 +77,53 @@
   "news": {
     "this_week": [
       {
-        "title": "125 ways to celebrate unpaid carers in NSW",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBITTdkRTg2LVE5RXpBc3Jpc1FtdFlrX2JteUtCczlKWEFuRzNPc2p2TmYwZjZTSWNzMXhTeGlSNS1Hd3dZM1lfTU1sQ0JUZnNjUENnMkhKX3FvM3FfQV9BbDhSQkFwS3J0RXdhdFdPMzB2Q3ZNS3c?oc=5",
+        "title": "NSW Gas Statement outlines role of gas in supporting energy security and the NSW economy",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SdUpqUWxqUmV1eFlOV1RFejQ5cHQ2aTZFZkIwR0VzblY1S04xUzlBZGdVN1BKQ1NqX1ItcXhadHlhTFMtR3BLQ09pc2lyQlFZZXdtQUJnRk5abnBmTzZWTnVua2lkcmpBN05lNjNrcEc3WTR4dTVaV1JR?oc=5",
         "source": "NSW Government",
-        "date": "1 Oct"
+        "date": "6 Oct"
+      },
+      {
+        "title": "Interpreters and Translators: Cost-of-Living Adjustment Payment",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWnZMc1FCMXlkaDhHaGdhdE1VaGtLcTA1NFlNVTd2Mk5zYUFfWl81Wk9OX2ppSWhzaUNVWEJVeW14NWNOZ2ZuZk5lTFJCN0V0Vm5QOHYyeHRnZDJpcEVzdzllVUlEVkRlU3JtUkdxdmhyWWg3SlVnRW1nMjhHWFZib1JMYWJkYXdCOEE?oc=5",
+        "source": "PSA CPSU NSW",
+        "date": "8 Oct"
+      },
+      {
+        "title": "Land purchase brings pink lakes into NSW national parks estate",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVVBFal9VX211NFZWajJldGRpRm0tOVFsYzF3ZUppVjh4LWxqaUtuZTNFcS1KaTRNdlVOMUxQekhLWDFJMDZhdmQ3S1BnYlRWTWstamdsQ05UYi1DeVhPMmU5OHJwRHN4RC02RS0wai0wbHNNWnJqeEp1dlpzbW9BREdDZVBCMVFFYS1WM0VFVQ?oc=5",
+        "source": "NSW Government",
+        "date": "7 Oct"
+      },
+      {
+        "title": "The \u2018pure ratfuckery\u2019 between Minns and Albanese",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS0JJa3htY2J4enk1SGdpaTVzcDEwdm9QR3dCV2J4c0pVMjliZVpqbHRBRFowbWhyU01uNEdwdVVpZlU1SXJZS2FiY1F3STI3MTlpbmJacHlzeDRzVjNOcDlZbXA4MWVjcGdQbmNXNnNTZnI1TTk3WDdfZ1ljUk51eG1QUTBCQTRoMWx2R1BpZU1pS0RfcnBtczhvTm9HN2p4OThjSVdB?oc=5",
+        "source": "The Saturday Paper",
+        "date": "9 Oct"
+      },
+      {
+        "title": "\u2018Complete waste of time\u2019: Aussie buyer\u2019s fury",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQMXk3OVdlaklYYXNPaEJXOEQtanJpSHZRMmxXZGZSSkd2U0k0RFlkRkdVSWxRQ3ZfQmpxOVl2NmtsOFVKMmJteTRfRlFia0JBR194cHJkd3E0VUl3SlM3TC1EVmdkMXV0bV92UjBPc0VBSElwT3IzSlNjeVBYVFpUZ1FuMVQxRDc0c0Z5cngyLTZZcTZTMVFlY3ZYZ2ZPNHBSMDhXcTFRTXpNRzAxX1ZYNWdlTTJIcFJKaHVmTEgwV01pd3BYVTU3RG9ZNG9Cd2xyUndHNHgweEd0ZDFtZkVxR0ZxMlpLZnlHZTBVZDFLaHN6bjJ4cEHSAfsBQVVfeXFMT3IwQkhTQXExc3FYLUJVRkl0Y2c2TXd6dUR6UHpsT25JeGxMUnFEcUZoNElnYjFvTFdaeG5rdG83UEpKZkJLVU1WZE1RVl96aTdFMmpiRjNaOVYxaEVVNmQzY3lYc3ZRNjFMZGxUYkpjVWNVa2RYMjBUTGttRzZvTmtWbXk1b2NMX1p1dWNMYW1HbjRxalZjcm9QMXlEdWtta0o5S0l0STZrWHE4WDgtRnAyU29LZUVUeUdWN1lKX2JmVVl0dEJsT3hnWUNaSVVrNWlRVWVHWjh4Q1NRZDA4Sng1X2ZGblBCREFuZ0t3ZmREWm11dkdHMVAxdXM?oc=5",
+        "source": "News.com.au",
+        "date": "5 Oct"
+      },
+      {
+        "title": "NSW Police face resource pressures amid rise in shoplifting as cost of living pressures bite",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQjBMWndKX3dmelpid3l6YU9saG5XZjEwYlU0V1NoTHg4MG9yZm8xd2lQTi1IOWNLcWZKZlJ2c0tDYURCNk9ZVTk2NW9HcnVsazFuM3U3cWJreXZFYWdQemhhU1ZZdk9salg3aU1jQkRsZnNGUUtpWHA5bzRBVnVFQzNkbURGdURuaU5iMDQwcGEzY0tJTExOa2NSR1ZhamNaOVptcFlXODBoRVlkUTFEeDhQX3B2dEx2WXE0OFlVdEFFdzl1a0FJbGxzNk7SAdIBQVVfeXFMTVl0aTdnTGlQaE84MThtZnFyNklZeFROVHIzS0VvVFNJeTFDZUZ1dFJoTmlyeGdxN0tZRXlObks4N0VLQmxJbTNNY0RlY3RqbzFfRmNRRDJsS0lkWWRUcWxwTDB4cnF2RV9Fa2tnSF9hajlWbUNaZG1PRUtrWGI5dkh0eUE0aWxjNEpWOHRvUkJMSWZONGVlLXQtWWNKQTNrZlVuTVV4M0VwTEJqemlkbDMtWTBFUl90WElUeGhXdEJXbzBVWlNreG1lem1DTUxuMHVR?oc=5",
+        "source": "7NEWS",
+        "date": "6 Oct"
+      }
+    ],
+    "last_week": [
+      {
+        "title": "More than $1.7 million for health facility upgrades across Mid North Coast and Northern NSW",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSFRIQU9lRnpURnhEcWRTV0JSeG9VMzVuNVFKMzg1Wjc5YW5lemNidXFJSzFkMWVoOEJ2aXlJUnltOXdpNE5qMFlXVVAxSHRiNzQxOTA3NktGSTdwbm9RSFpxR2pmbUwzQ3pFMTJmakNJNE16Q2dKZUdodnZ0NktkSmpLb1BveVlvRFlXMmJBemhsd0ZHcTBYOFM2WmFxVWJXNTNMMHJXcXd3UjlnRUNJSldlUWItUlBEUTVQdTBRWXJuTFZUaTFPeTNVUU5Vdw?oc=5",
+        "source": "NSW Government",
+        "date": "30 Sep"
       },
       {
         "title": "Hunter Valley Operations: What happens now NSW has approved its biggest-ever coal project",
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdGV5S0p6ZlhYTDN2NThJZTF3NTFDRFN3R2stSEFrX0k2LUdNWTdBYkRnQ1hmOXB5TmZ6bEo4OUdwemxoX2tySFctZkpSNGxFQ2xuNVFIUEphd2tIRFAtMjJ1b3RBMjh3ak9Ca3FuMlB4XzItODN6a2pCYU5INUlaSW9TZk9YWHpfTWRGVDVFOVpvMXcwUWVOU2FvX2ROdGFTd05xdGJ3TFc5NXJuOTlfU3hlVjI0Snp5cHJhaWhMMkxyR1k2NDNzXw?oc=5",
         "source": "Climate Council",
-        "date": "30 Sep"
-      },
-      {
-        "title": "Matt Kean warns climate crisis \u2018isn\u2019t someone else\u2019s problem\u2019 as largest coal project in NSW history greenlit",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRkk5X0RVSTVtWENNalY5RWVCeEd6X2lfUFFqcDV2dDVnQm1La3BVSy1abzhMbHRVYzBRR0pNOVA5VVlJeDhRbTJYNHRHYWdkWnpMd2pxZkdDQ3F2ZW1VOFM1aEo3UFNIcERyQU5nV0dlZG8zdFdBR3VWZTZOb0t2akljVzhqcm9QVV9SYWJIOWtCdGtfRlhYa21hMmM0eXVCT0szeWRB?oc=5",
-        "source": "The Guardian",
-        "date": "1 Oct"
-      },
-      {
-        "title": "More than $1.7 million for health facility upgrades across Mid North Coast and Northern NSW",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSFRIQU9lRnpURnhEcWRTV0JSeG9VMzVuNVFKMzg1Wjc5YW5lemNidXFJSzFkMWVoOEJ2aXlJUnltOXdpNE5qMFlXVVAxSHRiNzQxOTA3NktGSTdwbm9RSFpxR2pmbUwzQ3pFMTJmakNJNE16Q2dKZUdodnZ0NktkSmpLb1BveVlvRFlXMmJBemhsd0ZHcTBYOFM2WmFxVWJXNTNMMHJXcXd3UjlnRUNJSldlUWItUlBEUTVQdTBRWXJuTFZUaTFPeTNVUU5Vdw?oc=5",
-        "source": "NSW Government",
         "date": "30 Sep"
       },
       {
@@ -107,65 +133,39 @@
         "date": "1 Oct"
       },
       {
-        "title": "Barnyard punks in Orange, empty stages in Byron Bay: The NSW towns where live music thrives or dies",
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdl9waDJOOTl6YVdnVHRvclFzVEdxd2t1Rkd2YWNzQ3A2YUw2aFhQb0dwcUFUTDZ3RWtzS3hGRjhoWUJRc2lQc3Q2aktCSkNrNWNaUm45VWlRc2ItWTZLLVRWWVE3TTdnOGNnM3VyYnViSXdaSlFCeDQwVnhLVUF1aGRpaURIN1JsZExxM2tmelJwTDlGS1NuSnFxU01qcEdralhhUVVQTVlScUNNSjRKTm5xUy1McDE0ckFkdm01YzNFXzBQeFlmX1JPWjhUbkNULWRrLU9OT09BYjN1Z0xsNGtFWm9oMExfeFc4?oc=5",
-        "source": "SMH.com.au",
-        "date": "3 Oct"
-      }
-    ],
-    "last_week": [
-      {
-        "title": "A hat-trick for NSW: Moody\u2019s maintains Triple-A credit rating",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcDVyN0lRdHRkQWREMEpEUjNnNnU1dXprbWRJWEdqX3JzekFORmhCSWc4c0JGRkgzLW8tYXlQclFxcDJteWZxMUdmX2dwZlo0UWd0dmNFYVE2UXNfc3NEODhkdWR1eHFtSUhySldtZjlZRWkyc3hYbng4WjRPRGp0NXN1QQ?oc=5",
-        "source": "NSW Government",
-        "date": "22 Sep"
+        "title": "Sydney property prices drop $26,000 over 12 months amid rising interest rates",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUGtuY2p5cUNKV2RyRS02MF9Bb1VkSUtVb1JNQVpGTE8wdVd1OU1YSGRXd2IzMHY1TjVzZkEzT01jelBiTEpYd0h3Zkt1STE3LVZYX2N3SUZEdkRfUzQ2THZCVmZ6RkJqaGh5UDRsOFVydEFOeHNnOS1BLWRZczhnY09vbzlBc0FjUWU5N05yd2pwdGlPeXBCZEk5NGdBd0l0NzJrcUlPTTNPWXVrUkYtcQ?oc=5",
+        "source": "Real Estate",
+        "date": "2 Oct"
       },
       {
-        "title": "NSW Senator Ross Cadell wins preselection for The Nationals",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMS02b1B2S1NtZkNZSXppMDRCZC03U1k0TVl6WlBsbUl5WEF2VWVkQk44RnJ2cmcyeTRDUFpWbUFFR2dsaDRlVlo3Z2RpZWZpVUtENWN5bnJuVHAzUXRaSGJ2TFhzODUwU2JTbnNuLXRBV2JteGhPUTlXYkdTWGdXbzZRQUN0UTdic2JxNFRhcFA3eG9rb2Zn?oc=5",
-        "source": "NSW Nationals",
-        "date": "25 Sep"
+        "title": "More than $810,000 for upgrades at Queanbeyan Hospital",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWmZDem9oLUVxM2hpRFRjTDRPcDI2a3hxOGg2RVpLVEpMMzZacU1hLXVhdkdzbEtDcmEyUTZnMUQxb05BY2RKTE9iRElfR3pndE4zVm1wRmdvTGpuc1NwVHNUOEl1bG45dTg5OVNpYjNEelVZaW9XbDVnVlB0WEszQi01WG1QVHRGNENKNEhTM05QejJxNmFyWXFVWjU?oc=5",
+        "source": "NSW Government",
+        "date": "30 Sep"
       },
       {
-        "title": "NSW leads Australia with new solar panel recycling mandate",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQd2d5TVN5cFZIcEhHTEg5aXNlM1otRkJ6dHZDQ2tRLW4yT2xaUHBFN3pUbnNOcTdLWTh5MlpacDBpX0hDNUVwS2ZvOW9SNmFHbXZzZHQ1aEZWUGhVT2xsOEZXZnNDd2hMUVB4cGUwOEZmdXFBemE3UGxYanBFTUM3NkxzVlVkQTMyU08wSE1HUVpETDg1VzJaVUdNWHdJdw?oc=5",
-        "source": "NSW Government",
-        "date": "21 Sep"
-      },
-      {
-        "title": "220 new homes for Sydney\u2019s essential workers underway in Annandale",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG0yeVBNZUFoR2tTZ1hoLXh4UWNXVmxKWUozZm9SVUVuVjI5TlBpVklZU0dQWWQ2WHJjVndwVXUzWDltTHhSOElXZjd5Z1R2TVpwd0dqcEh3OURqNVotcDJuN2tFTGE3NUZnbTFfeDNINHBGWW5mOXlKS1NZYkxHNmVkYXY0bEczUHJzUndLSVc1UUdySGZvUDBtMXN2cm9XMTRvNTZ5Uzk0Zw?oc=5",
-        "source": "NSW Government",
-        "date": "23 Sep"
-      },
-      {
-        "title": "New outsourcing protections for NSW council workers",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTUdFaVIzcklIQ1owcGtGSFZtQ2dJanhuX1AtbnA1c3dIX05waHVZZEFYdXZfbzg1SjRBcEtxMC1MNXRvcF9Qcl91R1JzVDhlX19QY05kTnQ3YUpOSGp3SXZUOG5CY0J6S1BuVHRIdlR4WkVQb2lSTXVkVHpINm9jN3BRSU1BYmxrb1E?oc=5",
-        "source": "NSW Government",
-        "date": "23 Sep"
-      },
-      {
-        "title": "One step closer to ensuring a stronger, more reliable firefighting fleet",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN3h4bTVNcXY3bTRYcGZLcTF4aEJHVENJY2doMzI1TUNCb2dUekhUNEFKbFlyQ0tERkVGM1JObF9KeER2TEhJVUlqWFV6WHlTd1JDd25xWjNpckFHU09ObTg3MERRem9Sd05SYkdkU2Z5YlF6d3hxaXZJZGRJOTRxU1RFTEd6MWdCVnZXY1dDYW82cmF5ZHRKa3ZPZWJGNXI4azNGejNMVDBOVlQwUlhUbVF2bHZOUQ?oc=5",
-        "source": "NSW Government",
-        "date": "23 Sep"
+        "title": "NSW Expands Support for Electric Fleets",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBva3QwM3dOR2E3a1VvczRmWG9fX2ZxSUxmY0VnM2UwMVcwelJqNjV5dnVJWnRXOUNzcnpfeDFjYW1Gc1ZWWHhPVENHeUZLQ2VYbTN6NlE5bE8tXzhNZDh1TFBfbXU1ellBWklGanZnd2Z0UWZPWWc?oc=5",
+        "source": "Fleet EV News",
+        "date": "29 Sep"
       }
     ],
     "volume": {
-      "this": 23,
-      "last": 39
+      "this": 19,
+      "last": 31
     },
     "top_sources": [
       {
         "source": "NSW Government",
-        "count": 13
+        "count": 12
       },
       {
-        "source": "Climate Council",
+        "source": "PSA CPSU NSW",
         "count": 1
       },
       {
-        "source": "The Guardian",
+        "source": "The Saturday Paper",
         "count": 1
       }
     ],
@@ -176,19 +176,19 @@
       },
       {
         "label": "Cost of living",
-        "count": 40
+        "count": 39
       },
       {
         "label": "Budget",
-        "count": 33
+        "count": 32
       },
       {
         "label": "Debt & tax",
-        "count": 23
+        "count": 26
       },
       {
         "label": "Jobs",
-        "count": 5
+        "count": 3
       }
     ]
   },
@@ -2804,11 +2804,11 @@
       "unit": ""
     },
     "completions": {
-      "value": 8882.0,
-      "period": "2026-Q1",
-      "change": -34.3,
+      "value": 14057.0,
+      "period": "2026-Q2",
+      "change": 54.6,
       "change_kind": "pct",
-      "direction": "down",
+      "direction": "up",
       "spark": [
         16582.0,
         16943.0,
@@ -2842,7 +2842,8 @@
         9529.0,
         12877.0,
         13512.0,
-        8882.0
+        9093.0,
+        14057.0
       ],
       "spark_p": [
         "2018-Q1",
@@ -2877,13 +2878,14 @@
         "2025-Q2",
         "2025-Q3",
         "2025-Q4",
-        "2026-Q1"
+        "2026-Q1",
+        "2026-Q2"
       ],
       "year_ago": {
-        "value": 9378.0,
-        "change": -5.3,
+        "value": 9529.0,
+        "change": 47.5,
         "change_kind": "pct",
-        "direction": "down"
+        "direction": "up"
       },
       "id": "completions",
       "label": "Dwelling completions (NSW, qtrly)",
@@ -3176,7 +3178,7 @@
       "section": "markets",
       "source": "RBA",
       "unit": "",
-      "value": 0.69,
+      "value": 0.7,
       "decimals": 2,
       "period": "2026-10",
       "change": null,
@@ -3228,7 +3230,7 @@
         0.7,
         0.72,
         0.7,
-        0.69
+        0.7
       ],
       "spark_p": [
         "2023-01",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T22:19:58+00:00",
+  "generated": "2026-10-25T22:24:17+00:00",
   "state_vs_state": {
     "columns": [
       "NSW",
@@ -77,11 +77,43 @@
   "news": {
     "this_week": [
       {
-        "title": "One Nation\u2019s promises to face independent costing",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZGU2M3ByZHQ4OVlBeWNMYTVITVZsb0lHM29wX0JheUZDS1UydEN4eENnZXFqeEhnRGRxeUJqVFBzNy1ab05neXlad3VUakZMUVBWZzQwY2FUUGpKdFpVRDN6c01FNk9oeWEzUUU4b29rclY5N2JOa0pWNVdDOE5KLVpsR05KTjJraWRkOWp6QWNSVjlTeXlF?oc=5",
+        "title": "NSW primary industries hit record $26 billion in value",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN2EyUlJyUURnQ2JRM085ZGU2MDI3cTVYRXVfbHBacHBUOWQ2OUdidExWdGUzSjZnbXNVbC1EWnBNUG9vekhuYVIwQlJQN2FVd3pwX005VjRQT3FOcHFLZFZKNGdSTnBYN2RmNnN5MkN2NVQ5V2dNMXN3WmFwWjlQY3d5Yzk3S2hraTlqTmdjOUVYNTJIVkJjdTNB?oc=5",
         "source": "NSW Government",
-        "date": "12 Oct"
+        "date": "21 Oct"
       },
+      {
+        "title": "The NSW regional towns where house prices defied the downturn",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSjg5TC1qOEc1ekZIZ3VKaHVWMkQ4WldCX1NDQUJRMHNhNnNyajBLbHlJaGlLUHREblpfT0Ytd0NMMzZIbU9mcV9hbnJIVTVlemkzTzRQRm5kM3NQR3p3VjhxM1JkczZWM19ETUNOaGdpcnU3M3REQ0Rna1VfNDUxMG5PNXN2Nk92eGxBb2VMcTR5cTVUWjl4Ti1saEdRTUIxS2YxX2pJU3g3aDU2cE1YeDNPcDNqRDhKTFRn?oc=5",
+        "source": "SMH.com.au",
+        "date": "22 Oct"
+      },
+      {
+        "title": "The NSW regional towns where house prices defied the downturn",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY2lqMmpDam9pemxQT2laWGFNVFdzSHdCUXVLQzhudzhaUTUtWHRZR1ZmeTlZTWN3YjBxdzMyOFdIYlNFTHRZR2pGN0RyVFNLcGR0YmNCLXcxb1UzMl90V05naW85cGUxbUMxWjZ0RUIzRm1zS0hRbjVEdVpLSlMxc08tT05naGh4bTVsbGhQRVIxNmRZTF9lclhjV2szaXNtbHNGdHFxbUY4dlVza0M5WS1TZjlNLXdkeEwxNS10QQ?oc=5",
+        "source": "The Age",
+        "date": "22 Oct"
+      },
+      {
+        "title": "Providers warn $150 million preschool funding cut could drive up fees",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTGFwS0tIT1FNWG1hT3dnZFJVb3FfWkVjaUVrX2c2eVk0a0RPclBnazI2STJsbUlQRDFicGJucDN5YjREX1d5Vkt3OGd5TVhyTm4zOV93eGlValNZOTlGNmlYcmFzTDBUWVMtWG10aTdKS3U0Q2xuR2drRFhsQjNYQV9tS1VFTGs?oc=5",
+        "source": "The Sector",
+        "date": "18 Oct"
+      },
+      {
+        "title": "Calls to ban disposable coffee cups in NSW",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS1BPenQ1M3FDOV9ZbnIyMHlndy1hMnJWTGFLRXNLcU8yZmtvTXFZM2lrOEpUOFRDRFpoS0pPOWdfYmFhYzlsdHVmZUp0SmJJX0V0MFU2NEV1UVhQcGhEZ296NThkbXZ5bkpfZ25BeGVOdjNjVW00ZktnRklwQ0x0OTB3Z2JCeUVrLXhiVHFwTzRIN2FOaFY0US12VHFSN1JWczlPOVY1OHJHUTlMUmRidFN2MDdQdw?oc=5",
+        "source": "Nine.com.au",
+        "date": "21 Oct"
+      },
+      {
+        "title": "NSW first to sign new Free TAFE deal",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWEVTRGZQRG9ud1o0RnAtNzlnRFZnRmxnNkY3aWlpTVlZaS1GM01Lb05WNTY3WFF6b0Q4SzBJQnpBVzFZN1dTZ0VFLWNuR2w4WVZMS1lZVXZlUVRvS2lRZlpzb1FJOXBQSW1kbTI4aXZiZ04xT0hqVmJ5eXRQODIzYQ?oc=5",
+        "source": "New England Times",
+        "date": "22 Oct"
+      }
+    ],
+    "last_week": [
       {
         "title": "The three factors driving NSW unemployment to a five-year high",
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcDJXSkU0alNfTURFcFcwMlJZM1NldGxLMDVFVk15bWJYZ3JfRi1RNmlseWttREljN1NjVElCU3pXY0c5c1U1M3pxS1VuQ2NJVWJONVpxQU0wYWtxSlh5TGFFXzIzZ2VBeFZ0S2NXTlBmM0xMaWRaZ3I1dkZIRmpYY2d4QXd3SW5GODViZ0ZTRkpYUk5LeTk1XzROcERhOXRNU3F4bnRPN2x6OEZINm1KRDdEVEkzdGRac2pWRkVRdkFGWGdwaVE?oc=5",
@@ -89,16 +121,16 @@
         "date": "15 Oct"
       },
       {
-        "title": "NSW lets gas into renewables scheme, in sharp contrast with Bowen",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNR0Q1eldDTEdCbFFkbXQ4dDBjOTRRVnBDNncxUzJmNXpDN0RUdWZtREdWQXZYd0k1N1c5VWlmcHJKMlVVZzNxVkIwMGY1azRwam1MQlEtTm51cjdHY2xIYmNkdkhheHdNMmZCSXhuclUwN3JhSk80TE5MNDdNUkRqSWprdnYwTkJpdHRHcVRYY2E0emEwQ3lwTzUtNElrV05ERHJWZVh5Ymdzak9yMGd1SDhWeU9VV0haaWU1OUQ2dVZ5cVY3?oc=5",
+        "title": "NSW to use energy dividends to cut $11b from borrowing costs",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU1RJakxnUGItN0tJdjlkdmZsZHRxVnkzemoyZjRNODIzZ2F3bFQxN2w0NGwwX3NkUUJ3ZUYta2FlSWNqMmVzaXd2YkRIYk9MVVV6U2hKbWJOMmk0em90cUJEX2R6NDdnb0hTVTl3Z3JtQkJtamtneWxEN1M0RTFHUDR2TUdBSGx4VzRJQmF6dmVEczFONVlvVTc5bGFGTjZIV3FScVBDYnRpYUdUQ2U4?oc=5",
         "source": "AFR",
-        "date": "12 Oct"
+        "date": "16 Oct"
       },
       {
-        "title": "Number of rough sleepers rises in NSW",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcm1tdEp4N2lJYjk2QWhLb1FCSmpaZFdxWVVRYXU2MHFqdXNrN1E1dHZjRU02ZFg3d09lcmZJdmo3UTRaeUlKV2w5SkxMa21mV3p4U0s1MWptRkJRYU5yVnpPV09iYXk3b2ktUXFNcDdDZnhtTzBTd1AxZmxfelNJWA?oc=5",
-        "source": "Uniting Church Australia",
-        "date": "14 Oct"
+        "title": "NSW saleyards leading the way as sheep and goat eID adoption surges",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSWliNnlpY3lXTzhEYzJPMmgzZS04OEZYTm1xRkxRQmRxc0dveXhFVWMxbEUySmRUelJ5cGdhMURUUnlieHcybFlGZlpQaXhIOUdmalVNeExtYkNrc05FeFQ2WllMWlpjU1lkbk5Rak5kQi10VzlnZVQtWXAzb3MyVEJ2WUYwU21MaUppMkxRTTJickdVNzJPajZOcWdtX2hTMHNIelFXbWQ1cUE?oc=5",
+        "source": "NSW Government",
+        "date": "15 Oct"
       },
       {
         "title": "The three factors driving NSW unemployment to a five-year high",
@@ -107,53 +139,21 @@
         "date": "15 Oct"
       },
       {
-        "title": "Hundreds of millions spent subsidising tolls by this state government",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMW1uX0VLOFNPUk8tUnRYNEhJcjBtTXJnNXhlSEhDbXFlV0VraDBzT1RoUTFoWEVIbkQyN0d0NXVfZXB3RmlCWDIxbWNpSmF5dFp6UlN3NVllTVlRSlhlTGpfd0FKWTRYWWQ2TG9KNkdrbVIxX0VLWXp2VDRXeW1lMnZya0R2Zw?oc=5",
-        "source": "Drive",
+        "title": "'Stranded patients' in NSW hospitals prompts call for change from productivity commissioner",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSHFoY0J0VWNsUGhPcG5VdE5lclA3VjF4aG1sVTIwYmxlQUdVbmV0RjBjWHBfVEVuSTFYcng0TjdsclhXWFFJSXdGaC1VeWZ1TklTRnZXMS1KOERHNzhUWTN3bXZ6bnIzSVc2emM0UVZ5OVRYR1Jwd2lHMjJPcnRhaFlzRHFlam1hQmVKdFFZeWZlbjE2VWVCd2pNQ252WE42Q2FMREhWRnlkWE5X?oc=5",
+        "source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+        "date": "13 Oct"
+      },
+      {
+        "title": "NSW Passes Right to Charge Law for Apartment EV Owners",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HTFdVcjdtMURFSVdKZkZWdFpjdkJ2VERpS3dNa2h1RUd2WGYzaW5nNXB4c0VFTGQ2VldGcVV5R2FRb3JoTUxJcVlNeXpGWUNGaTF6aGlHMlo0VnBSY0ViUFVsMGp6NHBpdzVlWC0zZkE0aUVHOHc?oc=5",
+        "source": "zecar",
         "date": "16 Oct"
       }
     ],
-    "last_week": [
-      {
-        "title": "Planning reforms in action: NSW records highest housing completions in five years",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSHg3UE5BclBqSnY2WVc0Y3FWZ0xxRGFwVFZ3LVNBOFpYMEpSeE0tV19DbTBEZXotd3pYVWlJVkJhQWZpY1VfcUluUi1LTTItR2xvT0FiWGtFZGpkUXM1QmpPSFdFLUpyRjlUY0h6aFVWZ1Q1UE5pZm12d1R6S29iSXpsYTFScmMwN3ZSQmFnb2JBSTRyN2g0SFJzR1dzN0xoQXNJaHdmSjZ5akplY2FPbDVJdVRNRHE3bHc?oc=5",
-        "source": "NSW Government",
-        "date": "7 Oct"
-      },
-      {
-        "title": "Businesses grapple with the cost of customers 'wanting to pay by card'",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONVV4T3dkN1Z6aWx1NmhBVVlpSEtoVG5tcGNoYzQ3ZWw2MFJJVFd0amVhMDJxQ3NmR2FIUFJ6UDVLMHhlVGhnUzRwVUMzZ2FpWkk4UjZzTDRXWGJFcF9kQ3NpOV9WWXlxZFI1LTlnQVpFdDdXLVhJejFnQWNFMXhienFVMlY1NXpwZk1SSERZQ3FYcFRzU2dNbGl2Vk1rNEU2UXFoM3c0UQ?oc=5",
-        "source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
-        "date": "10 Oct"
-      },
-      {
-        "title": "The \u2018pure ratfuckery\u2019 between Minns and Albanese",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS0JJa3htY2J4enk1SGdpaTVzcDEwdm9QR3dCV2J4c0pVMjliZVpqbHRBRFowbWhyU01uNEdwdVVpZlU1SXJZS2FiY1F3STI3MTlpbmJacHlzeDRzVjNOcDlZbXA4MWVjcGdQbmNXNnNTZnI1TTk3WDdfZ1ljUk51eG1QUTBCQTRoMWx2R1BpZU1pS0RfcnBtczhvTm9HN2p4OThjSVdB?oc=5",
-        "source": "The Saturday Paper",
-        "date": "9 Oct"
-      },
-      {
-        "title": "Marine Rescue Wooli volunteers ready for the future with new rescue vessel",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQnY1NV9DTmF0UFZsUVVqMlJzdFhFdHFLVHAyQ1VKbldDdFBsVm90dGE4MVZiZFlZOHBFZGQwX2tQelZqVVlzTENmSzZrbHJkMURoeWJIbTltb3RaR2lwVVRXOU40azFVNVlTQkdITndCSExUUGw3dkZVbnRaYWRYWmVST3U2aVU0Ul9SWHZ1N1FKSjRxZUE3OUVfTVh0NGlzRE5Ia0I5ejM2YnFfV3NF?oc=5",
-        "source": "Marine Rescue NSW",
-        "date": "11 Oct"
-      },
-      {
-        "title": "Barnyard punks in Orange, empty stages in Byron Bay: The NSW towns where live music thrives or dies",
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdl9waDJOOTl6YVdnVHRvclFzVEdxd2t1Rkd2YWNzQ3A2YUw2aFhQb0dwcUFUTDZ3RWtzS3hGRjhoWUJRc2lQc3Q2aktCSkNrNWNaUm45VWlRc2ItWTZLLVRWWVE3TTdnOGNnM3VyYnViSXdaSlFCeDQwVnhLVUF1aGRpaURIN1JsZExxM2tmelJwTDlGS1NuSnFxU01qcEdralhhUVVQTVlScUNNSjRKTm5xUy1McDE0ckFkdm01YzNFXzBQeFlmX1JPWjhUbkNULWRrLU9OT09BYjN1Z0xsNGtFWm9oMExfeFc4?oc=5",
-        "source": "SMH.com.au",
-        "date": "4 Oct"
-      },
-      {
-        "title": "NSW Police face resource pressures amid rise in shoplifting as cost of living pressures bite",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQjBMWndKX3dmelpid3l6YU9saG5XZjEwYlU0V1NoTHg4MG9yZm8xd2lQTi1IOWNLcWZKZlJ2c0tDYURCNk9ZVTk2NW9HcnVsazFuM3U3cWJreXZFYWdQemhhU1ZZdk9salg3aU1jQkRsZnNGUUtpWHA5bzRBVnVFQzNkbURGdURuaU5iMDQwcGEzY0tJTExOa2NSR1ZhamNaOVptcFlXODBoRVlkUTFEeDhQX3B2dEx2WXE0OFlVdEFFdzl1a0FJbGxzNk7SAdIBQVVfeXFMTVl0aTdnTGlQaE84MThtZnFyNklZeFROVHIzS0VvVFNJeTFDZUZ1dFJoTmlyeGdxN0tZRXlObks4N0VLQmxJbTNNY0RlY3RqbzFfRmNRRDJsS0lkWWRUcWxwTDB4cnF2RV9Fa2tnSF9hajlWbUNaZG1PRUtrWGI5dkh0eUE0aWxjNEpWOHRvUkJMSWZONGVlLXQtWWNKQTNrZlVuTVV4M0VwTEJqemlkbDMtWTBFUl90WElUeGhXdEJXbzBVWlNreG1lem1DTUxuMHVR?oc=5",
-        "source": "7NEWS",
-        "date": "5 Oct"
-      }
-    ],
     "volume": {
-      "this": 22,
-      "last": 44
+      "this": 36,
+      "last": 28
     },
     "top_sources": [
       {
@@ -161,12 +161,12 @@
         "count": 4
       },
       {
-        "source": "AFR",
-        "count": 2
+        "source": "NSW Government",
+        "count": 3
       },
       {
-        "source": "The Age",
-        "count": 2
+        "source": "Nine.com.au",
+        "count": 3
       }
     ],
     "themes": [
@@ -175,20 +175,20 @@
         "count": 100
       },
       {
-        "label": "Budget",
-        "count": 54
+        "label": "Cost of living",
+        "count": 51
       },
       {
-        "label": "Cost of living",
-        "count": 40
+        "label": "Budget",
+        "count": 35
       },
       {
         "label": "Debt & tax",
-        "count": 38
+        "count": 31
       },
       {
         "label": "Jobs",
-        "count": 17
+        "count": 4
       }
     ]
   },
@@ -3196,7 +3196,7 @@
       "section": "markets",
       "source": "RBA",
       "unit": "",
-      "value": 0.69,
+      "value": 0.7,
       "decimals": 2,
       "period": "2026-10",
       "change": null,
@@ -3248,7 +3248,7 @@
         0.7,
         0.72,
         0.7,
-        0.69
+        0.7
       ],
       "spark_p": [
         "2023-01",
